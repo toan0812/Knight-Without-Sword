@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e78d0e114ab18e446888f9d0b40cad63, type: 3}
+  m_Name: Shotgun_ammo
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 434080689787777444, guid: c946ef01e819f054ca967890501bc88b, type: 3}
+  prefabImage: {fileID: -1554375469, guid: be23eddd009687a46a0905110ce4ad56, type: 3}
+  type: 0
+  count: 8
+  prefabName: shotgunAmmo
+  description: 

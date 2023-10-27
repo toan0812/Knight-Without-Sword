@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8548259f7654dbf46b0e6f2c5e103969, type: 3}
+  m_Name: Rifle_gun
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7904315843760533927, guid: 012b1c81a593645408a3e50b05d98c9c, type: 3}
+  prefabImage: {fileID: -353607531, guid: 200a4a48a6ecd124a830d46c87b8ef82, type: 3}
+  type: 3
+  count: 1
+  prefabName: Plasma_gun
+  description: rifle Gun
+  damage: 20
+  range: 15
+  ammoQuatity: 20
+  timeDelay: 0.1
+  ammoEquipment: {fileID: 11400000, guid: 36497c740f27dc14bb4135b17e060b9c, type: 2}
