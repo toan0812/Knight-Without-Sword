@@ -38,7 +38,6 @@ public class GetItems : MonoBehaviour
 
     private void AddItems(ItemSO itemSO)
     {
-        Debug.Log(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName + itemSO.count);
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.trading)
         {
             playerData.gold += itemSO.count;
@@ -56,6 +55,7 @@ public class GetItems : MonoBehaviour
             playerData.pistolAmmo.quatity += itemSO.count;
             UIManager.Instance.HeaderUI.UpdatePistolammoText(playerData.pistolAmmo.quatity);
             WeaponManager.Instance.UpdateDictionary(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO(), itemSO.count);
+            Debug.Log(Player.Instance.WeaponUsing().GetComponentInChildren<GunShoot>().GetBulletRemain());
             UIManager.Instance.GunHoderUI.UpdateAmmoHolder(itemSO, playerData.pistolAmmo.quatity);
          
         }

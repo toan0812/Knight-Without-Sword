@@ -31,4 +31,5 @@ public class HeaderUI : MonoBehaviour
     {
         shotgunText.text = count.ToString();
     }
+
 }

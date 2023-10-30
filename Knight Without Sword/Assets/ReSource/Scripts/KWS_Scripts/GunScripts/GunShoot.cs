@@ -32,7 +32,6 @@ public class GunShoot : MonoBehaviour
         //GameInput.Instance.OnReloading += Instance_OnReloading;
         timeDelay = timeDelayMax;
         timeReload = timeReloadMax;
-       
     }
 
     private void Instance_OnReloading(object sender, System.EventArgs e)
@@ -74,7 +73,7 @@ public class GunShoot : MonoBehaviour
                 bulletsRemain -= numberBullet;
                 UIManager.Instance.GunHoderUI.AmmoConsumptionUI(bulletsRemain);
                 timeDelay = timeDelayMax;
-                
+                Debug.Log(GetBulletRemain());
             }
         }
     }

@@ -40,8 +40,7 @@ public class GunHoderUI : MonoBehaviour
 
     public void UpdateAmmoHolder(ItemSO itemSO,int ammo)
     {
-        Debug.Log( itemSO.name);
-        if (Player.Instance.WeaponUsing().GetWeaponItemsSO() == itemSO)
+        if (Player.Instance.Weapon().ammoEquipment.prefabName== itemSO.prefabName)
         {
             quantityAmmo.text = Player.Instance.WeaponUsing().GetComponentInChildren<GunShoot>().GetBulletRemain() + "/" + ammo.ToString();
         }  

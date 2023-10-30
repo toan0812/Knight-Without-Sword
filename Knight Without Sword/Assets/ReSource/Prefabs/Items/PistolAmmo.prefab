@@ -7,6 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_Size.x
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_Size.y
+      value: 1.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 380903089, guid: a23ef53127e6e7e418f88691ad7e4d8e, type: 3}
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 380b6d1395418784a87aa2a3c35f69cc, type: 2}
     - target: {fileID: 1278580867778292790, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
       propertyPath: m_Name
       value: PistolAmmo

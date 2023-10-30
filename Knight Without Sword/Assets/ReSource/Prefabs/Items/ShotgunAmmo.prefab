@@ -7,6 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_Size.y
+      value: 1.40625
+      objectReference: {fileID: 0}
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -49120663, guid: b47dd24127500f846a45b779d7e4bb31, type: 3}
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255055537274825587, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1662da81c697c840bb5f28438a93182, type: 2}
     - target: {fileID: 1278580867778292790, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
       propertyPath: m_Name
       value: ShotgunAmmo
@@ -26,6 +50,14 @@ PrefabInstance:
     - target: {fileID: 5110682581249402573, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
       propertyPath: m_Offset.y
       value: 0.06934941
+      objectReference: {fileID: 0}
+    - target: {fileID: 5384556284908443696, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5384556284908443696, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 6425757592148269818, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
       propertyPath: m_RootOrder
