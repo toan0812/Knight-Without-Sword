@@ -19,14 +19,15 @@ public abstract class Bullet : MonoBehaviour
     //[Header("Damage and KnockBack force")]
     //[SerializeField] protected int damage;
     //[SerializeField] protected float knockBackForce = 10f;
-
+    private GunController gunController;
     protected virtual void Start()
     {
         PoolingObject.Instance.addPool(bulletEffect.gameObject, effectList, 10, transform.parent);
+        gunController = GetComponentInParent<GunController>();
     }
     public int GetDamage()
     {
-        damage = (int)GetComponentInParent<GunController>().GetWeaponItemsSO().damage;
+        damage = (int)gunController.GetWeaponItemsSO().damage;
         return damage;
     }
     protected abstract void BulletMoving();

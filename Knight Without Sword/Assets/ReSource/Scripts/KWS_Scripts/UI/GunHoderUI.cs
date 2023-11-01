@@ -13,7 +13,6 @@ public class GunHoderUI : MonoBehaviour
     [Header("Bullet Bar")]
     [SerializeField] private SliderUI sliderUI;
     private int ammoquatity;
-
     void Start()
     {
         SetUpHolder(Player.Instance.Weapon().ammoQuatity);

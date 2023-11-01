@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 public class GunShoot : MonoBehaviour
 {
+    [SerializeField]protected GunController gunController;
     [Header("Point to Spawn Bullet")]
     [SerializeField] protected Transform shootingPoint;
     [Header("Time To Delay BTW Shoot")]
@@ -73,7 +74,6 @@ public class GunShoot : MonoBehaviour
                 bulletsRemain -= numberBullet;
                 UIManager.Instance.GunHoderUI.AmmoConsumptionUI(bulletsRemain);
                 timeDelay = timeDelayMax;
-                Debug.Log(GetBulletRemain());
             }
         }
     }
@@ -83,27 +83,27 @@ public class GunShoot : MonoBehaviour
     {
         if (bulletsRemain < numberBullet)
         {
-            StartCoroutine(Player.Instance.LoadingActive(timeReload, GetComponentInParent<GunController>().GetWeaponItemsSO()));
+            StartCoroutine(Player.Instance.LoadingActive(timeReload, gunController.GetWeaponItemsSO()));
             timeReload -= Time.deltaTime;
-            if (WeaponManager.Instance.GetDataFormDictionary(GetComponentInParent<GunController>().GetWeaponItemsSO(), bulletsRemain) > 0 && timeReload < 0)
+            if (WeaponManager.Instance.GetDataFormDictionary(gunController.GetWeaponItemsSO(), bulletsRemain) > 0 && timeReload < 0)
             {
-                if (WeaponManager.Instance.GetDataFormDictionary(GetComponentInParent<GunController>().GetWeaponItemsSO(), bulletsRemain) > GetComponentInParent<GunController>().GetWeaponItemsSO().ammoQuatity)
+                if (WeaponManager.Instance.GetDataFormDictionary(gunController.GetWeaponItemsSO(), bulletsRemain) > gunController.GetWeaponItemsSO().ammoQuatity)
                 {
-                    bulletsRemain = GetComponentInParent<GunController>().GetWeaponItemsSO().ammoQuatity;
-                    WeaponManager.Instance.ReducedAmmoInInventory(GetComponentInParent<GunController>().GetWeaponItemsSO(), GetComponentInParent<GunController>().GetWeaponItemsSO().ammoQuatity);
+                    bulletsRemain = gunController.GetWeaponItemsSO().ammoQuatity;
+                    WeaponManager.Instance.ReducedAmmoInInventory(gunController.GetWeaponItemsSO(), gunController.GetWeaponItemsSO().ammoQuatity);
                     UIManager.Instance.GunHoderUI.AmmoConsumptionUI(bulletsRemain);
                     timeReload = timeReloadMax;
                 }
-                else if (WeaponManager.Instance.GetDataFormDictionary(GetComponentInParent<GunController>().GetWeaponItemsSO(), bulletsRemain) <= GetComponentInParent<GunController>().GetWeaponItemsSO().ammoQuatity)
+                else if (WeaponManager.Instance.GetDataFormDictionary(gunController.GetWeaponItemsSO(), bulletsRemain) <= gunController.GetWeaponItemsSO().ammoQuatity)
                 {
-                    bulletsRemain = WeaponManager.Instance.GetDataFormDictionary(GetComponentInParent<GunController>().GetWeaponItemsSO(), bulletsRemain);
-                    WeaponManager.Instance.ReducedAmmoInInventory(GetComponentInParent<GunController>().GetWeaponItemsSO(), bulletsRemain);
+                    bulletsRemain = WeaponManager.Instance.GetDataFormDictionary(gunController.GetWeaponItemsSO(), bulletsRemain);
+                    WeaponManager.Instance.ReducedAmmoInInventory(gunController.GetWeaponItemsSO(), bulletsRemain);
                     UIManager.Instance.GunHoderUI.AmmoConsumptionUI(bulletsRemain);
                     timeReload = timeReloadMax;
                 }
             }
-            else if (WeaponManager.Instance.GetDataFormDictionary(GetComponentInParent<GunController>().GetWeaponItemsSO(), bulletsRemain) <= 0 && bulletsRemain <= 0
-                && GetComponentInParent<GunController>().GetWeaponItemsSO() == Player.Instance.Weapon())
+            else if (WeaponManager.Instance.GetDataFormDictionary(gunController.GetWeaponItemsSO(), bulletsRemain) <= 0 && bulletsRemain <= 0
+                && gunController.GetWeaponItemsSO() == Player.Instance.Weapon())
             {
                 UIManager.Instance.GunHoderUI.AmmoConsumptionUI(bulletsRemain);
             }

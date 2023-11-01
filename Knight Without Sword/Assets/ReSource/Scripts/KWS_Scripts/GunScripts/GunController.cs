@@ -3,7 +3,16 @@ using System.Collections.Generic;
 public class GunController : MonoBehaviour
 {
     [Header("WeaponItemSO")]
-    [SerializeField] private WeaponItemsSO weaponItemsSO;   
+    [SerializeField] private WeaponItemsSO weaponItemsSO;
+    private GunShoot gunShoot;
+    private LookatMouse lookatMouse;
+    private SelectedGun selectedGun;
+    private void Awake()
+    {
+        gunShoot = GetComponentInChildren<GunShoot>();
+        lookatMouse = GetComponentInChildren<LookatMouse>();
+        selectedGun = GetComponentInChildren<SelectedGun>();
+    }
     private void Start()
     {
         Player.Instance.OnChangeGun += Instance_OnChangeGun;
@@ -12,9 +21,9 @@ public class GunController : MonoBehaviour
     {
         if (Player.Instance.Weapon() == weaponItemsSO && Player.Instance.CloseGun())
         {
-            GetComponentInChildren<LookatMouse>().enabled = false;
-            transform.GetComponentInChildren<GunShoot>().transform.rotation = Quaternion.Euler(Vector3.zero);   
-            transform.GetComponentInChildren<GunShoot>().transform.localScale = new Vector3(1,1,1);   
+            lookatMouse.enabled = false;
+            gunShoot.transform.rotation = Quaternion.Euler(Vector3.zero);
+            gunShoot.transform.localScale = new Vector3(1,1,1);   
         }
     }
     public WeaponItemsSO GetWeaponItemsSO()
@@ -31,14 +40,14 @@ public class GunController : MonoBehaviour
         if(Player.Instance.Weapon() == weaponItemsSO)
         {
             GetComponentInChildren<Collider2D>().enabled = false;
-            GetComponentInChildren<GunShoot>().canShoot = true;
-            GetComponentInChildren<SelectedGun>().hand.SetActive(true);
+            gunShoot.canShoot = true;
+            selectedGun.hand.SetActive(true);
         }
         else
         {
             GetComponentInChildren<Collider2D>().enabled = true;
-            GetComponentInChildren<GunShoot>().canShoot = false;
-            GetComponentInChildren<SelectedGun>().hand.SetActive(false);
+            gunShoot.canShoot = false;
+            selectedGun.hand.SetActive(false);
         }
     }
 }

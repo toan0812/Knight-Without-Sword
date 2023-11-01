@@ -152,6 +152,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 8298dc513bcea68488510ffdb8b3bab1, type: 2}
     - target: {fileID: 6234943741654196895, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
+      propertyPath: gunController
+      value: 
+      objectReference: {fileID: 674613378369224489}
+    - target: {fileID: 6234943741654196895, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
       propertyPath: shootingPoint
       value: 
       objectReference: {fileID: 4909965764980020758}
@@ -341,7 +345,7 @@ PrefabInstance:
       objectReference: {fileID: 1139194662, guid: 668d9a8f3216b4e47a5eea272c55dc32, type: 3}
     - target: {fileID: 8853385461008180502, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8853385461008180502, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
       propertyPath: m_WasSpriteAssigned

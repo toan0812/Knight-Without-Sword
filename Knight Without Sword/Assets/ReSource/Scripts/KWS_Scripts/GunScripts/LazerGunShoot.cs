@@ -13,7 +13,7 @@ public class LazerGunShoot : GunShoot
     float timer = 0;
     private void Awake()
     {
-        bulletsRemain = GetComponentInParent<GunController>().GetWeaponItemsSO().ammoQuatity;
+        bulletsRemain = gunController.GetWeaponItemsSO().ammoQuatity;
     }
     private void Start()
     {
@@ -58,7 +58,7 @@ public class LazerGunShoot : GunShoot
     {
         lineRenderer.SetPosition(0, lazerOrigin.position);
         startVFX.transform.position = lazerOrigin.position;
-        RaycastHit2D raycastHit2D = Physics2D.Raycast(shootingPoint.position,transform.right,(int)GetComponentInParent<GunController>().GetWeaponItemsSO().range, LayerMask);
+        RaycastHit2D raycastHit2D = Physics2D.Raycast(shootingPoint.position,transform.right,(int)gunController.GetWeaponItemsSO().range, LayerMask);
         if (raycastHit2D.collider != null)
         {
             lineRenderer.SetPosition(1, raycastHit2D.point);
@@ -70,7 +70,7 @@ public class LazerGunShoot : GunShoot
                     timer = .25f;
                     bulletsRemain -= numberBullet;
                     UIManager.Instance.GunHoderUI.AmmoConsumptionUI(bulletsRemain);
-                    iDamageable.TakeDamage((int)GetComponentInParent<GunController>().GetWeaponItemsSO().damage);
+                    iDamageable.TakeDamage((int)gunController.GetWeaponItemsSO().damage);
                     
                 }
             }
@@ -83,7 +83,7 @@ public class LazerGunShoot : GunShoot
                 bulletsRemain -= numberBullet;
                 UIManager.Instance.GunHoderUI.AmmoConsumptionUI(bulletsRemain);
             }
-            lineRenderer.SetPosition(1, shootingPoint.position+(transform.right * GetComponentInParent<GunController>().GetWeaponItemsSO().range));
+            lineRenderer.SetPosition(1, shootingPoint.position+(transform.right * gunController.GetWeaponItemsSO().range));
         }
         endVFX.transform.position = lineRenderer.GetPosition(1);
 

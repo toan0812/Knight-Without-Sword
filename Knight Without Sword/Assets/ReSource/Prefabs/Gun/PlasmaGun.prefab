@@ -19579,7 +19579,7 @@ PrefabInstance:
       objectReference: {fileID: -472333641, guid: 668d9a8f3216b4e47a5eea272c55dc32, type: 3}
     - target: {fileID: 8853385461008180502, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8853385461008180502, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -19593,6 +19593,17 @@ PrefabInstance:
     - {fileID: 6234943741654196895, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
     - {fileID: 6114144287585130598, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
+--- !u!114 &674613378369224489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1587094393708234477, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
+  m_PrefabInstance: {fileID: 2259338864865982916}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b61ce2b58f758646aac478b5b51539b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1430735006325573496 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 900778552991071932, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
@@ -19732,6 +19743,7 @@ MonoBehaviour:
     m_Bits: 512
   endVFX: {fileID: 5942516421010566692}
   startVFX: {fileID: 7088262187684157607}
+  gunController: {fileID: 674613378369224489}
 --- !u!4 &4909965764980020758 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6591435195896082386, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
