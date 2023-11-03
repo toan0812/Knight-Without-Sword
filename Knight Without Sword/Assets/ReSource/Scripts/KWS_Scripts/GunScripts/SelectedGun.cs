@@ -6,7 +6,7 @@ public class SelectedGun : MonoBehaviour
     [SerializeField] private GunController gunController;
     public GameObject hand;
     [SerializeField] private GameObject[] selectedModels;
-
+    public GameObject shadow;
     void Start()
     {
         hand.SetActive(false);  

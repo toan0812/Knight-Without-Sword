@@ -55,6 +55,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: RocketGun
       objectReference: {fileID: 0}
+    - target: {fileID: 3776861139219486959, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.851
+      objectReference: {fileID: 0}
+    - target: {fileID: 3776861139219486959, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.734
+      objectReference: {fileID: 0}
     - target: {fileID: 4190724419889859920, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
       propertyPath: m_Name
       value: Rocket_

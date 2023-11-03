@@ -42,12 +42,14 @@ public class GunController : MonoBehaviour
             GetComponentInChildren<Collider2D>().enabled = false;
             gunShoot.canShoot = true;
             selectedGun.hand.SetActive(true);
+            selectedGun.shadow.SetActive(false);
         }
         else
         {
             GetComponentInChildren<Collider2D>().enabled = true;
             gunShoot.canShoot = false;
             selectedGun.hand.SetActive(false);
+            selectedGun.shadow.SetActive(true);
         }
     }
 }

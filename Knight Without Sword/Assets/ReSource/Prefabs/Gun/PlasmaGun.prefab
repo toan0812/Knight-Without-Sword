@@ -19365,6 +19365,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlasmaGun
       objectReference: {fileID: 0}
+    - target: {fileID: 3776861139219486959, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.724
+      objectReference: {fileID: 0}
+    - target: {fileID: 3776861139219486959, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.559
+      objectReference: {fileID: 0}
     - target: {fileID: 4190724419889859920, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
       propertyPath: m_Name
       value: Plasma_
@@ -19730,6 +19738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f551155e68380404882578fdfded4248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gunController: {fileID: 674613378369224489}
   shootingPoint: {fileID: 4909965764980020758}
   timeDelayMax: 0
   timeReloadMax: 0
@@ -19743,7 +19752,6 @@ MonoBehaviour:
     m_Bits: 512
   endVFX: {fileID: 5942516421010566692}
   startVFX: {fileID: 7088262187684157607}
-  gunController: {fileID: 674613378369224489}
 --- !u!4 &4909965764980020758 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6591435195896082386, guid: 1d66c5b7957a16e49b72df6cb28a22ad, type: 3}
