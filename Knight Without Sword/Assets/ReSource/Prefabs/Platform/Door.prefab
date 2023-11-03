@@ -55,6 +55,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 2826138335544212810, guid: f842481730544074fbfd45e9eae275d7, type: 3}
+      propertyPath: m_Size.x
+      value: 1.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826138335544212810, guid: f842481730544074fbfd45e9eae275d7, type: 3}
+      propertyPath: m_Size.y
+      value: 1.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826138335544212810, guid: f842481730544074fbfd45e9eae275d7, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 5566538775988010122, guid: f842481730544074fbfd45e9eae275d7, type: 3}
       propertyPath: m_Controller
       value: 
