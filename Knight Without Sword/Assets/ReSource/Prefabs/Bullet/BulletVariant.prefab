@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3167583147060934108}
   - component: {fileID: 7818321567476502258}
-  - component: {fileID: 633282228938369532}
+  - component: {fileID: 3024890447799536677}
   - component: {fileID: 2723107011854945046}
   - component: {fileID: 1263286777815681534}
   m_Layer: 7
@@ -57,8 +57,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!60 &633282228938369532
-PolygonCollider2D:
+--- !u!58 &3024890447799536677
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -71,22 +71,8 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.053795457, y: 0.034759477}
-      - {x: -0.09614819, y: 0.039259885}
-      - {x: -0.10008675, y: -0.052289188}
-      - {x: 0.05597776, y: -0.048019942}
-      - {x: 0.056162357, y: 0.03867653}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!114 &2723107011854945046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,6 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33b6d9b3e4d40dd49ae65a43d496bca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gunController: {fileID: 0}
 --- !u!1 &1883673957886987328
 GameObject:
   m_ObjectHideFlags: 0

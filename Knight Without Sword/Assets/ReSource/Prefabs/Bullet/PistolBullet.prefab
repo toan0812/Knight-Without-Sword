@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: radiusEffect
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3024890447799536677, guid: 7ce809c750e98e24e9ac521116f16ebf, type: 3}
+      propertyPath: m_Radius
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7712791844747245185, guid: 7ce809c750e98e24e9ac521116f16ebf, type: 3}
       propertyPath: m_RootOrder
       value: 0

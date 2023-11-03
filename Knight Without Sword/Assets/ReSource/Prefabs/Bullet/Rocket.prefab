@@ -107,6 +107,10 @@ PrefabInstance:
       propertyPath: layerAffect.m_Bits
       value: 512
       objectReference: {fileID: 0}
+    - target: {fileID: 3024890447799536677, guid: 7ce809c750e98e24e9ac521116f16ebf, type: 3}
+      propertyPath: m_Radius
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3167583147060934108, guid: 7ce809c750e98e24e9ac521116f16ebf, type: 3}
       propertyPath: m_RootOrder
       value: 0

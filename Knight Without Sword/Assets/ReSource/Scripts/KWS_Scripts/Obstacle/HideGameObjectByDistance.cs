@@ -4,10 +4,12 @@ using UnityEngine;
 public class HideGameObjectByDistance : MonoBehaviour
 {
     //[Header("Range Attack OF Gun")]
-    [SerializeField] GunController gunController;
+    GunController gunController;
+    GunShoot gunShoot;
     private void Start()
     {
         gunController = GetComponentInParent<GunController>();
+        gunShoot = gunController.GetComponentInChildren<GunShoot>();
     }
     private void OnEnable()
     {
@@ -20,7 +22,7 @@ public class HideGameObjectByDistance : MonoBehaviour
     }
     void SetavtiveObject()
     {
-            if (Vector2.Distance(transform.position, gunController.transform.position) >= gunController.GetWeaponItemsSO().range)
+            if (Vector2.Distance(transform.position, gunShoot.transform.position) >= gunController.GetWeaponItemsSO().range)
             {
                 gameObject.SetActive(false);
             }
