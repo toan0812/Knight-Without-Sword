@@ -43,8 +43,9 @@ GameObject:
   - component: {fileID: 1350123667}
   - component: {fileID: 6189949872314353261}
   - component: {fileID: 2351474789721339673}
+  - component: {fileID: 9097493485665737086}
   m_Layer: 9
-  m_Name: BossVariant
+  m_Name: EnemyVariant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85,6 +86,8 @@ MonoBehaviour:
   commandDamageUI: {fileID: 1922020514168834544, guid: 082e775749f8eb142b03505b0d5477ad, type: 3}
   transformParent: {fileID: 6947433503267433452}
   spawnTransform: {fileID: 8858923875778314639}
+  bloodEffect: {fileID: 0}
+  listItems: []
 --- !u!50 &6189949872314353261
 Rigidbody2D:
   serializedVersion: 4
@@ -122,6 +125,28 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.5, y: 1}
   m_Direction: 0
+--- !u!195 &9097493485665737086
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2437979979571962653}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &5361311708466148620
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,7 +221,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 3cf0df06fb1e21748af9cd0f4f579c11, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -204,7 +229,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &8881031935409583108
@@ -217,7 +242,7 @@ Animator:
   m_GameObject: {fileID: 5361311708466148620}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0c7bb6e780c1ada49adee442a3e7c376, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

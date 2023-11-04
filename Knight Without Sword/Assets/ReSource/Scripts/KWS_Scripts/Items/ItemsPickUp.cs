@@ -2,15 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemsPickUp : MonoBehaviour
+public class ItemsPickUp : Items
 {
     [SerializeField] private ItemSO itemSO;
     [SerializeField] private AnimationCurve animationCurve;
     [SerializeField] private float heightY = 1.5f;
     [SerializeField] private float popDuration = 1f;
+    [Header("Items Fly to")]
+    [SerializeField] private float radius;
+    [SerializeField] private LayerMask playerLayer;
     void Start()
     {
         StartCoroutine(AnimCurveSpawnRoutine());
+    }
+    void FixedUpdate()
+    {
+        FlyIntoPlayer(radius,playerLayer);
     }
     IEnumerator AnimCurveSpawnRoutine()
     {
@@ -31,9 +38,9 @@ public class ItemsPickUp : MonoBehaviour
             yield return null;
         }
     }
-
     public ItemSO GetItemSO()
     {
         return itemSO;
     }
+
 }

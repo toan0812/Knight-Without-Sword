@@ -3106,8 +3106,8 @@ TextureImporter:
         y: 865
         width: 32
         height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3127,8 +3127,8 @@ TextureImporter:
         y: 865
         width: 32
         height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8412,48 +8412,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 398322201_185824884573813_2576970171158641550_n_395
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 608
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48b755a60cf7cc648bf1afb7aab53ff3
-      internalID: 439790854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 398322201_185824884573813_2576970171158641550_n_396
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 608
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91d6c11e9c1850c419e76e4d84be898b
-      internalID: 989813089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: 398322201_185824884573813_2576970171158641550_n_397
       rect:
         serializedVersion: 2
@@ -9079,48 +9037,6 @@ TextureImporter:
       bones: []
       spriteID: d9e8dd58511f3f74e9df8ddafd3f72da
       internalID: 1518775205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 398322201_185824884573813_2576970171158641550_n_427
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 576
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1876ac44f0e25114fa96309b5c05eb8b
-      internalID: 411052404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 398322201_185824884573813_2576970171158641550_n_428
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 576
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e68e62e2f28a9a24c99de1189886db53
-      internalID: -52463572
       vertices: []
       indices: 
       edges: []
@@ -9756,34 +9672,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 398322201_185824884573813_2576970171158641550_n_459
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 544
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20340b0b67788114bad4ad87d53c8e7b
-      internalID: 1374643510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: 398322201_185824884573813_2576970171158641550_n_460
       rect:
         serializedVersion: 2
-        x: 512
-        y: 544
-        width: 32
-        height: 32
+        x: 483
+        y: 545
+        width: 58
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -115,5 +115,13 @@ PrefabInstance:
       propertyPath: itemSO
       value: 
       objectReference: {fileID: 11400000, guid: 36497c740f27dc14bb4135b17e060b9c, type: 2}
+    - target: {fileID: 9167269764041637283, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: radius
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167269764041637283, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6677a41874b9d6f4b923e380e1ad2642, type: 3}
