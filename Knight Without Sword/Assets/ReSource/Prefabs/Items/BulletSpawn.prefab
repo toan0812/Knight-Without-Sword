@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5110682581249402573}
   - component: {fileID: 6427926764212786947}
   - component: {fileID: 9167269764041637283}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,6 +122,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   heightY: 1.5
   popDuration: 1
+  radius: 0
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &5188930134635988859
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,7 +136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2716956188318559282}
   - component: {fileID: 7656915803379239865}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +198,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -216,7 +220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5384556284908443696}
   - component: {fileID: 255055537274825587}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Selected
   m_TagString: Untagged
   m_Icon: {fileID: 0}
