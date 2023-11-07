@@ -2,8 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ButtonUI : MonoBehaviour
 {
-    [SerializeField] private Image image;
     [SerializeField] bool isChangingColor;
+    [SerializeField] ShopUI shopUI;
     void Start()
     {
         if (isChangingColor)
@@ -12,7 +12,7 @@ public class ButtonUI : MonoBehaviour
         }
         GetComponent<Button>().onClick.AddListener(() =>
         {
-            
+            shopUI.ShowInforButton();
         });
     }
 }
