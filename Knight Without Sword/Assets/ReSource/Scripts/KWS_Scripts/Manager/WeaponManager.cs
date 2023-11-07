@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class WeaponManager : Singleton<WeaponManager>
 {
+    [Header("List Weapon")]
+    [SerializeField] private List<WeaponItemsSO> weaponItems = new List<WeaponItemsSO>();
     private PlayerData playerData = new PlayerData();
     private Dictionary<string, int> weaponInfor = new Dictionary<string, int>();
     void Awake()

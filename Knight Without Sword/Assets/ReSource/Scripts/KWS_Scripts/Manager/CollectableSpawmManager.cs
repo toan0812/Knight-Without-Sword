@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CollectableSpawmManager : Singleton<CollectableSpawmManager>
 {
+    [Header("Ammo Items")]
     public CollectableItem[] ListItems;
     int[] accumulatedPercentages;
     private void Awake()
