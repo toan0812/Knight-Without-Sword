@@ -53,6 +53,13 @@ public class WeaponManager : Singleton<WeaponManager>
                 weaponInfor[weaponItemsSO.ammoEquipment.prefabName] = value;
             }
         }
-    }    
-
+    } 
+    public List<WeaponItemsSO> GetWeaponItemsFromDB()
+    {
+       foreach(WeaponItemsSO weaponItemsSO in weaponItems)
+        {
+            return weaponItems;
+        }
+        return null;
+    }
 }
