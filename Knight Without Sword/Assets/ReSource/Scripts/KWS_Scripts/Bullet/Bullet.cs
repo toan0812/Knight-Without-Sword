@@ -55,6 +55,10 @@ public abstract class Bullet : MonoBehaviour
                 //iDamageable.OnHit(knockback);
             }
         }
+        if(collision.collider == Physics2D.OverlapCircle(transform.position, 0.2f, activeEffect))
+        {
+            gameObject.SetActive(false);
+        }
     }
     // Parent direction
     protected virtual Vector2 GetParentDirection(Vector3 dir)

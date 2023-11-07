@@ -90,7 +90,7 @@ MonoBehaviour:
   bulletEffect: {fileID: 4121366080260424042, guid: d43427cd2e9e7794fb3f6f61c9df0be4, type: 3}
   activeEffect:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 4608
   layerAffect:
     serializedVersion: 2
     m_Bits: 512
@@ -107,7 +107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33b6d9b3e4d40dd49ae65a43d496bca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunController: {fileID: 0}
 --- !u!1 &1883673957886987328
 GameObject:
   m_ObjectHideFlags: 0
