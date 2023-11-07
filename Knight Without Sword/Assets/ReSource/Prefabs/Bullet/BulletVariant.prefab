@@ -93,7 +93,7 @@ MonoBehaviour:
     m_Bits: 4608
   layerAffect:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 4608
   radiusEffect: 0.5
 --- !u!114 &1263286777815681534
 MonoBehaviour:
