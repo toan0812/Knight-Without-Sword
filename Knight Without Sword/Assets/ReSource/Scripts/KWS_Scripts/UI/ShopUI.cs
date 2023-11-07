@@ -20,7 +20,9 @@ public class ShopUI : MonoBehaviour
 
     public void DeActiveHolder()
     {
-        shopHolder.transform.DOLocalMoveY(shopPosStart, duration).SetUpdate(true);
+       
+        inforItems.transform.DOLocalMoveX(inforItemPosStart, duration).SetUpdate(true);
+        shopHolder.transform.DOLocalMoveY(shopPosStart, duration).SetUpdate(true).IsComplete();
         Time.timeScale = 1;
     }
     public void ShowInforButton()
