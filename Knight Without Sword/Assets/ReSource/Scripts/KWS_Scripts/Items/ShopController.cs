@@ -27,8 +27,6 @@ public class ShopController : MonoBehaviour
             shopUI.ActiveHolder();
         }
     }
-
-    // Update is called once per frame
     void Update()
     {
         DetivedPlayer();

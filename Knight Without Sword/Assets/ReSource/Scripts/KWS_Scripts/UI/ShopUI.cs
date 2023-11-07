@@ -8,19 +8,12 @@ public class ShopUI : MonoBehaviour
     [SerializeField] private float shopPos;
     [SerializeField] private float inforItemPos;
     [SerializeField] private float inforItemPosStart;
-    private float shopPosStart;
+    [SerializeField]private float shopPosStart;
     [SerializeField] private float duration = 0.5f;
     [SerializeField] private Vector2 shopPosForinfor = new Vector2(-10,130);
-    private void Start()
-    {
-        shopPosStart = shopHolder.transform.position.y;
-        shopHolder.SetActive(false);
-        
-    }
 
     public void ActiveHolder()
     {
-        shopHolder.SetActive(true);
         Time.timeScale = 0;
         shopHolder.transform.DOLocalMoveY(shopPos, duration).SetUpdate(true);
     }
@@ -28,7 +21,6 @@ public class ShopUI : MonoBehaviour
     public void DeActiveHolder()
     {
         shopHolder.transform.DOLocalMoveY(shopPosStart, duration).SetUpdate(true);
-        shopHolder.SetActive(false);
         Time.timeScale = 1;
     }
     public void ShowInforButton()
