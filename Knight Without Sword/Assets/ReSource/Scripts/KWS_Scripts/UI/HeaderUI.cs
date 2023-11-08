@@ -6,6 +6,7 @@ using TMPro;
 public class HeaderUI : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI goldText;
+    [SerializeField] TextMeshProUGUI gemText;
     [SerializeField] TextMeshProUGUI pistolammoText;
     [SerializeField] TextMeshProUGUI plasmaText;
     [SerializeField] TextMeshProUGUI rocketText;
@@ -14,6 +15,10 @@ public class HeaderUI : MonoBehaviour
     public void UpdateGoldText(int count)
     {
         goldText.text = count.ToString();
+    }  
+    public void UpdateGemText(int count)
+    {
+        gemText.text = count.ToString();
     }
     public void UpdatePistolammoText(int count)
     {
