@@ -38,19 +38,24 @@ public class GetItems : MonoBehaviour
 
     private void AddItems(ItemSO itemSO)
     {
-        if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.trading)
+        if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.trading && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Gold")
         {
             playerData.gold += itemSO.count;
             UIManager.Instance.HeaderUI.UpdateGoldText(playerData.gold);
+        } 
+        if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.trading && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Gem")
+        {
+            playerData.gem += itemSO.count;
+            UIManager.Instance.HeaderUI.UpdateGoldText(playerData.gem);
         }  
-         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Equipment && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == playerData.rocketAmmo.name)
+        if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Equipment && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == playerData.rocketAmmo.name)
         {
             playerData.rocketAmmo.quatity += itemSO.count;
             UIManager.Instance.HeaderUI.UpdaterocketText(playerData.rocketAmmo.quatity);
             WeaponManager.Instance.UpdateDictionary(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO(), itemSO.count);
             UIManager.Instance.GunHoderUI.UpdateAmmoHolder(itemSO, playerData.rocketAmmo.quatity);
         }
-         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Equipment && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == playerData.pistolAmmo.name)
+        if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Equipment && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == playerData.pistolAmmo.name)
         {
             playerData.pistolAmmo.quatity += itemSO.count;
             UIManager.Instance.HeaderUI.UpdatePistolammoText(playerData.pistolAmmo.quatity);
@@ -58,14 +63,14 @@ public class GetItems : MonoBehaviour
             UIManager.Instance.GunHoderUI.UpdateAmmoHolder(itemSO, playerData.pistolAmmo.quatity);
          
         }
-         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Equipment && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == playerData.plasmaAmmo.name)
+        if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Equipment && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == playerData.plasmaAmmo.name)
         {
             playerData.plasmaAmmo.quatity += itemSO.count;
             UIManager.Instance.HeaderUI.UpdateplasmaText(playerData.plasmaAmmo.quatity);
             WeaponManager.Instance.UpdateDictionary(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO(), itemSO.count);
             UIManager.Instance.GunHoderUI.UpdateAmmoHolder(itemSO, playerData.plasmaAmmo.quatity);
         }
-         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Equipment && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == playerData.shotgunAmmo.name)
+        if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Equipment && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == playerData.shotgunAmmo.name)
         {
             playerData.shotgunAmmo.quatity += itemSO.count;
             UIManager.Instance.HeaderUI.UpdateshotgunText(playerData.shotgunAmmo.quatity);
