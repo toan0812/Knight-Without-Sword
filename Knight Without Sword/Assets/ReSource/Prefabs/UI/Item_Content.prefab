@@ -623,7 +623,7 @@ GameObject:
   - component: {fileID: 5619182851956240026}
   - component: {fileID: 5619182851956240027}
   m_Layer: 5
-  m_Name: Coin_Image (1)
+  m_Name: Gem_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1336948369, guid: 975a09734c40c984ab34f8093b9885a4, type: 3}
+  m_Sprite: {fileID: 1486662929, guid: b4e3fe9704bfbee4995440d64da1ba8f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
