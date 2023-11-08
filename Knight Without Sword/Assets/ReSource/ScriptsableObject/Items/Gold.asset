@@ -16,4 +16,5 @@ MonoBehaviour:
   prefabImage: {fileID: 1336948369, guid: 975a09734c40c984ab34f8093b9885a4, type: 3}
   type: 2
   count: 7
+  prefabName: Gold
   description: Gold

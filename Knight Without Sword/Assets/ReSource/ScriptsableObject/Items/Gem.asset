@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e0124dd8b718d4d85a2c25a2bba741, type: 3}
   m_Name: Gem
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  prefabImage: {fileID: 0}
+  prefab: {fileID: 5925684361403010359, guid: 3291e92eb9ecbb24383b4c5fdb97ee5a, type: 3}
+  prefabImage: {fileID: 1486662929, guid: b4e3fe9704bfbee4995440d64da1ba8f, type: 3}
   type: 2
-  count: 0
-  prefabName: 
+  count: 5
+  prefabName: Gem
   description: 
