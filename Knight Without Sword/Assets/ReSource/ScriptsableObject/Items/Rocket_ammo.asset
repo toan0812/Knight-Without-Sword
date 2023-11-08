@@ -18,3 +18,5 @@ MonoBehaviour:
   count: 5
   prefabName: rocketAmmo
   description: 
+  goldPrice: 80
+  gemPrice: 8

@@ -23,3 +23,5 @@ MonoBehaviour:
   ammoQuatity: 12
   timeDelay: 0.25
   ammoEquipment: {fileID: 11400000, guid: 36497c740f27dc14bb4135b17e060b9c, type: 2}
+  goldPrice: 500
+  gemPrice: 50

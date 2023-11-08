@@ -18,3 +18,5 @@ MonoBehaviour:
   count: 12
   prefabName: pistolAmmo
   description: 
+  goldPrice: 10
+  gemPrice: 1

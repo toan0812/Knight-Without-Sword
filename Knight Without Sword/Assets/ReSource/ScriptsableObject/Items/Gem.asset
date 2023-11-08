@@ -15,6 +15,6 @@ MonoBehaviour:
   prefab: {fileID: 5925684361403010359, guid: 3291e92eb9ecbb24383b4c5fdb97ee5a, type: 3}
   prefabImage: {fileID: 1486662929, guid: b4e3fe9704bfbee4995440d64da1ba8f, type: 3}
   type: 2
-  count: 5
+  count: 1
   prefabName: Gem
   description: 

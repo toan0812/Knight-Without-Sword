@@ -18,3 +18,5 @@ MonoBehaviour:
   count: 8
   prefabName: shotgunAmmo
   description: 
+  goldPrice: 30
+  gemPrice: 3

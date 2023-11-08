@@ -18,3 +18,5 @@ MonoBehaviour:
   count: 10
   prefabName: plasmaAmmo
   description: 
+  goldPrice: 20
+  gemPrice: 2
