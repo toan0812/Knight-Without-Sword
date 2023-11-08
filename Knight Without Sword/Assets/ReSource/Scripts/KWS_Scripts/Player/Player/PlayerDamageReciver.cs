@@ -5,15 +5,10 @@ using UnityEngine;
 public class PlayerDamageReciver : DamageReciver
 {
     //[SerializeField] private HealthBar healthBar;
-    private PlayerData playerData;
-    private void Awake()
-    {
-        playerData = new PlayerData();
-    }
     protected override void Start()
     {
         base.Start();
-        maxHealth = playerData.health;
+        maxHealth = DataManager.Instance.PlayerData.health;
         //healthBar.SetMaxHealth(maxHealth);
         //InventoryManager.Instance.OnUseItems += Instance_OnUseItems;
     }

@@ -9,13 +9,12 @@ public class BulletsHolderUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI plasmaBulletText;
     [SerializeField] private TextMeshProUGUI shotgunBulletText;
 
-    private PlayerData playerData = new PlayerData();
     void Start()
     {
-        pistolBulletText.text = playerData.pistolAmmo.quatity.ToString();
-        rocketBulletText.text = playerData.rocketAmmo.quatity.ToString();
-        plasmaBulletText.text = playerData.plasmaAmmo.quatity.ToString();
-        shotgunBulletText.text = playerData.shotgunAmmo.quatity.ToString();
+        pistolBulletText.text = DataManager.Instance.PlayerData.pistolAmmo.quatity.ToString();
+        rocketBulletText.text = DataManager.Instance.PlayerData.rocketAmmo.quatity.ToString();
+        plasmaBulletText.text = DataManager.Instance.PlayerData.plasmaAmmo.quatity.ToString();
+        shotgunBulletText.text = DataManager.Instance.PlayerData.shotgunAmmo.quatity.ToString();
     }
 
     // Update is called once per frame
@@ -25,9 +24,9 @@ public class BulletsHolderUI : MonoBehaviour
     }
     public void UpdateBulletTextUI()
     {
-        pistolBulletText.text = playerData.pistolAmmo.quatity.ToString();
-        rocketBulletText.text = playerData.rocketAmmo.quatity.ToString();
-        plasmaBulletText.text = playerData.plasmaAmmo.quatity.ToString();
-        shotgunBulletText.text = playerData.shotgunAmmo.quatity.ToString();
+        pistolBulletText.text = DataManager.Instance.PlayerData.pistolAmmo.quatity.ToString();
+        rocketBulletText.text = DataManager.Instance.PlayerData.rocketAmmo.quatity.ToString();
+        plasmaBulletText.text = DataManager.Instance.PlayerData.plasmaAmmo.quatity.ToString();
+        shotgunBulletText.text = DataManager.Instance.PlayerData.shotgunAmmo.quatity.ToString();
     }
 }

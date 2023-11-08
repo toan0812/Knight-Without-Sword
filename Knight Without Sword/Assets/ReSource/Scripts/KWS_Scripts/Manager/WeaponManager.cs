@@ -7,14 +7,13 @@ public class WeaponManager : Singleton<WeaponManager>
 {
     [Header("List Weapon")]
     [SerializeField] private List<WeaponItemsSO> weaponItems = new List<WeaponItemsSO>();
-    private PlayerData playerData = new PlayerData();
     private Dictionary<string, int> weaponInfor = new Dictionary<string, int>();
     void Awake()
     {
-        weaponInfor.Add(playerData.plasmaAmmo.name, playerData.plasmaAmmo.quatity);
-        weaponInfor.Add(playerData.rocketAmmo.name, playerData.rocketAmmo.quatity);
-        weaponInfor.Add(playerData.pistolAmmo.name, playerData.pistolAmmo.quatity);
-        weaponInfor.Add(playerData.shotgunAmmo.name, playerData.shotgunAmmo.quatity);
+        weaponInfor.Add(DataManager.Instance.PlayerData.plasmaAmmo.name, DataManager.Instance.PlayerData.plasmaAmmo.quatity);
+        weaponInfor.Add(DataManager.Instance.PlayerData.rocketAmmo.name, DataManager.Instance.PlayerData.rocketAmmo.quatity);
+        weaponInfor.Add(DataManager.Instance.PlayerData.pistolAmmo.name, DataManager.Instance.PlayerData.pistolAmmo.quatity);
+        weaponInfor.Add(DataManager.Instance.PlayerData.shotgunAmmo.name, DataManager.Instance.PlayerData.shotgunAmmo.quatity);
     }
 
     public void UpdateDictionary(ItemSO itemSO, int quatity)

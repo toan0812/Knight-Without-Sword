@@ -3,6 +3,9 @@ using UnityEngine.UI;
 using System;
 public class ButtonUI : MonoBehaviour
 {
+    [Header("Component")]
+    [SerializeField] private HeaderUI headerUI;
+    [SerializeField] private GetItems getItems;
     [Header("Change Color")]
     [SerializeField] bool isChangingColor;
     [SerializeField] ShopUI shopUI;
@@ -16,10 +19,11 @@ public class ButtonUI : MonoBehaviour
     [SerializeField] private Button buyGoldButton;
     [SerializeField] private Button buyGemButton;
 
-    private PlayerData playerData= new PlayerData();
     void Start()
     {
         shopUI = GameObject.FindAnyObjectByType<ShopUI>();
+        headerUI = GameObject.FindAnyObjectByType<HeaderUI>();
+        getItems = GameObject.FindAnyObjectByType<GetItems>();
         if (isChangingColor)
         {
             GetComponent<Button>().Select();
@@ -30,24 +34,54 @@ public class ButtonUI : MonoBehaviour
         });
         buyGoldButton.onClick.AddListener(() =>
         {
-            BuyItem(playerData.gold, Int32.Parse(buyGoldText.text));
+            BuyItemByGold(Int32.Parse(buyGoldText.text));
+            headerUI.UpdateGoldText(DataManager.Instance.PlayerData.gold);
         });
         buyGemButton.onClick.AddListener(() =>
         {
-            BuyItem(playerData.gem, Int32.Parse(buyGemText.text));
+            BuyItemByGem(Int32.Parse(buyGemText.text));
+            headerUI.UpdateGemText(DataManager.Instance.PlayerData.gem);
         });
 
     }
 
-    public void BuyItem(int budget, int price)
+    public void BuyItemByGold(int price)
     {
-        if(budget>=price)
+        if(DataManager.Instance.PlayerData.gold >=price)
         {
-            budget -= price;
+            DataManager.Instance.PlayerData.gold -= price;
+            UpdateDB();
         }
        else
         {
             Debug.Log("can not buy item");
+        }
+    }
+    public void BuyItemByGem(int price)
+    {
+        if(DataManager.Instance.PlayerData.gem >=price)
+        {
+            DataManager.Instance.PlayerData.gem -= price;
+            UpdateDB();
+        }
+       else
+        {
+            Debug.Log("can not buy item");
+        }
+    }
+
+    public void UpdateDB()
+    {
+        if (equidmentsSO != null)
+        {
+            getItems.AddItems(equidmentsSO);
+        }
+        if (weaponItemsSO != null)
+        {
+            var weapon = Instantiate(weaponItemsSO.prefab);
+            Vector2 randomPoint = UnityEngine.Random.insideUnitCircle * 2f;
+            Vector3 randomPosition = new Vector3(randomPoint.x, 0, randomPoint.y);
+            weapon.position = Player.Instance.transform.position + randomPosition;
         }
     }
     public void SetPriceTextForItem()

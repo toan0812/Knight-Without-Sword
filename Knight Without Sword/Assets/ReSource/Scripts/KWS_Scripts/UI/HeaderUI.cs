@@ -12,6 +12,11 @@ public class HeaderUI : MonoBehaviour
     [SerializeField] TextMeshProUGUI rocketText;
     [SerializeField] TextMeshProUGUI shotgunText;
 
+    private void Start()
+    {
+        UpdateGemText(DataManager.Instance.PlayerData.gem);
+        UpdateGoldText(DataManager.Instance.PlayerData.gold);
+    }
     public void UpdateGoldText(int count)
     {
         goldText.text = count.ToString();

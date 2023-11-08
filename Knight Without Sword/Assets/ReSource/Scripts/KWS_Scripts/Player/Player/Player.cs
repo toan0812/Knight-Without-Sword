@@ -11,7 +11,6 @@ public class Player : Singleton<Player>, IPickUpable
         public GunController gunController;
     }
 
-    private PlayerData _data;
     private Rigidbody2D rig;
     private TrailRenderer trailRenderer;
 
@@ -44,14 +43,10 @@ public class Player : Singleton<Player>, IPickUpable
 
     [Header("Reloading")]
     [SerializeField] private Transform reloadingObject;
-    private void Awake()
-    {
-        _data = new PlayerData(); 
-    }
     protected void Start()
     {
         canDash = true;
-        characterSpeed = _data.speed;
+        characterSpeed = DataManager.Instance.PlayerData.speed;
         rig = GetComponent<Rigidbody2D>(); 
         trailRenderer = GetComponent<TrailRenderer>();
         reloadingObject.gameObject.SetActive(false);

@@ -13,8 +13,8 @@ public class PlayerData
     public AmmoInformation rocketAmmo = new AmmoInformation("rocketAmmo", 30);
     public AmmoInformation pistolAmmo = new AmmoInformation("pistolAmmo", 4);
     // player currency
-    public int gold = 0;
-    public int gem = 0;
+    public int gold = 100;
+    public int gem = 100;
 }
 
 public class AmmoInformation {
