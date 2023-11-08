@@ -14,7 +14,7 @@ public class ButtonUI : MonoBehaviour
         }
         GetComponent<Button>().onClick.AddListener(() =>
         {
-            shopUI.ShowInforButton();
+            shopUI.ShowInforButtonUI();
         });
     }
 }
