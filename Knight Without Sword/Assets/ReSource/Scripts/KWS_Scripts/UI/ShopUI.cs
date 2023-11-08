@@ -88,6 +88,7 @@ public class ShopUI : MonoBehaviour
             {
                 var gunItemUI = Instantiate(gunItemsUI, gunItemsViewPort.transform);
                 gunItemUI.transform.GetChild(0).GetComponent<Image>().sprite = WeaponManager.Instance.GetWeaponItemsFromDB()[i].prefabImage;
+                gunItemUI.GetComponent<ButtonUI>().SetWeaponSO(WeaponManager.Instance.GetWeaponItemsFromDB()[i]);
                 gunItemUI.SetActive(true);
                 holder.Add(gunItemUI);
             }
@@ -106,6 +107,7 @@ public class ShopUI : MonoBehaviour
             {
                 var ItemUI = Instantiate(equidmentItemsUI, equidmentItemsViewPort.transform);
                 ItemUI.transform.GetChild(0).GetComponent<Image>().sprite = ItemsManager.Instance.GetEquidItemsFromDB()[i].prefabImage;
+                ItemUI.GetComponent<ButtonUI>().SetEquidmentsSO(ItemsManager.Instance.GetEquidItemsFromDB()[i]);
                 ItemUI.SetActive(true);
             }
             timeSpawnEquidmentButton--;
