@@ -46,7 +46,7 @@ public class GetItems : MonoBehaviour
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.trading && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Gem")
         {
             playerData.gem += itemSO.count;
-            UIManager.Instance.HeaderUI.UpdateGoldText(playerData.gem);
+            UIManager.Instance.HeaderUI.UpdateGemText(playerData.gem);
         }  
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Equipment && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == playerData.rocketAmmo.name)
         {
