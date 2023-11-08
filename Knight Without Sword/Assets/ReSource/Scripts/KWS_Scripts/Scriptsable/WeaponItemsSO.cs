@@ -10,6 +10,8 @@ public class WeaponItemsSO : ItemSO
     public int ammoQuatity;
     public float timeDelay;
     public EquidmentsSO ammoEquipment;
+    public int goldPrice;
+    public int gemPrice;
     private void Awake()
     {
         type = ItemsType.Weapon;
