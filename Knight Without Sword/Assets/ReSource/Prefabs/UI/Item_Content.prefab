@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 5619182851379069935}
   - component: {fileID: 5619182851379069932}
   - component: {fileID: 5619182851379069933}
+  - component: {fileID: 7475432086737648935}
   m_Layer: 5
   m_Name: Buy_Gem
   m_TagString: Untagged
@@ -338,6 +339,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7475432086737648935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5619182851379069931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa2ea9a417b16649acfd5f87b96c388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5619182851602896580
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,6 +712,7 @@ GameObject:
   - component: {fileID: 5619182852845012142}
   - component: {fileID: 5619182852845012143}
   - component: {fileID: 5619182852845012140}
+  - component: {fileID: 3912556495842376037}
   m_Layer: 5
   m_Name: Buy_Gold
   m_TagString: Untagged
@@ -810,3 +824,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3912556495842376037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5619182852845012138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa2ea9a417b16649acfd5f87b96c388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
