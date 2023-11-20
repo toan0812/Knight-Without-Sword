@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class PlayerDamageReciver : DamageReciver
 {
-    //[SerializeField] private HealthBar healthBar;
+    [SerializeField] private SliderUI healthBar;
     protected override void Start()
     {
         base.Start();
         maxHealth = DataManager.Instance.PlayerData.health;
-        //healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetSliderMaxValue((int)maxHealth);
         //InventoryManager.Instance.OnUseItems += Instance_OnUseItems;
     }
     //private void Update()
     //{
-    //    if(currentHealth<=0)
+    //    if (currentHealth <= 0)
     //    {
     //        //dead
+    //        Debug.Log("dead");
     //    }
     //}
     //private void Instance_OnUseItems(object sender, InventoryManager.OnUseItemsEventArg e)

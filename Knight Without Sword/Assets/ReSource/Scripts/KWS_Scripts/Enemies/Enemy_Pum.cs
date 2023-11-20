@@ -20,10 +20,17 @@ public class Enemy_Pum : Enemy
         switch (state)
         {
             case State.idle:
-                TargetOnAttackZone(radiusZone);
+                if(TargetOnAttackZone(target,radiusZone))
+                {
+                    state = State.following;
+                }
                 break;
             case State.following:
                 EnemyMove();
+                if (!TargetOnAttackZone(target, radiusZone))
+                {
+                    state = State.idle;
+                }
                 //state = State.dead;
                 break;
             case State.dead:
@@ -39,12 +46,5 @@ public class Enemy_Pum : Enemy
         
         animator.SetFloat("front", movedir.y);
         animator.SetFloat("back", movedir.x);
-    }
-    protected override void TargetOnAttackZone(float radiusZone)
-    {
-        if (Vector2.Distance(target.transform.position, transform.position)<=radiusZone)
-        {
-            state = State.following;
-        }
     }
 }
