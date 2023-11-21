@@ -1982,7 +1982,7 @@ Transform:
   m_Children:
   - {fileID: 1674201101}
   m_Father: {fileID: 1474905762}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &368369996
 SpriteRenderer:
@@ -12713,13 +12713,13 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1836973525}
-  - {fileID: 2120784083}
   - {fileID: 1871481166}
-  - {fileID: 2038328922}
   - {fileID: 1797204595}
-  - {fileID: 1307457061}
+  - {fileID: 2120784083}
   - {fileID: 368369995}
+  - {fileID: 2038328922}
   - {fileID: 1849845194}
+  - {fileID: 1307457061}
   - {fileID: 2135478293}
   - {fileID: 200755354}
   m_Father: {fileID: 798002785}
@@ -25982,7 +25982,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1474905762}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1797204596
 SpriteRenderer:
@@ -26254,7 +26254,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1474905762}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1849845195
 PolygonCollider2D:
@@ -26748,7 +26748,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1474905762}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1871481167
 SpriteRenderer:
