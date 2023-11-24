@@ -184,8 +184,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  heightY: 1.5
-  popDuration: 1
+  heightY: 1
+  popDuration: 0.25
   radius: 2
   playerLayer:
     serializedVersion: 2

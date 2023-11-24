@@ -57,3 +57,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+--- !u!1 &1182314060800378126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3097688317475454914, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+  m_PrefabInstance: {fileID: 4221384967280966348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1963620688590936529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2437979979571962653, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+  m_PrefabInstance: {fileID: 4221384967280966348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7067416581361285422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963620688590936529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b8a1c3f91082f4bbbb7479b5aeaa5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  damage: 0
+  cautionIcon: {fileID: 1182314060800378126}
+  animator: {fileID: 4731766152333119176}
+  radiusZone: 5
+--- !u!95 &4731766152333119176 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8881031935409583108, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+  m_PrefabInstance: {fileID: 4221384967280966348}
+  m_PrefabAsset: {fileID: 0}

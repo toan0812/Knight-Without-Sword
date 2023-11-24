@@ -130,7 +130,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!60 &8628124215785956051
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -201,8 +201,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  heightY: 1.5
-  popDuration: 1
+  heightY: 1
+  popDuration: 0.25
   radius: 2
   playerLayer:
     serializedVersion: 2
