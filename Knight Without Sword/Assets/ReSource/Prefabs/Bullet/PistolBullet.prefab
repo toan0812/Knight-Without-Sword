@@ -12,6 +12,10 @@ PrefabInstance:
       value: PistolBullet
       objectReference: {fileID: 0}
     - target: {fileID: 2723107011854945046, guid: 7ce809c750e98e24e9ac521116f16ebf, type: 3}
+      propertyPath: bulletSpeed
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2723107011854945046, guid: 7ce809c750e98e24e9ac521116f16ebf, type: 3}
       propertyPath: radiusEffect
       value: 0
       objectReference: {fileID: 0}
