@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     protected virtual void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        target = GameObject.FindAnyObjectByType<Player>().transform;
         agent.updateRotation = false;
         agent.updateUpAxis = false;
     }

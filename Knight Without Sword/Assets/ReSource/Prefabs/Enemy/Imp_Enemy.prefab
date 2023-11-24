@@ -7,21 +7,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 916117818, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 916117818, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+      propertyPath: cautionIcon
+      value: 
+      objectReference: {fileID: 7334082971009238750}
+    - target: {fileID: 1350123667, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+      propertyPath: maxHealth
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350123667, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+      propertyPath: bloodEffect
+      value: 
+      objectReference: {fileID: 3451907287039999177, guid: 052a0fe9e2f25e446a016a89ed43f7a6, type: 3}
     - target: {fileID: 2351474789721339673, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
       propertyPath: m_Size.x
-      value: 0.29506403
+      value: 0.5553075
       objectReference: {fileID: 0}
     - target: {fileID: 2351474789721339673, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
       propertyPath: m_Size.y
-      value: 0.33393973
+      value: 0.6712924
       objectReference: {fileID: 0}
     - target: {fileID: 2351474789721339673, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
       propertyPath: m_Offset.x
-      value: -0.021735638
+      value: -0.016916335
       objectReference: {fileID: 0}
     - target: {fileID: 2351474789721339673, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
       propertyPath: m_Offset.y
-      value: -0.26779214
+      value: -0.59068674
       objectReference: {fileID: 0}
     - target: {fileID: 2437979979571962653, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
       propertyPath: m_Name
@@ -39,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1583593518, guid: d0fa978afed3daf459b9b7de292fe8f0, type: 3}
+    - target: {fileID: 2577156274870088362, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2577156274870088362, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
@@ -107,5 +127,11 @@ PrefabInstance:
       propertyPath: avoidancePriority
       value: 50
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 916117818, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+--- !u!1 &7334082971009238750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3097688317475454914, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+  m_PrefabInstance: {fileID: 5709111348864956700}
+  m_PrefabAsset: {fileID: 0}

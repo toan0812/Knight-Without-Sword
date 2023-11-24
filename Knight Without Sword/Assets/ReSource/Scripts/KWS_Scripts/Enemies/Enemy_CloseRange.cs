@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_Pum : Enemy
+public class Enemy_CloseRange : Enemy
 {
     private enum State { idle, following, dead }
     private State state;
