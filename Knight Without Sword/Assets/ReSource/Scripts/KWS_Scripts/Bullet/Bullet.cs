@@ -31,10 +31,10 @@ public abstract class Bullet : MonoBehaviour
         return damage;
     }
     protected abstract void BulletMoving();
-    protected virtual void SpawnFX(Transform bulletTransform, Collider2D colliderAffect)
+    protected virtual void SpawnFX(Transform positionCollider, Collider2D colliderAffect)
     {
         var effect = PoolingObject.Instance.GetPoolingobj(effectList);
-        effect.transform.position = bulletTransform.position;
+        effect.transform.position = positionCollider.position;
         effect.SetActive(colliderAffect);
         effect.GetComponent<Explosion>().DealDamage(damage, colliderAffect, radiusEffect, layerAffect);
     }
@@ -55,8 +55,9 @@ public abstract class Bullet : MonoBehaviour
                 //iDamageable.OnHit(knockback);
             }
         }
-        if(collision.collider == Physics2D.OverlapCircle(transform.position, 0.2f, activeEffect))
+        else if(Physics2D.OverlapCircle(transform.position, 0.2f, activeEffect))
         {
+            SpawnFX(gameObject.transform, collision.collider);
             gameObject.SetActive(false);
         }
     }
