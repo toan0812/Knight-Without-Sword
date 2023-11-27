@@ -51,7 +51,7 @@ public class Player : Singleton<Player>, IPickUpable
         trailRenderer = GetComponent<TrailRenderer>();
         reloadingObject.gameObject.SetActive(false);
         GameInput.Instance.OnInteract += Instance_OnInteract;
-        //GameInput.Instance.OnDashing += Instance_OnDashing;
+        GameInput.Instance.OnDashing += Instance_OnDashing;
     }
 
     private void Instance_OnDashing(object sender, EventArgs e)
@@ -72,13 +72,13 @@ public class Player : Singleton<Player>, IPickUpable
     }
     private void Update()
     {
-        //if (isDashing) return;
+        if (isDashing) return;
         DetivedGunController();
         
     }
     private void FixedUpdate()
     {
-        //if (isDashing) return;
+        if (isDashing) return;
         HandleMovement();
     }
     protected virtual void HandleMovement()
