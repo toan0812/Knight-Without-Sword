@@ -16,9 +16,6 @@ public abstract class Bullet : MonoBehaviour
     protected int damage;
     // Pooling 
     private List<GameObject> effectList = new List<GameObject>();
-    //[Header("Damage and KnockBack force")]
-    //[SerializeField] protected int damage;
-    //[SerializeField] protected float knockBackForce = 10f;
     private GunController gunController;
     protected virtual void Start()
     {

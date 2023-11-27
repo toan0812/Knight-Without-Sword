@@ -43,7 +43,6 @@ public class Enemy_CloseRange : Enemy
     {
         base.EnemyMove();
         Vector3 movedir = new Vector3(-transform.position.x + target.transform.position.x, -transform.position.y + +target.transform.position.y).normalized;
-        
         animator.SetFloat("front", movedir.y);
         animator.SetFloat("back", movedir.x);
     }

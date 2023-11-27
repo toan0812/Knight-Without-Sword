@@ -26,9 +26,9 @@ public class Enemy : MonoBehaviour
     protected virtual void EnemyAttack()
     {
     }
-    protected bool TargetOnAttackZone(Transform target,float radiusZone)
+    protected bool TargetOnAttackZone(Transform target,float ZoneFollowTarget)
     {
-        if (Vector2.Distance(target.transform.position, transform.position) <= radiusZone)
+        if (Vector2.Distance(target.transform.position, transform.position) <= ZoneFollowTarget)
         {
             if(timeActive>0)
             {
@@ -40,5 +40,8 @@ public class Enemy : MonoBehaviour
         }
         return false;
     }
+
+    public int GetDamage()
+    { return damage; }
 
 }
