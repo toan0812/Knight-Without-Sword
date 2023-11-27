@@ -35,17 +35,17 @@ public class Player : Singleton<Player>, IPickUpable
 
     //Dashing
     //[Header("Dashing")]
-    //[SerializeField] private float dashSpeed;
-    //[SerializeField] private float dashDuation;
-    //[SerializeField] private float dashCooldown;
-    //private bool canDash;
-    //private bool isDashing;
+    [SerializeField] private float dashSpeed;
+    [SerializeField] private float dashDuation;
+    [SerializeField] private float dashCooldown;
+    private bool canDash;
+    private bool isDashing;
 
     [Header("Reloading")]
     [SerializeField] private Transform reloadingObject;
     protected void Start()
     {
-        //canDash = true;
+        canDash = true;
         characterSpeed = DataManager.Instance.PlayerData.speed;
         rig = GetComponent<Rigidbody2D>(); 
         trailRenderer = GetComponent<TrailRenderer>();
@@ -54,14 +54,14 @@ public class Player : Singleton<Player>, IPickUpable
         //GameInput.Instance.OnDashing += Instance_OnDashing;
     }
 
-    //private void Instance_OnDashing(object sender, EventArgs e)
-    //{
-    //    if (canDash)
-    //        rig.velocity = new Vector2(GameInput.Instance.GetInputNomalize().x * dashSpeed, GameInput.Instance.GetInputNomalize().y * dashSpeed);
-    //    //StartCoroutine(Dash());
-    //    //Debug.Log("dash");
-    //   //rig.velocity = new Vector2(GameInput.Instance.GetInputNomalize().x * 500, GameInput.Instance.GetInputNomalize().y * 500);
-    //}
+    private void Instance_OnDashing(object sender, EventArgs e)
+    {
+        if (canDash)
+        //    rig.velocity = new Vector2(GameInput.Instance.GetInputNomalize().x * dashSpeed, GameInput.Instance.GetInputNomalize().y * dashSpeed);
+        StartCoroutine(Dash());
+        //Debug.Log("dash");
+        //rig.velocity = new Vector2(GameInput.Instance.GetInputNomalize().x * 500, GameInput.Instance.GetInputNomalize().y * 500);
+    }
 
     private void Instance_OnInteract(object sender, EventArgs e)
     {
@@ -153,19 +153,19 @@ public class Player : Singleton<Player>, IPickUpable
         isCloseWeapon = !isCloseWeapon;
     }
 
-    //private IEnumerator Dash()
-    //{
-    //    canDash = false;
-    //    isDashing = true;
-    //    trailRenderer.emitting = true;
-    //    gameObject.layer = 0;
-    //    rig.velocity = new Vector2(GameInput.Instance.GetInputNomalize().x * dashSpeed, GameInput.Instance.GetInputNomalize().y * dashSpeed);
-    //    yield return new WaitForSeconds(dashDuation);
-    //    isDashing = false;
-    //    trailRenderer.emitting = false;
-    //    yield return new WaitForSeconds(dashCooldown);
-    //    canDash = true;
-    //}
+    private IEnumerator Dash()
+    {
+        canDash = false;
+        isDashing = true;
+        trailRenderer.emitting = true;
+        gameObject.layer = 0;
+        rig.velocity = new Vector2(GameInput.Instance.GetInputNomalize().x * dashSpeed, GameInput.Instance.GetInputNomalize().y * dashSpeed);
+        yield return new WaitForSeconds(dashDuation);
+        isDashing = false;
+        trailRenderer.emitting = false;
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
+    }
     public IEnumerator LoadingActive(float time, WeaponItemsSO weaponItemsSO)
     {
         if(weaponItemsSO == Weapon())
