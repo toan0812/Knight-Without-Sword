@@ -15,7 +15,6 @@ public class GetItems : MonoBehaviour
     {
         PoolingObject.Instance.addPool(commandText, commandTextList, count, transformParent);
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.TryGetComponent(out ItemsPickUp items))
