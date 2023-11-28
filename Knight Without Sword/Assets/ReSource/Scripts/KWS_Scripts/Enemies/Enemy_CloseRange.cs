@@ -9,6 +9,7 @@ public class Enemy_CloseRange : Enemy
     [SerializeField] private Animator animator;
     [Header("Attack Zone Radius")]
     [SerializeField] private float radiusZone;
+    private bool faceRight = true;
     protected override void Start()
     {
         base.Start();
@@ -22,6 +23,7 @@ public class Enemy_CloseRange : Enemy
             case State.idle:
                 if(TargetOnAttackZone(target,radiusZone))
                 {
+                    agent.isStopped = false;
                     state = State.following;
                 }
                 break;
@@ -29,6 +31,7 @@ public class Enemy_CloseRange : Enemy
                 EnemyMove();
                 if (!TargetOnAttackZone(target, radiusZone))
                 {
+                    agent.isStopped = true;
                     state = State.idle;
                 }
                 //state = State.dead;
@@ -43,7 +46,24 @@ public class Enemy_CloseRange : Enemy
     {
         base.EnemyMove();
         Vector3 movedir = new Vector3(-transform.position.x + target.transform.position.x, -transform.position.y + +target.transform.position.y).normalized;
-        animator.SetFloat("front", movedir.y);
-        animator.SetFloat("back", movedir.x);
+        animator.SetBool("run", TargetOnAttackZone(target, radiusZone));
+        //animator.SetFloat("back", movedir.x);
+        if (faceRight && movedir.x < 0)
+        {
+            FaceFlip();
+            faceRight = false;
+        }
+        if (!faceRight && movedir.x > 0)
+        {
+            FaceFlip();
+            faceRight = true;
+        };
+    }
+
+    private void FaceFlip()
+    {
+        Vector3 Scaler = transform.GetChild(0).localScale;
+        Scaler.x = Scaler.x * -1;
+        transform.GetChild(0).localScale = Scaler;
     }
 }

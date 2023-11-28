@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class EnemyDamageSender : DamageSender
 {
-    protected virtual void OnCollisionEnter2D(Collision2D collision)
+    protected void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.TryGetComponent(out IDamageable iDamageable))
+        if (collision.collider.TryGetComponent(out IDamageable iDamageable) && collision.collider.TryGetComponent(out Player player))
         {
-            Debug.Log("Send Damage");
             iDamageable = collision.collider.GetComponent<IDamageable>();
             if (iDamageable != null)
             {
