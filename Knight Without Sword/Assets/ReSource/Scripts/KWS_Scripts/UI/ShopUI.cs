@@ -2,8 +2,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
+using System;
 public class ShopUI : MonoBehaviour
 {
+    public class InforItemsEventArg : EventArgs
+    {
+        public ItemSO itemSO;
+    }
+
+    public event EventHandler<InforItemsEventArg> OnShowInfor;
     [Header("Shop Holder")]
     [SerializeField] private GameObject shopHolder;
     [SerializeField] private GameObject inforItems;
@@ -61,14 +68,14 @@ public class ShopUI : MonoBehaviour
 
     public void DeActiveHolder()
     {
-       
         inforItems.transform.DOLocalMoveX(inforItemPosStart, duration).SetUpdate(true);
         shopHolder.transform.DOLocalMoveY(shopPosStart, duration).SetUpdate(true).IsComplete();
         Time.timeScale = 1;
     }
-    public void ShowInforButtonUI()
+    public void ShowInforButtonUI(ItemSO itemSO)
     {
         shopHolder.transform.DOLocalMoveX(shopPosForinfor.x, duration).SetUpdate(true);
+        OnShowInfor?.Invoke(this, new InforItemsEventArg { itemSO = itemSO});
         inforItems.transform.DOLocalMoveX(inforItemPos, duration).SetUpdate(true);
     }
     public void HideInforButton()

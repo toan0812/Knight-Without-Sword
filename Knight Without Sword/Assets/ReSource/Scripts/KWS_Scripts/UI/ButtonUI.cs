@@ -30,7 +30,7 @@ public class ButtonUI : MonoBehaviour
         }
         GetComponent<Button>().onClick.AddListener(() =>
         {
-            shopUI.ShowInforButtonUI();
+            shopUI.ShowInforButtonUI(GetItemSO());
         });
         buyGoldButton.onClick.AddListener(() =>
         {
@@ -104,5 +104,17 @@ public class ButtonUI : MonoBehaviour
     public void SetWeaponSO(WeaponItemsSO weaponItemsSO)
     {
         this.weaponItemsSO = weaponItemsSO;
+    }
+    public ItemSO GetItemSO()
+    {
+        if (equidmentsSO != null)
+        {
+          return equidmentsSO;
+        }
+        if (weaponItemsSO != null)
+        {
+            return weaponItemsSO;
+        }
+        return null;
     }
 }
