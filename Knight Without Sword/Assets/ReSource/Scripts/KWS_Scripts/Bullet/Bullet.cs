@@ -6,7 +6,6 @@ public abstract class Bullet : MonoBehaviour
 {
     [Header("Bullet Prperties")]
     [SerializeField] protected float bulletSpeed;
-    [SerializeField] protected EquidmentsSO bulletSO;
     [Header(("Effect"))]
     [SerializeField] Transform bulletEffect;
     [SerializeField] protected LayerMask activeEffect;

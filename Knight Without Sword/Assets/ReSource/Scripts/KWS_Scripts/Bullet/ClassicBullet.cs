@@ -4,7 +4,7 @@ using UnityEngine;
 public class ClassicBullet : Bullet
 {
     private Vector2 dir;
-    private void OnEnable()
+    protected virtual void OnEnable()
     {
         transform.eulerAngles = new Vector3(0, 0, GetAngleFromVectorFloat(GetParentDirection(GameObject.FindObjectOfType<Player>().transform.position).normalized));
     }
@@ -14,8 +14,6 @@ public class ClassicBullet : Bullet
     }
     protected override void BulletMoving()
     {
-        /*if (transform.parent == null) return;*/
-        //GetComponent<Rigidbody2D>().velocity = dir * bulletSpeed * GetParentDirection(GameObject.FindObjectOfType<Player>().transform.position).normalized;
         transform.Translate(dir* bulletSpeed * Time.deltaTime);
     }
 
@@ -27,7 +25,7 @@ public class ClassicBullet : Bullet
     {
         this.dir = dir;
     }
-    private static float GetAngleFromVectorFloat(Vector3 dir)
+    protected static float GetAngleFromVectorFloat(Vector3 dir)
     {
         dir = dir.normalized;
         float n = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
