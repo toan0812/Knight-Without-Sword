@@ -17,7 +17,11 @@ MonoBehaviour:
   type: 3
   count: 1
   prefabName: Rocket
-  description: Rocket
+  description: 'Damage: 35
+
+    Range: 20
+
+    Ammo: 5'
   damage: 35
   range: 20
   ammoQuatity: 5

@@ -17,6 +17,8 @@ MonoBehaviour:
   type: 0
   count: 10
   prefabName: plasmaAmmo
-  description: 
+  description: 'Ammo of Plasma
+
+    Cout: 10'
   goldPrice: 20
   gemPrice: 2

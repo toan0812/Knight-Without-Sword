@@ -16,8 +16,12 @@ MonoBehaviour:
   prefabImage: {fileID: -353607531, guid: 200a4a48a6ecd124a830d46c87b8ef82, type: 3}
   type: 3
   count: 1
-  prefabName: Plasma_gun
-  description: rifle Gun
+  prefabName: rifle_gun
+  description: 'Damage: 20
+
+    Range: 15
+
+    Ammo: 20'
   damage: 20
   range: 15
   ammoQuatity: 20

@@ -17,7 +17,11 @@ MonoBehaviour:
   type: 3
   count: 1
   prefabName: Shot_gun
-  description: Shot Gun
+  description: 'Damage: 30
+
+    Range: 15
+
+    Ammo: 8'
   damage: 30
   range: 15
   ammoQuatity: 8

@@ -17,7 +17,11 @@ MonoBehaviour:
   type: 3
   count: 1
   prefabName: Pistol_gun
-  description: Classic Gun
+  description: 'Damage: 12
+
+    Range: 10
+
+    Ammo: 12'
   damage: 12
   range: 10
   ammoQuatity: 12

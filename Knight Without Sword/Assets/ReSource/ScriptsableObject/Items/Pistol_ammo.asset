@@ -17,6 +17,8 @@ MonoBehaviour:
   type: 0
   count: 12
   prefabName: pistolAmmo
-  description: 
+  description: 'Ammo of pistol
+
+    Cout: 12'
   goldPrice: 10
   gemPrice: 1
