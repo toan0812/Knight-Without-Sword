@@ -4,16 +4,30 @@ using UnityEngine;
 
 public class ObsKnockback : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    [SerializeField] private Vector2 offset;
-    [SerializeField] private float forceBack;
-    private void Awake()
+    [SerializeField] private AnimationCurve animationCurve;
+    [SerializeField] private float heightY = 1.5f;
+    [SerializeField] private float popDuration = 1f;
+    void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        StartCoroutine(AnimCurveSpawnRoutine());
     }
-    private void Start()
+    IEnumerator AnimCurveSpawnRoutine()
     {
-        var direction = new Vector2(-offset.x, offset.y);
-        GetComponent<Rigidbody2D>().AddForce(direction * 500);
+        Vector2 starPoint = transform.position;
+        float randomX = transform.position.x + Random.Range(-2f, 2f);
+        float randomY = transform.position.y + Random.Range(-1f, 1f);
+
+        Vector2 endPoint = new Vector2(randomX, randomY);
+        float timePassed = 0f;
+        while (timePassed < popDuration)
+        {
+            timePassed += Time.deltaTime;
+            float linearT = timePassed / popDuration;
+            float heightT = animationCurve.Evaluate(linearT);
+            float height = Mathf.Lerp(0f, heightY, heightT);
+
+            transform.position = Vector2.Lerp(starPoint, endPoint, linearT) + new Vector2(0, height);
+            yield return null;
+        }
     }
 }
