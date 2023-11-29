@@ -7,11 +7,10 @@ public class Enemy : MonoBehaviour
     [Header("Target")]
     [SerializeField] protected Transform target;
     protected NavMeshAgent agent;
-    [Header("Enemy information")]
-    [SerializeField]protected int damage;
     [Header("Icons")]
     [SerializeField] GameObject cautionIcon;
     private int timeActive =1;
+    protected bool faceRight = true;
     protected virtual void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -19,7 +18,7 @@ public class Enemy : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
     }
-    protected virtual void EnemyMove()
+    public virtual void EnemyMove()
     {
         agent.SetDestination(target.position);
     }
@@ -41,7 +40,27 @@ public class Enemy : MonoBehaviour
         return false;
     }
 
-    public int GetDamage()
-    { return damage; }
+    protected virtual void LookAtTarget() {
 
+        Vector3 movedir = new Vector3(-transform.position.x + target.transform.position.x, -transform.position.y + +target.transform.position.y).normalized;
+        if (faceRight && movedir.x < 0)
+        {
+            FaceFlip();
+            faceRight = false;
+        }
+        if (!faceRight && movedir.x > 0)
+        {
+            FaceFlip();
+            faceRight = true;
+        };
+    }
+
+    private void FaceFlip()
+    {
+        Vector3 Scaler = transform.GetChild(0).localScale;
+        Scaler.x = Scaler.x * -1;
+        transform.GetChild(0).localScale = Scaler;
+    }
 }
+
+

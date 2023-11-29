@@ -5,5 +5,6 @@ using UnityEngine.Rendering;
 
 public abstract class DamageSender : Enemy
 {
+    [SerializeField] protected int damage;
     protected abstract int SendDamage(int damage);
 }

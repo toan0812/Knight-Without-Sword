@@ -17,6 +17,9 @@ public class EnemyDamageSender : DamageSender
         }
     }
 
+    public int GetDamage()
+    { return damage; }
+
     protected override int SendDamage(int damage)
     {
         return damage;

@@ -24,7 +24,7 @@ public class EnemyBullet : Bullet
             iDamageable = collision.collider.GetComponent<IDamageable>();
             if (iDamageable != null)
             {
-                iDamageable.TakeDamage(GetComponentInParent<Enemy>().GetDamage());
+                iDamageable.TakeDamage(GetComponentInParent<EnemyDamageSender>().GetDamage());
                 SpawnFX(collision.collider.transform, collision.collider);
                 gameObject.SetActive(false);
             }

@@ -25,7 +25,6 @@ public class Enemy_WideRange : Enemy
     private bool canMove = false;
     private bool canAttack = false;
     private bool isidle = false;
-    private bool faceRight = true;
     private State state = State.idle;
     protected override void Start()
     {
@@ -71,18 +70,7 @@ public class Enemy_WideRange : Enemy
             case State.dead:
                 break;
         }
-        Vector3 movedir = new Vector3(-transform.position.x + target.transform.position.x, -transform.position.y + +target.transform.position.y).normalized;
-        //Flip
-        if (faceRight && movedir.x < 0)
-        {
-            FaceFlip();
-            faceRight = false;
-        }
-        if (!faceRight && movedir.x > 0)
-        {
-            FaceFlip();
-            faceRight = true;
-        };
+        LookAtTarget();
     }
 
     protected override void EnemyAttack()
@@ -104,13 +92,6 @@ public class Enemy_WideRange : Enemy
             isidle = true;
         }
         else isidle = false;
-    }
-
-    private void FaceFlip()
-    {
-        Vector3 Scaler = transform.GetChild(0).localScale;
-        Scaler.x = Scaler.x * -1;
-        transform.GetChild(0).localScale = Scaler;
     }
     public bool IsIdle()
     {
