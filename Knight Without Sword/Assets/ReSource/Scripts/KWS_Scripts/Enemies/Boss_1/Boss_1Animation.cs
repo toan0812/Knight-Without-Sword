@@ -46,8 +46,12 @@ public class Boss_1Animation : MonoBehaviour
     //    }
     //    animator.CrossFade(state, 0, 0);
     //    currentState = state;
-        
+
     //}
+    private void Update()
+    {
+        StartCoroutine(ShootForAttack3());
+    }
 
     private int GetState()
     {
@@ -104,8 +108,13 @@ public class Boss_1Animation : MonoBehaviour
     {
         shootAction.Attack_2Shooting();
     } 
-    public void ShootForAttack3()
+    IEnumerator ShootForAttack3()
     {
+        yield return new WaitForSeconds(1f);
         shootAction.Attack_3Shooting();
+    }
+    public void StartAttack3Pos()
+    {
+        shootAction.SetActiveSpawnPos();
     }
 }

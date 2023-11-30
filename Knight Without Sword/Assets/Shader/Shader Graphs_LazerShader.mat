@@ -38,6 +38,6 @@ Material:
     - _LazerThickness: -0.96
     - _LazeredgeSmothness: 10
     m_Colors:
-    - _Color: {r: 0.77191263, g: 1.8901963, b: 0.82139426, a: 0}
+    - _Color: {r: 0.31111363, g: 2.285489, b: 0.5895811, a: 0}
     - _LazerSpeed: {r: -1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

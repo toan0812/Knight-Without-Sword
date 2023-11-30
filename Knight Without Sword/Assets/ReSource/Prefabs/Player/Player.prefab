@@ -75,8 +75,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 1}
+  m_Offset: {x: 0, y: 0.05322379}
+  m_Size: {x: 0.5, y: 1.1064476}
   m_Direction: 0
 --- !u!114 &3714600233483139410
 MonoBehaviour:
@@ -130,6 +130,7 @@ MonoBehaviour:
   transformParent: {fileID: 8225609034549535142}
   spawnTransform: {fileID: 3884929217310855947}
   bloodEffect: {fileID: 0}
+  healthBar: {fileID: 0}
 --- !u!96 &5398096178586847978
 TrailRenderer:
   serializedVersion: 2
