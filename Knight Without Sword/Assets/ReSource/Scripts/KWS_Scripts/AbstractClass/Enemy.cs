@@ -4,8 +4,11 @@ using UnityEngine;
 using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
+    [Header("Range Attack")]
+    [SerializeField] protected float rangeAttack;
     [Header("Target")]
     [SerializeField] protected Transform target;
+    [SerializeField] protected LayerMask targetLayer;
     protected NavMeshAgent agent;
     [Header("Icons")]
     [SerializeField] GameObject cautionIcon;
@@ -24,6 +27,16 @@ public class Enemy : MonoBehaviour
     }
     protected virtual void EnemyAttack()
     {
+    }
+    public Vector3 GetTargetTransform()
+    {
+        Collider2D colliders = Physics2D.OverlapCircle(transform.position, rangeAttack, targetLayer);
+        if (colliders.TryGetComponent(out Player player))
+        {
+            Vector3 direction = new Vector3(-transform.position.x + colliders.GetComponent<Player>().transform.position.x, -transform.position.y + colliders.GetComponent<Player>().transform.position.y);
+            return direction;
+        }
+        return Vector3.zero;
     }
     protected bool TargetOnAttackZone(Transform target,float ZoneFollowTarget)
     {

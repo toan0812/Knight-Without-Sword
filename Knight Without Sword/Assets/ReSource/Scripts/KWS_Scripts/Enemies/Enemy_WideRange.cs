@@ -5,10 +5,6 @@ using UnityEngine;
 public class Enemy_WideRange : Enemy
 {
     private enum State { idle,attacking, run, dead }
-    
-    [Header("Range Attack")]
-    [SerializeField] private float rangeAttack;
-    [SerializeField] private LayerMask wallLayer;
 
     [Header("Point to Spawn Bullet")]
     [SerializeField] protected Transform shootingPoint;
@@ -35,6 +31,7 @@ public class Enemy_WideRange : Enemy
     }
     void Update()
     {
+        
         switch (state)
         {
             case State.idle:

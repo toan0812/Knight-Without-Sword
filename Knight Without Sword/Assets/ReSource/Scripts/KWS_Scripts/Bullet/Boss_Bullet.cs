@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class Boss_Bullet : ClassicBullet
 {
-    protected override void Start()
-    {
-        base.Start();
-    }
     void Update()
     {
         BulletMoving();

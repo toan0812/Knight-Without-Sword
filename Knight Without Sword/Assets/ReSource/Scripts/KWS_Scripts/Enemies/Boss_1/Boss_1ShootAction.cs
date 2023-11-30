@@ -19,7 +19,7 @@ public class Boss_1ShootAction : MonoBehaviour
     [SerializeField] private float startAngle, endAngle;
     private void Start()
     {
-        PoolingObject.Instance.addPool(bulletPrefab.GetComponentInChildren<Boss_Bullet>().gameObject, bullet1Tapes, 10, holder);
+        PoolingObject.Instance.addPool(bulletPrefab.GetComponentInChildren<Bullet>().gameObject, bullet1Tapes, 40, holder);
         PoolingObject.Instance.addPool(bulletPrefab2.GetComponentInChildren<Bullet>().gameObject, bullet2Tapes, 10, holder);
     }
 

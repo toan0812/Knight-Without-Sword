@@ -7,8 +7,6 @@ public class Enemy_CloseRange : Enemy
     private enum State { idle, following, dead }
     private State state;
     [SerializeField] private Animator animator;
-    [Header("Attack Zone Radius")]
-    [SerializeField] private float radiusZone;
     protected override void Start()
     {
         base.Start();
@@ -21,7 +19,7 @@ public class Enemy_CloseRange : Enemy
         switch (state)
         {
             case State.idle:
-                if(TargetOnAttackZone(target,radiusZone))
+                if(TargetOnAttackZone(target,rangeAttack))
                 {
                     agent.isStopped = false;
                     state = State.following;
@@ -29,7 +27,7 @@ public class Enemy_CloseRange : Enemy
                 break;
             case State.following:
                 EnemyMove();
-                if (!TargetOnAttackZone(target, radiusZone))
+                if (!TargetOnAttackZone(target, rangeAttack))
                 {
                     agent.isStopped = true;
                     state = State.idle;
@@ -45,6 +43,6 @@ public class Enemy_CloseRange : Enemy
     public override void EnemyMove()
     {
         base.EnemyMove();
-        animator.SetBool("run", TargetOnAttackZone(target, radiusZone));
+        animator.SetBool("run", TargetOnAttackZone(target, rangeAttack));
     }
 }

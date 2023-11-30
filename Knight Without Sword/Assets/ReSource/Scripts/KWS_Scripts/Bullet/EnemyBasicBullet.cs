@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class EnemyBullet : Bullet
 {
-    private Vector2 dir;
+    private Rigidbody2D rb;
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
     private void OnEnable()
     {
         BulletMoving();
@@ -13,8 +17,9 @@ public class EnemyBullet : Bullet
     }
     protected override void BulletMoving()
     {
-        //transform.Translate(dir * bulletSpeed * Time.deltaTime);
-        GetComponent<Rigidbody2D>().velocity = ((GameObject.FindObjectOfType<Player>().transform.position - GameObject.FindObjectOfType<Enemy>().transform.position).normalized * bulletSpeed * Time.deltaTime);
+        if (transform.parent == null) return;
+        Debug.Log(transform.parent.GetComponentInParent<Enemy>());
+        rb.velocity = transform.parent.GetComponentInParent<Enemy>().GetTargetTransform().normalized * bulletSpeed * Time.deltaTime;
     }
 
     protected override void OnCollisionEnter2D(Collision2D collision)
@@ -34,10 +39,6 @@ public class EnemyBullet : Bullet
             SpawnFX(gameObject.transform, collision.collider);
             gameObject.SetActive(false);
         }
-    }
-    public void SetDirection(Vector2 dir)
-    {
-        this.dir = dir;
     }
     private static float GetAngleFromVectorFloat(Vector3 dir)
     {

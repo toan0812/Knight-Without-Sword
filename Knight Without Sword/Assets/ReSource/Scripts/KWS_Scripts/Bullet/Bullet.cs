@@ -15,15 +15,13 @@ public abstract class Bullet : MonoBehaviour
     protected int damage;
     // Pooling 
     private List<GameObject> effectList = new List<GameObject>();
-    private GunController gunController;
     protected virtual void Start()
     {
-        PoolingObject.Instance.addPool(bulletEffect.gameObject, effectList, 10, transform.parent);
-        gunController = GetComponentInParent<GunController>();
+        PoolingObject.Instance.addPool(bulletEffect.gameObject, effectList, 3, transform.parent);
     }
     public int GetDamage()
     {
-        damage = (int)gunController.GetWeaponItemsSO().damage;
+        damage = (int)GetComponentInParent<GunController>().GetWeaponItemsSO().damage;
         return damage;
     }
     protected abstract void BulletMoving();
