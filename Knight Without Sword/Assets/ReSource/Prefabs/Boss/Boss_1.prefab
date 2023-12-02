@@ -506,7 +506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 5486184501159210017}
   shootAction: {fileID: 5486184501159210021}
-  timeDelayMax: 3.5
+  timeDelayMax: 3.75
 --- !u!1 &5486184502796559528
 GameObject:
   m_ObjectHideFlags: 0

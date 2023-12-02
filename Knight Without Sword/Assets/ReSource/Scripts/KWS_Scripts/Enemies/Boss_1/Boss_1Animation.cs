@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Threading;
 using UnityEngine;
 
 public class Boss_1Animation : MonoBehaviour
@@ -14,6 +16,7 @@ public class Boss_1Animation : MonoBehaviour
     [Header("Time Delay Animation")]
     [SerializeField] private float timeDelayMax;
     private float timeDelay;
+    // Time for endActive Lazer
     #region Cached Properties
 
     private int currentState;
@@ -50,18 +53,25 @@ public class Boss_1Animation : MonoBehaviour
     //}
     private void Update()
     {
+        if (number == 4)
+        {
+            StartCoroutine(ShootForAttack3());
+        }
         GetRandomStateInts();
         var state = GetState();
         if (state == currentState)
         {
             return;
         }
+
         animator.CrossFade(state, 0, 0);
         currentState = state;
-        if (state == 4)
-        {
-            StartCoroutine(ShootForAttack3());
-        }
+
+      
+    }
+    private void FixedUpdate()
+    {
+       
     }
 
     private int GetState()
@@ -121,14 +131,17 @@ public class Boss_1Animation : MonoBehaviour
     } 
     IEnumerator ShootForAttack3()
     {
-        yield return new WaitForSeconds(.25f);
+        yield return new WaitForSeconds(.5f);
         StartAttack3Pos();
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(2f);
         shootAction.Attack_3Shooting();
-        yield return new WaitForSeconds(.75f);
+        yield return new WaitForSeconds(.5f);
         shootAction.EndActiveLazer();
-        //GetRandomStateInts();
-    }
+        
+   
+    } 
+
+
     public void StartAttack3Pos()
     {
         shootAction.SetActiveSpawnPos();

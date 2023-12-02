@@ -67,7 +67,8 @@ public class Enemy : MonoBehaviour
             faceRight = true;
         };
     }
-
+    public bool GetEnemyFace()
+    { return faceRight; }
     private void FaceFlip()
     {
         Vector3 Scaler = transform.GetChild(0).localScale;

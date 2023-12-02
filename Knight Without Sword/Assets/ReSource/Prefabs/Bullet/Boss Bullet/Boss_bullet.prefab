@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7992402552054135972}
   - component: {fileID: 7992402552054135975}
   - component: {fileID: 7992402552054135974}
-  - component: {fileID: 705784590580903136}
+  - component: {fileID: 5913475221529964294}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81020b41cab6b0f42b8658e7875e0f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 20
+  bulletSpeed: 10
   bulletEffect: {fileID: 4121366080260424042, guid: d43427cd2e9e7794fb3f6f61c9df0be4, type: 3}
   activeEffect:
     serializedVersion: 2
@@ -94,7 +94,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 5120
   radiusEffect: 0.1
---- !u!114 &705784590580903136
+--- !u!114 &5913475221529964294
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2df656b2a50908d4c953c3d93f7b0972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeWait: 1
+  timeWait: 2
 --- !u!1 &7992402552652584934
 GameObject:
   m_ObjectHideFlags: 0

@@ -86,6 +86,7 @@ public class Boss_1ShootAction : MonoBehaviour
     {
         SetActiveLazer();
         lineRendererStart.enabled = false;
+        //shootPosAttack3.gameObject.SetActive(false);
         lineRendererCanAffect.SetPosition(0, lazerOrigin.position);
         startVFX.transform.position = lazerOrigin.position;
         RaycastHit2D raycastHit2D = Physics2D.Raycast(shootPosAttack3.position, new Vector3(boss_1Controller.GetTargetTransform().x, boss_1Controller.GetTargetTransform().y - 1f).normalized.normalized, attackRange, LayerMask);
@@ -97,7 +98,7 @@ public class Boss_1ShootAction : MonoBehaviour
                 iDamageable = raycastHit2D.collider.GetComponent<IDamageable>();
                 if (iDamageable != null && timer <= 0)
                 {
-                    timer = .25f;
+                    timer = .5f;
                     iDamageable.TakeDamage(_enemyDamageSender.GetDamage());
 
                 }
