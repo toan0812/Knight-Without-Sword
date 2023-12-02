@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBullet : Bullet
+public class EnemyBasicBullet : Bullet
 {
     private Rigidbody2D rb;
+    [SerializeField] private float indexBias;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -18,8 +19,8 @@ public class EnemyBullet : Bullet
     protected override void BulletMoving()
     {
         if (transform.parent == null) return;
-        Debug.Log(transform.parent.GetComponentInParent<Enemy>());
-        rb.velocity = transform.parent.GetComponentInParent<Enemy>().GetTargetTransform().normalized * bulletSpeed * Time.deltaTime;
+        Vector3 direction = new Vector3(transform.parent.GetComponentInParent<Enemy>().GetTargetTransform().x, transform.parent.GetComponentInParent<Enemy>().GetTargetTransform().y + indexBias);
+        rb.velocity = direction.normalized * bulletSpeed * Time.deltaTime;
     }
 
     protected override void OnCollisionEnter2D(Collision2D collision)

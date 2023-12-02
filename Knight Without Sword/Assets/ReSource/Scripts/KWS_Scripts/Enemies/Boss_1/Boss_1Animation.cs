@@ -50,7 +50,18 @@ public class Boss_1Animation : MonoBehaviour
     //}
     private void Update()
     {
-        StartCoroutine(ShootForAttack3());
+        GetRandomStateInts();
+        var state = GetState();
+        if (state == currentState)
+        {
+            return;
+        }
+        animator.CrossFade(state, 0, 0);
+        currentState = state;
+        if (state == 4)
+        {
+            StartCoroutine(ShootForAttack3());
+        }
     }
 
     private int GetState()
@@ -110,8 +121,13 @@ public class Boss_1Animation : MonoBehaviour
     } 
     IEnumerator ShootForAttack3()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.25f);
+        StartAttack3Pos();
+        yield return new WaitForSeconds(2.5f);
         shootAction.Attack_3Shooting();
+        yield return new WaitForSeconds(.75f);
+        shootAction.EndActiveLazer();
+        //GetRandomStateInts();
     }
     public void StartAttack3Pos()
     {

@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour
         Collider2D colliders = Physics2D.OverlapCircle(transform.position, rangeAttack, targetLayer);
         if (colliders.TryGetComponent(out Player player))
         {
-            Vector3 direction = new Vector3(-transform.position.x + player.transform.position.x, -transform.position.y + player.transform.position.y-0.5f);
+            Vector3 direction = new Vector3(-transform.position.x + player.transform.position.x, -transform.position.y + player.transform.position.y);
             return direction;
         }
         return Vector3.zero;

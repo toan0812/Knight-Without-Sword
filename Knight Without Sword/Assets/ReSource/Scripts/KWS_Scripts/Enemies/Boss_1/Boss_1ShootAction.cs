@@ -29,7 +29,8 @@ public class Boss_1ShootAction : MonoBehaviour
     [SerializeField] GameObject startVFX;
     [SerializeField] private Transform shootPosAttack3;
     [SerializeField] private int attackRange;
-    [SerializeField]LineRenderer lineRenderer;
+    [SerializeField]LineRenderer lineRendererCanAffect;
+    [SerializeField]LineRenderer lineRendererStart;
     [SerializeField]private List<ParticleSystem> particles = new List<ParticleSystem>();
     float timer = 0;
 
@@ -84,12 +85,13 @@ public class Boss_1ShootAction : MonoBehaviour
     public void Attack_3Shooting()
     {
         SetActiveLazer();
-        lineRenderer.SetPosition(0, lazerOrigin.position);
+        lineRendererStart.enabled = false;
+        lineRendererCanAffect.SetPosition(0, lazerOrigin.position);
         startVFX.transform.position = lazerOrigin.position;
-        RaycastHit2D raycastHit2D = Physics2D.Raycast(shootPosAttack3.position, boss_1Controller.GetTargetTransform().normalized, attackRange, LayerMask);
+        RaycastHit2D raycastHit2D = Physics2D.Raycast(shootPosAttack3.position, new Vector3(boss_1Controller.GetTargetTransform().x, boss_1Controller.GetTargetTransform().y - 1f).normalized.normalized, attackRange, LayerMask);
         if (raycastHit2D.collider != null)
         {
-            lineRenderer.SetPosition(1, raycastHit2D.point);
+            lineRendererCanAffect.SetPosition(1, raycastHit2D.point);
             if (raycastHit2D.collider.TryGetComponent(out IDamageable iDamageable))
             {
                 iDamageable = raycastHit2D.collider.GetComponent<IDamageable>();
@@ -107,15 +109,15 @@ public class Boss_1ShootAction : MonoBehaviour
             {
                 timer = .25f;
             }
-            lineRenderer.SetPosition(1, shootPosAttack3.position + (boss_1Controller.GetTargetTransform() * attackRange));
+            lineRendererCanAffect.SetPosition(1, shootPosAttack3.position + (new Vector3(boss_1Controller.GetTargetTransform().x, boss_1Controller.GetTargetTransform().y - 1f) * attackRange));
         }
-        endVFX.transform.position = lineRenderer.GetPosition(1);
+        endVFX.transform.position = lineRendererCanAffect.GetPosition(1);
     }
 
 
     void SetActiveLazer()
     {
-        lineRenderer.enabled = true;
+        lineRendererCanAffect.enabled = true;
         for (int i = 0; i < particles.Count; i++)
         {
             particles[i].Play();
@@ -144,7 +146,7 @@ public class Boss_1ShootAction : MonoBehaviour
     //}
     public void EndActiveLazer()
     {
-        lineRenderer.enabled = false;
+        lineRendererCanAffect.enabled = false;
         for (int i = 0; i < particles.Count; i++)
         {
             particles[i].Stop();
@@ -154,5 +156,15 @@ public class Boss_1ShootAction : MonoBehaviour
     public void SetActiveSpawnPos()
     {
         shootPosAttack3.gameObject.SetActive(true);
+        lineRendererStart.enabled = true;
+        lineRendererStart.SetPosition(0, lazerOrigin.position);
+        RaycastHit2D raycastHit2D = Physics2D.Raycast(shootPosAttack3.position, new Vector3(boss_1Controller.GetTargetTransform().x, boss_1Controller.GetTargetTransform().y - 1f).normalized, attackRange, LayerMask);
+        if (raycastHit2D.collider != null)
+        {
+            lineRendererStart.SetPosition(1, raycastHit2D.point);
+        }
+        else
+            lineRendererStart.SetPosition(1, shootPosAttack3.position + (boss_1Controller.GetTargetTransform() * attackRange));
+
     }
 }

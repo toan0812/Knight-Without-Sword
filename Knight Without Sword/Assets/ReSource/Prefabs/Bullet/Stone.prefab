@@ -126,8 +126,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1646565434486306586}
   - component: {fileID: 5321923629167298519}
-  - component: {fileID: 1646565434486306585}
-  - component: {fileID: 2023689654957311768}
+  - component: {fileID: 6535415539185024119}
+  - component: {fileID: 8500503229097487048}
   m_Layer: 9
   m_Name: Bullet
   m_TagString: Untagged
@@ -144,8 +144,8 @@ Transform:
   m_GameObject: {fileID: 1646565434486306587}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1646565433747511746}
   m_Father: {fileID: 1646565432799399216}
@@ -172,28 +172,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1646565434486306585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646565434486306587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90fee69ededc1fa40bc9cc9c79e7af55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSpeed: 2200
-  bulletEffect: {fileID: 8232417548322850936, guid: f2d89ccd36660cb429082367db39815b, type: 3}
-  activeEffect:
-    serializedVersion: 2
-    m_Bits: 5632
-  layerAffect:
-    serializedVersion: 2
-    m_Bits: 5120
-  radiusEffect: 0.1
---- !u!58 &2023689654957311768
+--- !u!58 &6535415539185024119
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -206,6 +185,28 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.009202123}
+  m_Offset: {x: 0.0062672794, y: 0}
   serializedVersion: 2
-  m_Radius: 0.3435629
+  m_Radius: 0.0863578
+--- !u!114 &8500503229097487048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646565434486306587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fee69ededc1fa40bc9cc9c79e7af55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpeed: 2300
+  bulletEffect: {fileID: 8232417548322850936, guid: f2d89ccd36660cb429082367db39815b, type: 3}
+  activeEffect:
+    serializedVersion: 2
+    m_Bits: 5120
+  layerAffect:
+    serializedVersion: 2
+    m_Bits: 5120
+  radiusEffect: 0.1
+  indexBias: -0.5

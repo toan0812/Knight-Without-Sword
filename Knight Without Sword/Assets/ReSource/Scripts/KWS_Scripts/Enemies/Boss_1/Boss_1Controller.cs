@@ -9,9 +9,5 @@ public class Boss_1Controller : Enemy
     {
         LookAtTarget();
     }
-    public Transform Target()
-    {
-        return target.transform;
-    }
 
 }
