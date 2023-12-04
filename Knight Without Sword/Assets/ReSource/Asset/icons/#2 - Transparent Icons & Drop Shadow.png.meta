@@ -1,0 +1,6564 @@
+fileFormatVersion: 2
+guid: 3f18d380695d0684c8edf4fe343fd03b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_0'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 836
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b67c65917759d438cf2df203b4ae8c
+      internalID: 1450080929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_1'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 836
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b66afc71b2e33e4bb82ee015361a06f
+      internalID: -978067904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_2'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 838
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efe2ad4c9ad3d84fb51f902d6af95ad
+      internalID: 270307846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_3'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 837
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1fe87153c40b542a6e87298f89023b
+      internalID: 2062041840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_4'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 838
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af65a5a3ddbdb94bbc92aa3ab8082a1
+      internalID: -1777688183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_7'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 836
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5127f0685d53d14faf32894b2bcc9ba
+      internalID: 1904387646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_8'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 839
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b692a7956714260408dff129ed219cea
+      internalID: -1576543137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_9'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 836
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47d5b432e1302f4eacb15d7c9a14256
+      internalID: -91240709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_10'
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 837
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c3d05b81e67e140a058f8d45560607
+      internalID: 539854017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_11'
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 836
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4634892a1a748a45b7601522f11978e
+      internalID: 1461180103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_12'
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 845
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168fb3301cea3384bb2dc3c9ce0aa623
+      internalID: 409477687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_13'
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 836
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748d2a274fd56454f91a8f1ebee981ff
+      internalID: -2022706201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_18'
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 805
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fef0285f9909e645a7cfedf3526128e
+      internalID: -1006047366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_19'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 806
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77e256eac11f6249b96c4773caea69a
+      internalID: 1948373227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_20'
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 805
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc8944565753fb4bab1fdb75597c50e
+      internalID: 97964934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_21'
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 805
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad481b06b7a9c0e408600ec110915c01
+      internalID: -459705648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_22'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 804
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f152660e548dc1439847752f68b7dd9
+      internalID: -952378602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_23'
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 773
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d570b92cd059b43882f952f4dd29ae
+      internalID: -1214950925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_24'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 773
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f93d50b41630ee41804859c3bbb4078
+      internalID: -528400749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_25'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 772
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6d312fe2bc91149aa4b1b07539ed09
+      internalID: 1604393990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_26'
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 773
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d2a5e1ecd3546488cd82dc93e1ce87
+      internalID: -1293766647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_27'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 772
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae54dcacf0e8ba4ba0c2493bf9ce738
+      internalID: -1671751145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_28'
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 772
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0766c943be8a5614dab1c6eecf6e0c8e
+      internalID: 556884470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_29'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 772
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ae7b2c5136edf4bb6d22431ed24998
+      internalID: -1072680655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_30'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 740
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8972ff800941a4fa3d7af7737e670f
+      internalID: -1705372891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_31'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 741
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5005904ce7579f46b5acd781ecbbe40
+      internalID: 934894239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_32'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 740
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529741125b5cb314190552eeb7b41cf7
+      internalID: 480921002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_33'
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 740
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdf420c15f2a554cb5dede682349a54
+      internalID: -1780594656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_34'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 740
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af3078c01ae645469b018a4a8489f96
+      internalID: 1020089380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_35'
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 740
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365425d89bf1c634c9c3da6d50c9d948
+      internalID: 153552247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_36'
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 740
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397b0664c73cd9f45a3728fcbf920cff
+      internalID: -307752487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_37'
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 741
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ac41175e7e2114cafa25a9f7d7c637
+      internalID: 2076075612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_38'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 740
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141e56582f05a0d40bd0099f31e2e989
+      internalID: -36756044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_39'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 740
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39543c391fce6474a8aba5366324180c
+      internalID: 117226690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_40'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 740
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95edbc4c5dfe3284189eacd92f5ed9ef
+      internalID: 1263166383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_41'
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 740
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49877717b50be5c46baadd76ed1c94ef
+      internalID: -336976513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_42'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 741
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cfe658238449f4f8c2feed91b9f5c7
+      internalID: -266576799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_43'
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 740
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d483851beeb564ca720ba80c7c8302
+      internalID: 1376648807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_44'
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 740
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18803ca63fd5409408a474bc4ef66280
+      internalID: -831587894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_45'
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 740
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fc4e4bde2fe2c498e338d0c8e547a5
+      internalID: -542921280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_46'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 712
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c496be83495d744e8d09faf4fdb7154
+      internalID: -956422411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_47'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 709
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e952f2f66203114eb3bf11740871126
+      internalID: -1792299783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_48'
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 708
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a702e3b5646d28c488d599c14a47217b
+      internalID: -1802121512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_49'
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 710
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b178cf236719394484dcd161452afa2
+      internalID: 1101765409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_50'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 708
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7968006146db00a4b927414aeb76beee
+      internalID: 2103852422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_51'
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 708
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438fbf5422af5df43929ad53fefbe144
+      internalID: 1737064662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_52'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 708
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde63d026c594c744b2fa73d95e6c037
+      internalID: 1485611842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_53'
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 708
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594dec85713b72749923e2dc39f85995
+      internalID: 689908728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_54'
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 731
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2077b82d85fdd1347a4bea840d593f36
+      internalID: 1731249801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_55'
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 710
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdef11901de7ca46bcfcd53e914b4d8
+      internalID: 1028334168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_56'
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 678
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deda22cb3b2196544b56f91a99ef8975
+      internalID: -1177056233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_57'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 676
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97758645e488a344b8ccd1c3791418b
+      internalID: 1504933054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_58'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 676
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa157723895b49c459643271346b5bfd
+      internalID: -523142664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_59'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 677
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c41098043687014c91237f6784c848f
+      internalID: 1801898117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_60'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 676
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aff5e507aa2394eaf91e04dc598795
+      internalID: 407762251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_61'
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 675
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ce715fa9704b448af3c8faa500f826
+      internalID: 642327591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_62'
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 675
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86841dee46b2b49a5ee3100fa96b84
+      internalID: 790761577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_63'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 675
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b03d748e9b003478973a31677aa790
+      internalID: -2038085293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_64'
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 676
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa31ee9f9d00f24fa0d74551ea1d0a4
+      internalID: 1547380575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_65'
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 675
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2008f13c2ec8a64984843144da0e4ca
+      internalID: -1827252949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_66'
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 675
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec7818023f114d4987333a6373eaa77
+      internalID: -581099508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_67'
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 675
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9058f2058e0df2946a51877c48127a8b
+      internalID: 1573072855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_68'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 675
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8dceb517e053f498ef83b20e3101fd
+      internalID: -192500223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_69'
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 675
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3183bdcbe36d743b070bbf33b9b65a
+      internalID: 964646796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_70'
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 675
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d6c63c14222f14b95d18e04e918e90
+      internalID: 350190414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_71'
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 679
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dfbca6a529b2c448dd4a734c04d2e1
+      internalID: -656753676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_72'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 645
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3704d3d4b9a0b134c85f8dc5a889e839
+      internalID: 633796378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_73'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 644
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f378b7c9f4a69894eb3e69a0a2542703
+      internalID: 1710509792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_74'
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 644
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706ae324ea6ccbd45bde8aaa507893a6
+      internalID: -1555502351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_75'
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 644
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407b3eacf24e1a440bd1fe1e6193474f
+      internalID: -797376971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_76'
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 644
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe78ca24397f4049b508f8d1f8c97a0
+      internalID: -758111145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_77'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 644
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb3b5f874ac7af4db42f6da548f22d6
+      internalID: -338132595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_78'
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 644
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9103273ce6bbec245bdc5200eb238459
+      internalID: -1019071636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_79'
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 645
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3ccc766d94f044388ca4e96f003c45
+      internalID: -793061643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_80'
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 644
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54650587890a5d48bbcf860fc520f89
+      internalID: -1229357617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_81'
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 644
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d05414888458e7438fa51e7fa5fff37
+      internalID: -1626785096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_82'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 644
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128eebf972be68244bab573e572cd93c
+      internalID: -1696909621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_83'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 644
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247ec81fc9e07e9438732e96aca982d5
+      internalID: -560390813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_84'
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 644
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139485cc3da30804f89bdf5f8c24d2b8
+      internalID: -1388047795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_85'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 614
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4da28ef954df74b89227a4bdf8335f
+      internalID: 1979800893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_86'
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 612
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77d2f1b484ec344ab4c2a3dcdb20acc
+      internalID: 1803032092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_87'
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 612
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919da0504f50ab6409bbff0af1beeb3e
+      internalID: -205877226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_88'
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 612
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de8f538f739e424bb03a9465b51190f
+      internalID: -975822123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_89'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 612
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e9e19491ab34649aa018b40267bdc9
+      internalID: -1612227072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_90'
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 612
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6161a9772600f40ba7c1ba2135618d
+      internalID: -1082402147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_91'
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 612
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73490135c266ae5498b181ff2c5d5d71
+      internalID: 996857672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_92'
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 614
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f0ef316c1d98847924280c6c1f23a4
+      internalID: 2112534998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_93'
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 612
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02967b302201b8748842e7fda8376364
+      internalID: -1041108640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_94'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 612
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71af140a990138a46aa070b5996b4013
+      internalID: 290950821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_95'
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 612
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c886b619d0541418ceb440d9815834
+      internalID: 164394343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_96'
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 614
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f01210543bc34646a7a7e8e1dd9f8a6
+      internalID: -2037560379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_97'
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 616
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dedd891f1edae42ab46266a7c7fc7b
+      internalID: -1949348300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_98'
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 613
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd9908f0d964b243bde739affce8162
+      internalID: -2004014285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_99'
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 612
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bc1d12d8d65bd488fc330878c609a0
+      internalID: -1839102803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_100'
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 616
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e0adb3f3f619d4aaa75645875b087b
+      internalID: 90510197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_101'
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 580
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288e77426379d814b9bbb4c24c085494
+      internalID: 983221183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_102'
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 580
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b20b0904724ef14cb814a130b7f80c5
+      internalID: 21333893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_103'
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 582
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311733029d5f12147adbef9060e66245
+      internalID: -372640197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_104'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 582
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3454fde547b4e304ab757fb8db519df9
+      internalID: -2040838700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_105'
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 585
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ec5c9683116964a8da144e267b25aa
+      internalID: -367453728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_106'
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 580
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf34d06224d10d94185b5536053bd0cf
+      internalID: 472736808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_107'
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 580
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fe030286661c447b0900cadd7839bf
+      internalID: -1329948181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_108'
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 580
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e5d71fa0b05bd4490417807454491e
+      internalID: 222299776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_109'
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 581
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5667295aae85384c8dc0275cf738240
+      internalID: -410008282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_110'
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 580
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d80bca8fd71704d8093965ccd4abfe
+      internalID: 79271344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_111'
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 548
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1b562b9b39892418da43478f7d10d0
+      internalID: -1487486611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_112'
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 548
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3001e2b69b2d6804fbf92a42b666d336
+      internalID: -477480690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_113'
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 548
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45225eea9d7d86748a76db437174397a
+      internalID: -1177796086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_114'
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 548
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de240dab9ec3894b90f4462d20c2a5d
+      internalID: -1652737324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_115'
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 548
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a6ce01fbe03d241b2e8d48eae28607
+      internalID: 1732096938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_116'
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 548
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff16eab6c2d753c4f9b2a0d7a2e055ac
+      internalID: -63069834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_117'
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 548
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5eb3141e500e5408df7751303a01ba
+      internalID: -1380967893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_118'
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 548
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b630f682c4b3d643ad8cb4bcf3eba81
+      internalID: 2077256297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_119'
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 548
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a238745cc92d1442827c0778ca2bb98
+      internalID: 1143124406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_120'
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 548
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6fccb06d04a4c47bcddc27caff3525
+      internalID: 1578634380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_121'
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 548
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa049a7dd5e3f07409a7ddd66bf8a168
+      internalID: 1354280369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_122'
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 548
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66d9b96a03c09a478875526cce0d49d
+      internalID: 774682918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_123'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 548
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c9ca3e87ae83b4d86cfe661510d2b4
+      internalID: -1498799122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_124'
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 548
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1d4a5fd51b6d1469d455a146cf9b6e
+      internalID: -1326955972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_125'
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 548
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab1dc997749d0f4ca38473e02a25470
+      internalID: -1606564953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_126'
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 548
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2138894572337243afc23a3fb08bc69
+      internalID: 284800706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_127'
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 516
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d0a444b3e67314c8bdd43275dfe0ab
+      internalID: 1825311715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_128'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 516
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b563909949b92fc44834c38f625ecce1
+      internalID: 659619881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_129'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 516
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7ca3fcbacc0be41a870ff6d36a4349
+      internalID: -540386983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_130'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 517
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823ca8b50d7de6647a532b3c4ac4dbcd
+      internalID: -634056457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_131'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 518
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0608ea40e14bcf24d9bf3ec72dfba9e7
+      internalID: 1129994093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_132'
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 516
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8924dfd1888ae8f4490cc82f21a62e22
+      internalID: -1584287098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_133'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 516
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e567777db7cf64fbc302864a366aab
+      internalID: 1669001417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_134'
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 516
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634240c962d40cb47a9dd92dae8e773d
+      internalID: -1832493831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_135'
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 516
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95652f56368a110468109f6e4347ab2a
+      internalID: -1714379844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_136'
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 516
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8aac65e14b5f2439f4d8affda92f13
+      internalID: 1876011252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_137'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 516
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bc676e15fa72a4fa4fe9a79c39d7bd
+      internalID: -988274571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_138'
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 517
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c9cc4e0dca70f4cbed0a3520a7b028
+      internalID: -182684909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_139'
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 518
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dfcbec2bc595547b9e399c97318d92
+      internalID: -1943285599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_140'
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 516
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c20b971895d135459715cd776879343
+      internalID: 1684694322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_141'
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 519
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d0a89c030f00240a085ec753085878
+      internalID: -47333043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_142'
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 516
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587bb27f7a42ec042889f62378491492
+      internalID: -653594181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_143'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5cf9a9f095a5d40a424fbaa5af386c
+      internalID: 1237287631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_144'
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 484
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635781116f7fe0641b295e59143859dc
+      internalID: -1356617340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_145'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 484
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cedab8c234cc034ab9f5b79a51cf0a4
+      internalID: -211089814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_146'
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 485
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c03bd28982d154280d70817e349ee2
+      internalID: 282956741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_147'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 484
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e1db3fa49ebc54ea09cc98d0d72695
+      internalID: -396274996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_148'
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 486
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a66df84d320b648ae6da4e57297306
+      internalID: 556985895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_149'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 484
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22819e8c94816da429d8069b4b6457f2
+      internalID: -1110126923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_150'
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 485
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f39c09031a0b2d4c929456146145957
+      internalID: 1472379338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_151'
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 487
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c5641c062b8b04b8aaec835f553620
+      internalID: -858616474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_152'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 485
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f936e6dd9ef072a4d997289f3d59b1c9
+      internalID: 483090608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_153'
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 484
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1179ded185b564d8f20d52a9411dae
+      internalID: -645186133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_154'
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 484
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4621f713d97abc446881c7bb46cac7b7
+      internalID: -20464973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_155'
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 484
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f16aac213e685e4fa2c6dff1d5a985e
+      internalID: -333109016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_156'
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 484
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd9baf40cb68094f94b807c0b82d4de
+      internalID: -54227359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_157'
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 484
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11c47aba784fef4f8b8458271194f15
+      internalID: 652939649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_158'
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 484
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd12dc536f4b293488d6007af2d440b0
+      internalID: 876139552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_159'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 452
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573bd382ca9a84c46abc832d9fac18be
+      internalID: 329217770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_160'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 452
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dbc02e696a63047855366c67a58369
+      internalID: -1275578826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_161'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 452
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a290c448a974674a97b89619183e35f
+      internalID: 1568978298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_162'
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 452
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f692acb701a1054c877ea8e1f58e97e
+      internalID: -235240450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_163'
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 452
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa363241a70f950419676ae1205c51b2
+      internalID: 844167494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_164'
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 452
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db12518597ce45d4998b51294ff5177a
+      internalID: 1867909713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_165'
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 452
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e3c68e98aae2f41a5f541945df2c0d
+      internalID: 530615228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_166'
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 455
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c625b78a81c0b945b34279c5099dc35
+      internalID: 1902171401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_167'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 452
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f7e2dacb92d224c979ba522a20ecf5
+      internalID: 1897080365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_168'
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 452
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629b770368a6df942a939cab5d9aca31
+      internalID: 1226879031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_169'
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 452
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887dd28d67803504b9ec9826ec3c690a
+      internalID: 13138103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_170'
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 452
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4469f1aa2b7e8a54093f928a339694de
+      internalID: -834421707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_171'
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 452
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8081a535eb124bc478a56a0ecbccc0e2
+      internalID: 1352139961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_172'
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 467
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1290a212ad8b4cf41b68401c6053ce37
+      internalID: 1264476276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_173'
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 452
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccfa07f45bf6324e8d1e71340e3fbc0
+      internalID: 1422984257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_174'
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 452
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5b570066cff764e87442f6bac97622
+      internalID: 1645035893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_175'
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 452
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c5b12a7b7422946b5abe53a613f047
+      internalID: 2080292095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_176'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 420
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d6a8dddb1cd8a46ae8e889af941bca
+      internalID: 1496974830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_177'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 420
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb698cea14f3f04d856aceb583b7d3a
+      internalID: 2054590098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_178'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 420
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029f6c1a1a4b36540a52bc7d038d6c74
+      internalID: 146723833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_179'
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 420
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcd1d15276bcd2479da22cc0a1e4d23
+      internalID: -1370500470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_180'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 420
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983668b6be9ec4e4eb60ad21695c4386
+      internalID: -499546162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_181'
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 420
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00f1b362df4cf4489652c8a97294986
+      internalID: -1408867464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_182'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 420
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cf0d42ed890274eaa39c57bf195f34
+      internalID: -318416064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_183'
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 420
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0baf309194def4183422bd6adf2aa1
+      internalID: -957762522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_184'
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 421
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2171a81f3a62abc4483377d7c3fd72f8
+      internalID: 914576193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_185'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 423
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69acf19e780cf5e46a1b8bc1dc367944
+      internalID: 826219850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_186'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 421
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf6551b6f674014c84ecd4f99234f98
+      internalID: 590689202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_187'
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 420
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7d0e5893e05fd44989e168063bbf56
+      internalID: 1714416597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_188'
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 421
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d439731b24875743a2729b0ee62bcf7
+      internalID: 1210322670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_189'
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 420
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276de4c9d23671249bb1656c6c10b3e1
+      internalID: -1508037540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_190'
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 419
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84488621331765442a31912464d0aefb
+      internalID: -761303009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_191'
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 421
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ed0f1274d843e4cb027f0d1fae6f99
+      internalID: -378001675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_192'
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 388
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e619683bb6f202740aec4287487a325d
+      internalID: 1807839137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_193'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 389
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdce76d381fb7c438965f7e221ff212
+      internalID: 678129382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_194'
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 388
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01550f507c99e9840b632c43b4f3a150
+      internalID: -1029868140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_195'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 388
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b92025cca196df4db48a1b7144371be
+      internalID: 137283227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_196'
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 389
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fb63d75327b0543a07e0f55f80aacb
+      internalID: 945397249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_197'
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 388
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b937c5dd18010dd43a17a26fb76e3825
+      internalID: 959974234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_198'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 388
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafab6592e8c09e45bedd77e69649061
+      internalID: -587651993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_199'
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 389
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255d314f179f20941a873f7b8ec5b1ab
+      internalID: -20192178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_200'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 388
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f161839b305be40ba8693323db5f4f
+      internalID: 540570337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_201'
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 388
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7c3f7a0fe0dfc469804444365d2c75
+      internalID: 1824031457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_202'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 388
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe4baf968412fe488f2b9734f6ae7d2
+      internalID: -1606370780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_203'
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 387
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a3b477d67731b459cad2941096701a
+      internalID: 1865317189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_204'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 388
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00dd211f4eef034bb0628361dde5eaf
+      internalID: 99139310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_205'
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 387
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed6e7782af821a4282a39eb716bdbef
+      internalID: -996954014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_206'
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 388
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a43042fd9578e34c98526a54e1aa13b
+      internalID: 1886349394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_207'
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 387
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1899e83f3a6ba9c4ea7e905b9ee2dfb1
+      internalID: -1227880463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_208'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 356
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27691b5620587d54e9f32d2119243b8b
+      internalID: 955862703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_209'
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 357
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27752ee4f8f566e429e8b4ed4540ddd0
+      internalID: -1414003549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_210'
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 360
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f92825ff9d4dd846932f5e79e15bd9d
+      internalID: -2012249853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_211'
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 358
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1153ef85e88f324194cb46898f506dc
+      internalID: -1987086578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_212'
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 357
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5d42383eaef894c8d5c5166c059de0
+      internalID: -483562007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_213'
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 356
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8c2705b775ea0408bb416753d6adcd
+      internalID: -1338299400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_214'
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 355
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123f38cf2418f6040b25f0a4cffcd986
+      internalID: -923109621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_215'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 355
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e913027649f9143bc4f331a1bb62c8
+      internalID: -330670872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_216'
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 355
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3412181b196274641b45bff39a453421
+      internalID: -626349526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_217'
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 356
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e91a9c6c63799e49a762775d77a2e3c
+      internalID: -876027612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_218'
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 356
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24b9290ee484ba4fa18717fd29bb76f
+      internalID: -563970324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_219'
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 356
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fd9a234419d9445a8353383d52a6b2
+      internalID: 1688417434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_220'
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 355
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28f7c1ce0afcd54cbeabcad7451882d
+      internalID: 321613850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_221'
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 355
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaaad39ae7853247959255125463c8a
+      internalID: 1628043536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_222'
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 358
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04edbbc0cf46992409ce70e603923848
+      internalID: -1528389028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_223'
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 324
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfc48189cca8a54eb161dcdafb46667
+      internalID: -929694748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_224'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 324
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373ef33dc474d6c48a864dff72479e46
+      internalID: 362612652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_225'
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 324
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f31c05c6d213204eadba238c8d0720b
+      internalID: -2013965836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_226'
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 324
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb20fe1c2aff451489592078c89f3841
+      internalID: -1777459571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_227'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 324
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002b69a720128684a8bb2fcf5e6f15b9
+      internalID: 1764565685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_228'
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 324
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432d7200ce34e9243bbf48a55486d9da
+      internalID: -941497190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_229'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 325
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9661a47e54ddbc147aa266b3aca015c0
+      internalID: 304595905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_230'
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 325
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6627e70bd3da9654ea172a86a843b170
+      internalID: -1346386161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_231'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 324
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef2e1c6e9b95b642bfa0023771973c4
+      internalID: -1040175899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_232'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 324
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9417f43fed4016148b5975e683cb71ac
+      internalID: 1124798547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_233'
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 324
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606fa8623515603488af00ae141c9521
+      internalID: 1164451452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_234'
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 327
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22371086a3ff144983ec8da8ec36e0d
+      internalID: 437405041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_235'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 325
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69143bd52a1e9804ea5d725a14a45f68
+      internalID: 965580155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_236'
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 325
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497a98d733575e348a9dce145858115b
+      internalID: 1563692802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_237'
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 324
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11915a90766980547a5b95de43261aa8
+      internalID: -616275739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_238'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 292
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576bc8d835183134d864184a0f45e027
+      internalID: -731645509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_239'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 292
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf47677f257c6a4ebae5c4e196adb4b
+      internalID: -1101717968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_240'
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 292
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962e3ddc982536a46ba36a9d160a7e61
+      internalID: -1587188173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_241'
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 295
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2fe9fa33ae47f42abcf1f70f6b0aae
+      internalID: 672761388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_242'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 295
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6866d1b7a4e639c46915b68b0e0bc789
+      internalID: -565891494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_243'
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 292
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24110fb782ea8c439a8f910fbeae0d7
+      internalID: -1297826423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_244'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 292
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb423164152692e4eab2742f753f7ef7
+      internalID: 1377802422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_245'
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 292
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6b5d2c919a8a5488f6a467956539c3
+      internalID: 1582528079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_246'
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 292
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb26da57512614043ad84c5318d517ae
+      internalID: -1049058484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_247'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 294
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575b8ebad645a294aa6404be45af3a65
+      internalID: -1534726054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_248'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 292
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd2fba6749e0e848bca5c896f3a7405
+      internalID: -441442602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_249'
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 261
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86ccf0f09b644442a1f45b7cb47ab03
+      internalID: 1298508077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_250'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 261
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3257ce15e9e1ca949b99872fcb72fcd3
+      internalID: -189317456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_251'
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 261
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaec89271f0a330469f166d06c51fab8
+      internalID: -1512819477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_252'
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 261
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d91eccd499c93149b4f3128184c4693
+      internalID: -1832812908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_253'
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 261
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c1e31133dc0c84dabded05a7b3ba68
+      internalID: 905646656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_254'
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 261
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3937445f11eafb54a856d2f06a60fc18
+      internalID: 1858004594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_255'
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 228
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6b635d7ef8efb4ba35a3a0aa9fbc5f
+      internalID: -449097920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_256'
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 228
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8913457c72fef4489a33059088db6b
+      internalID: 693068172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_257'
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 227
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d9c7c84ecca164aaa3cb34662ece89
+      internalID: 1772078344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_258'
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 226
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abf1893e2863814a9daab4c9e785086
+      internalID: -934182106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_259'
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 226
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7f4ca3501344546ac942ff7f8a4c7e
+      internalID: -1955796889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_260'
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 226
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e88ea6678f243f489f9650070f38957
+      internalID: 1854051800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_261'
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 226
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032c9d1b265f25c45912de0fdd7ae7d0
+      internalID: -1306382802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_262'
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 226
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a1edd18f41df54baf5d9a0b9579668
+      internalID: 289630959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_263'
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 226
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acfe72a9f225fc4db177d7ed5c425ce
+      internalID: 870462543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_264'
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 228
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ebd1ed165a0914fafca313da304ffe
+      internalID: 1150659329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_265'
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 227
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc3dec00684b6c47a859dc3c43e8f6c
+      internalID: -766864598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_266'
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 229
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea4d5425cb2c694486471e81afa3e33
+      internalID: -1822491672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_267'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 194
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b82651f9899b2b45942b94f0f2262c4
+      internalID: -1961318247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_268'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fccf51a052968d4097a9e2033480fc8
+      internalID: -1384115286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_269'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528203b1ebe88674db2dad750776a624
+      internalID: 229935078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_270'
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da60a514359796141857b5205fe31a44
+      internalID: -472602686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_271'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bcf0fb794200b449b3e93dfb85fc8f
+      internalID: -823090802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_272'
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7141c77bd37e726468dded047952fefe
+      internalID: 4371375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_273'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b79e4a324291544913caa0f48704da
+      internalID: -590885355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_274'
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8bcf2a89e84fd438327ff54497e71f
+      internalID: -168123713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_275'
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afae6541c65a624f96bd20c74442a68
+      internalID: -1123603061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_276'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f6589e0c7b1454f8d4678d67c3eeac
+      internalID: 1550413678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_277'
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5efd11d96f2f841ad954005e10f6f0
+      internalID: 240229002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_278'
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9233fd877a2994e8c337ce894ba045
+      internalID: 113477821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_279'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 195
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f6f8002c46d35419d89cb966ea5b50
+      internalID: 1120353401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_280'
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 185
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0164190bdb62e04783b07f7f5a8f2f7
+      internalID: -58516027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_281'
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016f5f5e946c8004b975df34ac710fda
+      internalID: 788786572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_282'
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 185
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8511d55e03a3a43a50c36391dd302a
+      internalID: 1726123832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_283'
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 164
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec4f1e82ab8531449aad4649498196f
+      internalID: 1251039929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_284'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 164
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035e9eab1c8dde044ae7b2b1ef2ba6d2
+      internalID: 29362555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_285'
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 164
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e366ac69358fce4fb6b2001196e4da9
+      internalID: -1814652882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_286'
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 164
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd5601ca202a8a46aa3ba8c1947bf81
+      internalID: 1590112603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_287'
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 164
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa8e60aff734f244a9a6ce9125f980e
+      internalID: -1253230093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_288'
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 164
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3152589675b2f234794f3901d5413403
+      internalID: -1463236842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_289'
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 169
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37f4c0413fd65d4092fc0f46b9ed931
+      internalID: -1336083314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_290'
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 163
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b739fd85991cc478424aee332537a3
+      internalID: -310564942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_291'
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 169
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757c96e4e435620448dd80109efc85b2
+      internalID: 1696100168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_292'
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 165
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577eaaf82568e3f499849d86fc15ed67
+      internalID: -190581367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_293'
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 164
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ed9d4d124d4647acad8a74e4e0fc6
+      internalID: 823122499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_294'
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 163
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d970a6e212fc3a4a8fca5a95580c831
+      internalID: 747642879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_295'
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 163
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be4264f9c711824b9e6bb417ea49ba8
+      internalID: 544999708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_296'
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 163
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837a1e93455e48443832f799e29bcf3a
+      internalID: 250709437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '#2 - Transparent Icons & Drop Shadow_5'
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 836
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391812506efca514c9bd61083682e368
+      internalID: 66281774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      '#2 - Transparent Icons & Drop Shadow_0': 1450080929
+      '#2 - Transparent Icons & Drop Shadow_1': -978067904
+      '#2 - Transparent Icons & Drop Shadow_10': 539854017
+      '#2 - Transparent Icons & Drop Shadow_100': 90510197
+      '#2 - Transparent Icons & Drop Shadow_101': 983221183
+      '#2 - Transparent Icons & Drop Shadow_102': 21333893
+      '#2 - Transparent Icons & Drop Shadow_103': -372640197
+      '#2 - Transparent Icons & Drop Shadow_104': -2040838700
+      '#2 - Transparent Icons & Drop Shadow_105': -367453728
+      '#2 - Transparent Icons & Drop Shadow_106': 472736808
+      '#2 - Transparent Icons & Drop Shadow_107': -1329948181
+      '#2 - Transparent Icons & Drop Shadow_108': 222299776
+      '#2 - Transparent Icons & Drop Shadow_109': -410008282
+      '#2 - Transparent Icons & Drop Shadow_11': 1461180103
+      '#2 - Transparent Icons & Drop Shadow_110': 79271344
+      '#2 - Transparent Icons & Drop Shadow_111': -1487486611
+      '#2 - Transparent Icons & Drop Shadow_112': -477480690
+      '#2 - Transparent Icons & Drop Shadow_113': -1177796086
+      '#2 - Transparent Icons & Drop Shadow_114': -1652737324
+      '#2 - Transparent Icons & Drop Shadow_115': 1732096938
+      '#2 - Transparent Icons & Drop Shadow_116': -63069834
+      '#2 - Transparent Icons & Drop Shadow_117': -1380967893
+      '#2 - Transparent Icons & Drop Shadow_118': 2077256297
+      '#2 - Transparent Icons & Drop Shadow_119': 1143124406
+      '#2 - Transparent Icons & Drop Shadow_12': 409477687
+      '#2 - Transparent Icons & Drop Shadow_120': 1578634380
+      '#2 - Transparent Icons & Drop Shadow_121': 1354280369
+      '#2 - Transparent Icons & Drop Shadow_122': 774682918
+      '#2 - Transparent Icons & Drop Shadow_123': -1498799122
+      '#2 - Transparent Icons & Drop Shadow_124': -1326955972
+      '#2 - Transparent Icons & Drop Shadow_125': -1606564953
+      '#2 - Transparent Icons & Drop Shadow_126': 284800706
+      '#2 - Transparent Icons & Drop Shadow_127': 1825311715
+      '#2 - Transparent Icons & Drop Shadow_128': 659619881
+      '#2 - Transparent Icons & Drop Shadow_129': -540386983
+      '#2 - Transparent Icons & Drop Shadow_13': -2022706201
+      '#2 - Transparent Icons & Drop Shadow_130': -634056457
+      '#2 - Transparent Icons & Drop Shadow_131': 1129994093
+      '#2 - Transparent Icons & Drop Shadow_132': -1584287098
+      '#2 - Transparent Icons & Drop Shadow_133': 1669001417
+      '#2 - Transparent Icons & Drop Shadow_134': -1832493831
+      '#2 - Transparent Icons & Drop Shadow_135': -1714379844
+      '#2 - Transparent Icons & Drop Shadow_136': 1876011252
+      '#2 - Transparent Icons & Drop Shadow_137': -988274571
+      '#2 - Transparent Icons & Drop Shadow_138': -182684909
+      '#2 - Transparent Icons & Drop Shadow_139': -1943285599
+      '#2 - Transparent Icons & Drop Shadow_14': -1440049356
+      '#2 - Transparent Icons & Drop Shadow_140': 1684694322
+      '#2 - Transparent Icons & Drop Shadow_141': -47333043
+      '#2 - Transparent Icons & Drop Shadow_142': -653594181
+      '#2 - Transparent Icons & Drop Shadow_143': 1237287631
+      '#2 - Transparent Icons & Drop Shadow_144': -1356617340
+      '#2 - Transparent Icons & Drop Shadow_145': -211089814
+      '#2 - Transparent Icons & Drop Shadow_146': 282956741
+      '#2 - Transparent Icons & Drop Shadow_147': -396274996
+      '#2 - Transparent Icons & Drop Shadow_148': 556985895
+      '#2 - Transparent Icons & Drop Shadow_149': -1110126923
+      '#2 - Transparent Icons & Drop Shadow_15': -216197176
+      '#2 - Transparent Icons & Drop Shadow_150': 1472379338
+      '#2 - Transparent Icons & Drop Shadow_151': -858616474
+      '#2 - Transparent Icons & Drop Shadow_152': 483090608
+      '#2 - Transparent Icons & Drop Shadow_153': -645186133
+      '#2 - Transparent Icons & Drop Shadow_154': -20464973
+      '#2 - Transparent Icons & Drop Shadow_155': -333109016
+      '#2 - Transparent Icons & Drop Shadow_156': -54227359
+      '#2 - Transparent Icons & Drop Shadow_157': 652939649
+      '#2 - Transparent Icons & Drop Shadow_158': 876139552
+      '#2 - Transparent Icons & Drop Shadow_159': 329217770
+      '#2 - Transparent Icons & Drop Shadow_16': -1456624091
+      '#2 - Transparent Icons & Drop Shadow_160': -1275578826
+      '#2 - Transparent Icons & Drop Shadow_161': 1568978298
+      '#2 - Transparent Icons & Drop Shadow_162': -235240450
+      '#2 - Transparent Icons & Drop Shadow_163': 844167494
+      '#2 - Transparent Icons & Drop Shadow_164': 1867909713
+      '#2 - Transparent Icons & Drop Shadow_165': 530615228
+      '#2 - Transparent Icons & Drop Shadow_166': 1902171401
+      '#2 - Transparent Icons & Drop Shadow_167': 1897080365
+      '#2 - Transparent Icons & Drop Shadow_168': 1226879031
+      '#2 - Transparent Icons & Drop Shadow_169': 13138103
+      '#2 - Transparent Icons & Drop Shadow_17': -227240808
+      '#2 - Transparent Icons & Drop Shadow_170': -834421707
+      '#2 - Transparent Icons & Drop Shadow_171': 1352139961
+      '#2 - Transparent Icons & Drop Shadow_172': 1264476276
+      '#2 - Transparent Icons & Drop Shadow_173': 1422984257
+      '#2 - Transparent Icons & Drop Shadow_174': 1645035893
+      '#2 - Transparent Icons & Drop Shadow_175': 2080292095
+      '#2 - Transparent Icons & Drop Shadow_176': 1496974830
+      '#2 - Transparent Icons & Drop Shadow_177': 2054590098
+      '#2 - Transparent Icons & Drop Shadow_178': 146723833
+      '#2 - Transparent Icons & Drop Shadow_179': -1370500470
+      '#2 - Transparent Icons & Drop Shadow_18': -1006047366
+      '#2 - Transparent Icons & Drop Shadow_180': -499546162
+      '#2 - Transparent Icons & Drop Shadow_181': -1408867464
+      '#2 - Transparent Icons & Drop Shadow_182': -318416064
+      '#2 - Transparent Icons & Drop Shadow_183': -957762522
+      '#2 - Transparent Icons & Drop Shadow_184': 914576193
+      '#2 - Transparent Icons & Drop Shadow_185': 826219850
+      '#2 - Transparent Icons & Drop Shadow_186': 590689202
+      '#2 - Transparent Icons & Drop Shadow_187': 1714416597
+      '#2 - Transparent Icons & Drop Shadow_188': 1210322670
+      '#2 - Transparent Icons & Drop Shadow_189': -1508037540
+      '#2 - Transparent Icons & Drop Shadow_19': 1948373227
+      '#2 - Transparent Icons & Drop Shadow_190': -761303009
+      '#2 - Transparent Icons & Drop Shadow_191': -378001675
+      '#2 - Transparent Icons & Drop Shadow_192': 1807839137
+      '#2 - Transparent Icons & Drop Shadow_193': 678129382
+      '#2 - Transparent Icons & Drop Shadow_194': -1029868140
+      '#2 - Transparent Icons & Drop Shadow_195': 137283227
+      '#2 - Transparent Icons & Drop Shadow_196': 945397249
+      '#2 - Transparent Icons & Drop Shadow_197': 959974234
+      '#2 - Transparent Icons & Drop Shadow_198': -587651993
+      '#2 - Transparent Icons & Drop Shadow_199': -20192178
+      '#2 - Transparent Icons & Drop Shadow_2': 270307846
+      '#2 - Transparent Icons & Drop Shadow_20': 97964934
+      '#2 - Transparent Icons & Drop Shadow_200': 540570337
+      '#2 - Transparent Icons & Drop Shadow_201': 1824031457
+      '#2 - Transparent Icons & Drop Shadow_202': -1606370780
+      '#2 - Transparent Icons & Drop Shadow_203': 1865317189
+      '#2 - Transparent Icons & Drop Shadow_204': 99139310
+      '#2 - Transparent Icons & Drop Shadow_205': -996954014
+      '#2 - Transparent Icons & Drop Shadow_206': 1886349394
+      '#2 - Transparent Icons & Drop Shadow_207': -1227880463
+      '#2 - Transparent Icons & Drop Shadow_208': 955862703
+      '#2 - Transparent Icons & Drop Shadow_209': -1414003549
+      '#2 - Transparent Icons & Drop Shadow_21': -459705648
+      '#2 - Transparent Icons & Drop Shadow_210': -2012249853
+      '#2 - Transparent Icons & Drop Shadow_211': -1987086578
+      '#2 - Transparent Icons & Drop Shadow_212': -483562007
+      '#2 - Transparent Icons & Drop Shadow_213': -1338299400
+      '#2 - Transparent Icons & Drop Shadow_214': -923109621
+      '#2 - Transparent Icons & Drop Shadow_215': -330670872
+      '#2 - Transparent Icons & Drop Shadow_216': -626349526
+      '#2 - Transparent Icons & Drop Shadow_217': -876027612
+      '#2 - Transparent Icons & Drop Shadow_218': -563970324
+      '#2 - Transparent Icons & Drop Shadow_219': 1688417434
+      '#2 - Transparent Icons & Drop Shadow_22': -952378602
+      '#2 - Transparent Icons & Drop Shadow_220': 321613850
+      '#2 - Transparent Icons & Drop Shadow_221': 1628043536
+      '#2 - Transparent Icons & Drop Shadow_222': -1528389028
+      '#2 - Transparent Icons & Drop Shadow_223': -929694748
+      '#2 - Transparent Icons & Drop Shadow_224': 362612652
+      '#2 - Transparent Icons & Drop Shadow_225': -2013965836
+      '#2 - Transparent Icons & Drop Shadow_226': -1777459571
+      '#2 - Transparent Icons & Drop Shadow_227': 1764565685
+      '#2 - Transparent Icons & Drop Shadow_228': -941497190
+      '#2 - Transparent Icons & Drop Shadow_229': 304595905
+      '#2 - Transparent Icons & Drop Shadow_23': -1214950925
+      '#2 - Transparent Icons & Drop Shadow_230': -1346386161
+      '#2 - Transparent Icons & Drop Shadow_231': -1040175899
+      '#2 - Transparent Icons & Drop Shadow_232': 1124798547
+      '#2 - Transparent Icons & Drop Shadow_233': 1164451452
+      '#2 - Transparent Icons & Drop Shadow_234': 437405041
+      '#2 - Transparent Icons & Drop Shadow_235': 965580155
+      '#2 - Transparent Icons & Drop Shadow_236': 1563692802
+      '#2 - Transparent Icons & Drop Shadow_237': -616275739
+      '#2 - Transparent Icons & Drop Shadow_238': -731645509
+      '#2 - Transparent Icons & Drop Shadow_239': -1101717968
+      '#2 - Transparent Icons & Drop Shadow_24': -528400749
+      '#2 - Transparent Icons & Drop Shadow_240': -1587188173
+      '#2 - Transparent Icons & Drop Shadow_241': 672761388
+      '#2 - Transparent Icons & Drop Shadow_242': -565891494
+      '#2 - Transparent Icons & Drop Shadow_243': -1297826423
+      '#2 - Transparent Icons & Drop Shadow_244': 1377802422
+      '#2 - Transparent Icons & Drop Shadow_245': 1582528079
+      '#2 - Transparent Icons & Drop Shadow_246': -1049058484
+      '#2 - Transparent Icons & Drop Shadow_247': -1534726054
+      '#2 - Transparent Icons & Drop Shadow_248': -441442602
+      '#2 - Transparent Icons & Drop Shadow_249': 1298508077
+      '#2 - Transparent Icons & Drop Shadow_25': 1604393990
+      '#2 - Transparent Icons & Drop Shadow_250': -189317456
+      '#2 - Transparent Icons & Drop Shadow_251': -1512819477
+      '#2 - Transparent Icons & Drop Shadow_252': -1832812908
+      '#2 - Transparent Icons & Drop Shadow_253': 905646656
+      '#2 - Transparent Icons & Drop Shadow_254': 1858004594
+      '#2 - Transparent Icons & Drop Shadow_255': -449097920
+      '#2 - Transparent Icons & Drop Shadow_256': 693068172
+      '#2 - Transparent Icons & Drop Shadow_257': 1772078344
+      '#2 - Transparent Icons & Drop Shadow_258': -934182106
+      '#2 - Transparent Icons & Drop Shadow_259': -1955796889
+      '#2 - Transparent Icons & Drop Shadow_26': -1293766647
+      '#2 - Transparent Icons & Drop Shadow_260': 1854051800
+      '#2 - Transparent Icons & Drop Shadow_261': -1306382802
+      '#2 - Transparent Icons & Drop Shadow_262': 289630959
+      '#2 - Transparent Icons & Drop Shadow_263': 870462543
+      '#2 - Transparent Icons & Drop Shadow_264': 1150659329
+      '#2 - Transparent Icons & Drop Shadow_265': -766864598
+      '#2 - Transparent Icons & Drop Shadow_266': -1822491672
+      '#2 - Transparent Icons & Drop Shadow_267': -1961318247
+      '#2 - Transparent Icons & Drop Shadow_268': -1384115286
+      '#2 - Transparent Icons & Drop Shadow_269': 229935078
+      '#2 - Transparent Icons & Drop Shadow_27': -1671751145
+      '#2 - Transparent Icons & Drop Shadow_270': -472602686
+      '#2 - Transparent Icons & Drop Shadow_271': -823090802
+      '#2 - Transparent Icons & Drop Shadow_272': 4371375
+      '#2 - Transparent Icons & Drop Shadow_273': -590885355
+      '#2 - Transparent Icons & Drop Shadow_274': -168123713
+      '#2 - Transparent Icons & Drop Shadow_275': -1123603061
+      '#2 - Transparent Icons & Drop Shadow_276': 1550413678
+      '#2 - Transparent Icons & Drop Shadow_277': 240229002
+      '#2 - Transparent Icons & Drop Shadow_278': 113477821
+      '#2 - Transparent Icons & Drop Shadow_279': 1120353401
+      '#2 - Transparent Icons & Drop Shadow_28': 556884470
+      '#2 - Transparent Icons & Drop Shadow_280': -58516027
+      '#2 - Transparent Icons & Drop Shadow_281': 788786572
+      '#2 - Transparent Icons & Drop Shadow_282': 1726123832
+      '#2 - Transparent Icons & Drop Shadow_283': 1251039929
+      '#2 - Transparent Icons & Drop Shadow_284': 29362555
+      '#2 - Transparent Icons & Drop Shadow_285': -1814652882
+      '#2 - Transparent Icons & Drop Shadow_286': 1590112603
+      '#2 - Transparent Icons & Drop Shadow_287': -1253230093
+      '#2 - Transparent Icons & Drop Shadow_288': -1463236842
+      '#2 - Transparent Icons & Drop Shadow_289': -1336083314
+      '#2 - Transparent Icons & Drop Shadow_29': -1072680655
+      '#2 - Transparent Icons & Drop Shadow_290': -310564942
+      '#2 - Transparent Icons & Drop Shadow_291': 1696100168
+      '#2 - Transparent Icons & Drop Shadow_292': -190581367
+      '#2 - Transparent Icons & Drop Shadow_293': 823122499
+      '#2 - Transparent Icons & Drop Shadow_294': 747642879
+      '#2 - Transparent Icons & Drop Shadow_295': 544999708
+      '#2 - Transparent Icons & Drop Shadow_296': 250709437
+      '#2 - Transparent Icons & Drop Shadow_3': 2062041840
+      '#2 - Transparent Icons & Drop Shadow_30': -1705372891
+      '#2 - Transparent Icons & Drop Shadow_31': 934894239
+      '#2 - Transparent Icons & Drop Shadow_32': 480921002
+      '#2 - Transparent Icons & Drop Shadow_33': -1780594656
+      '#2 - Transparent Icons & Drop Shadow_34': 1020089380
+      '#2 - Transparent Icons & Drop Shadow_35': 153552247
+      '#2 - Transparent Icons & Drop Shadow_36': -307752487
+      '#2 - Transparent Icons & Drop Shadow_37': 2076075612
+      '#2 - Transparent Icons & Drop Shadow_38': -36756044
+      '#2 - Transparent Icons & Drop Shadow_39': 117226690
+      '#2 - Transparent Icons & Drop Shadow_4': -1777688183
+      '#2 - Transparent Icons & Drop Shadow_40': 1263166383
+      '#2 - Transparent Icons & Drop Shadow_41': -336976513
+      '#2 - Transparent Icons & Drop Shadow_42': -266576799
+      '#2 - Transparent Icons & Drop Shadow_43': 1376648807
+      '#2 - Transparent Icons & Drop Shadow_44': -831587894
+      '#2 - Transparent Icons & Drop Shadow_45': -542921280
+      '#2 - Transparent Icons & Drop Shadow_46': -956422411
+      '#2 - Transparent Icons & Drop Shadow_47': -1792299783
+      '#2 - Transparent Icons & Drop Shadow_48': -1802121512
+      '#2 - Transparent Icons & Drop Shadow_49': 1101765409
+      '#2 - Transparent Icons & Drop Shadow_5': 66281774
+      '#2 - Transparent Icons & Drop Shadow_50': 2103852422
+      '#2 - Transparent Icons & Drop Shadow_51': 1737064662
+      '#2 - Transparent Icons & Drop Shadow_52': 1485611842
+      '#2 - Transparent Icons & Drop Shadow_53': 689908728
+      '#2 - Transparent Icons & Drop Shadow_54': 1731249801
+      '#2 - Transparent Icons & Drop Shadow_55': 1028334168
+      '#2 - Transparent Icons & Drop Shadow_56': -1177056233
+      '#2 - Transparent Icons & Drop Shadow_57': 1504933054
+      '#2 - Transparent Icons & Drop Shadow_58': -523142664
+      '#2 - Transparent Icons & Drop Shadow_59': 1801898117
+      '#2 - Transparent Icons & Drop Shadow_6': -960243013
+      '#2 - Transparent Icons & Drop Shadow_60': 407762251
+      '#2 - Transparent Icons & Drop Shadow_61': 642327591
+      '#2 - Transparent Icons & Drop Shadow_62': 790761577
+      '#2 - Transparent Icons & Drop Shadow_63': -2038085293
+      '#2 - Transparent Icons & Drop Shadow_64': 1547380575
+      '#2 - Transparent Icons & Drop Shadow_65': -1827252949
+      '#2 - Transparent Icons & Drop Shadow_66': -581099508
+      '#2 - Transparent Icons & Drop Shadow_67': 1573072855
+      '#2 - Transparent Icons & Drop Shadow_68': -192500223
+      '#2 - Transparent Icons & Drop Shadow_69': 964646796
+      '#2 - Transparent Icons & Drop Shadow_7': 1904387646
+      '#2 - Transparent Icons & Drop Shadow_70': 350190414
+      '#2 - Transparent Icons & Drop Shadow_71': -656753676
+      '#2 - Transparent Icons & Drop Shadow_72': 633796378
+      '#2 - Transparent Icons & Drop Shadow_73': 1710509792
+      '#2 - Transparent Icons & Drop Shadow_74': -1555502351
+      '#2 - Transparent Icons & Drop Shadow_75': -797376971
+      '#2 - Transparent Icons & Drop Shadow_76': -758111145
+      '#2 - Transparent Icons & Drop Shadow_77': -338132595
+      '#2 - Transparent Icons & Drop Shadow_78': -1019071636
+      '#2 - Transparent Icons & Drop Shadow_79': -793061643
+      '#2 - Transparent Icons & Drop Shadow_8': -1576543137
+      '#2 - Transparent Icons & Drop Shadow_80': -1229357617
+      '#2 - Transparent Icons & Drop Shadow_81': -1626785096
+      '#2 - Transparent Icons & Drop Shadow_82': -1696909621
+      '#2 - Transparent Icons & Drop Shadow_83': -560390813
+      '#2 - Transparent Icons & Drop Shadow_84': -1388047795
+      '#2 - Transparent Icons & Drop Shadow_85': 1979800893
+      '#2 - Transparent Icons & Drop Shadow_86': 1803032092
+      '#2 - Transparent Icons & Drop Shadow_87': -205877226
+      '#2 - Transparent Icons & Drop Shadow_88': -975822123
+      '#2 - Transparent Icons & Drop Shadow_89': -1612227072
+      '#2 - Transparent Icons & Drop Shadow_9': -91240709
+      '#2 - Transparent Icons & Drop Shadow_90': -1082402147
+      '#2 - Transparent Icons & Drop Shadow_91': 996857672
+      '#2 - Transparent Icons & Drop Shadow_92': 2112534998
+      '#2 - Transparent Icons & Drop Shadow_93': -1041108640
+      '#2 - Transparent Icons & Drop Shadow_94': 290950821
+      '#2 - Transparent Icons & Drop Shadow_95': 164394343
+      '#2 - Transparent Icons & Drop Shadow_96': -2037560379
+      '#2 - Transparent Icons & Drop Shadow_97': -1949348300
+      '#2 - Transparent Icons & Drop Shadow_98': -2004014285
+      '#2 - Transparent Icons & Drop Shadow_99': -1839102803
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
