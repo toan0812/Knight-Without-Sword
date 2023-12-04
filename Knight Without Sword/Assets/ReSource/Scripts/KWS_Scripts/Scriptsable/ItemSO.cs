@@ -11,6 +11,7 @@ public class ItemSO : ScriptableObject
     public ItemsType type;// type of prefab
     public int count;
     public string prefabName;
+    public int buffValue;
     [TextArea(0,10)]
     public string description;
 }
