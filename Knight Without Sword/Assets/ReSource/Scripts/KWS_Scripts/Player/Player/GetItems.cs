@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public class GetItems : MonoBehaviour
 {
-    [SerializeField] private Dictionary<ItemSO, int> ItemsList = new Dictionary<ItemSO, int>();
+    [Header("Component")]
+    [SerializeField] PlayerDamageReciver playerDamageReciver;
+    private Dictionary<ItemSO, int> ItemsList = new Dictionary<ItemSO, int>();
+    [Header("UI Prefab")]
     [SerializeField] private GameObject commandText;
     [SerializeField] private Transform spawnTransform;
     [SerializeField] private Transform transformParent;
@@ -40,6 +44,10 @@ public class GetItems : MonoBehaviour
         {
             DataManager.Instance.PlayerData.gold += itemSO.count;
             UIManager.Instance.HeaderUI.UpdateGoldText(DataManager.Instance.PlayerData.gold);
+        } 
+        if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Buff && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Medical")
+        {
+            playerDamageReciver.BuffHealth(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().buffValue);
         } 
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.trading && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Gem")
         {
