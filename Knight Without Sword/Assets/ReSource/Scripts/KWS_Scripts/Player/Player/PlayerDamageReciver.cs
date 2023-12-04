@@ -13,7 +13,6 @@ public class PlayerDamageReciver : DamageReciver
     {
         base.Start();
         healthBar.SetSliderMaxValue((int)maxHealth);
-        //InventoryManager.Instance.OnUseItems += Instance_OnUseItems;
     }
     private void Update()
     {
@@ -23,19 +22,16 @@ public class PlayerDamageReciver : DamageReciver
             //dead
             Debug.Log("dead");
         }
+        if(currentHealth >= maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
     }
-    //private void Instance_OnUseItems(object sender, InventoryManager.OnUseItemsEventArg e)
-    //{
-    //    if (e.itemsSO.usesType == UsesType.BuffHp)
-    //    {
-    //        Onupgrade(e.itemsSO.buffValue);
-    //    }
-    //}
-    //private void Update()
-    //{
-    //    healthBar.SetHealth(currentHealth);
-    //}
 
+    public void BuffHealth(int value)
+    {
+        currentHealth += value;
+    }
 
 
 }
