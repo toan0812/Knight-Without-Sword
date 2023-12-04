@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1878b960cab52f741a8fee04cfaae2b0, type: 3}
   m_Name: Medical
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  prefabImage: {fileID: 0}
+  prefab: {fileID: 1738740003083718499, guid: e9ee54e796fd13042b384413258bce89, type: 3}
+  prefabImage: {fileID: 21300000, guid: 99d478d32cd62dd46956f293a5bf0079, type: 3}
   type: 1
-  count: 0
-  prefabName: 
-  description: 
+  count: 1
+  prefabName: Medical
+  description: Heal for player
+  buffValue: 10
