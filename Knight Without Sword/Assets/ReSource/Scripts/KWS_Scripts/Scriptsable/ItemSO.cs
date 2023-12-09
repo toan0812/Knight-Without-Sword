@@ -2,7 +2,7 @@ using UnityEngine;
 
 public enum ItemsType
 {
-    Equipment, Buff, trading, Weapon
+    Equipment, Buff, trading, Weapon,sup
 }
 public class ItemSO : ScriptableObject
 {

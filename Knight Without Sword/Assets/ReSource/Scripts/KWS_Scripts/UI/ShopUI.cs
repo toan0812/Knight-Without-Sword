@@ -46,10 +46,10 @@ public class ShopUI : MonoBehaviour
         equidmentItemsUI.SetActive(false);
         gunScrollView.SetActive(false);
         equidmentScrollView.SetActive(false);
-
+        GetItemsSupFromDB();
         supButton.onClick.AddListener(() =>
         {
-            Debug.Log("supBut Onclick");
+            GetItemsSupFromDB();
         });
         gunButton.onClick.AddListener(() =>
         {
@@ -69,6 +69,7 @@ public class ShopUI : MonoBehaviour
     public void DeActiveHolder()
     {
         inforItems.transform.DOLocalMoveX(inforItemPosStart, duration).SetUpdate(true);
+        shopHolder.transform.DOLocalMoveX(shopPos, duration).SetUpdate(true);
         shopHolder.transform.DOLocalMoveY(shopPosStart, duration).SetUpdate(true).IsComplete();
         Time.timeScale = 1;
     }
@@ -101,6 +102,26 @@ public class ShopUI : MonoBehaviour
                 holder.Add(gunItemUI);
             }
             timeSpawngunButton--;
+        }
+       
+    }
+    public void GetItemsSupFromDB()
+    {
+        gunScrollView.SetActive(false);
+        supScrollView.SetActive(true);
+        equidmentScrollView.SetActive(false);
+        if(timeSpawnSupButton > 0)
+        {
+            for (int i = 0; i < ItemsManager.Instance.GetItemsSupsFromDB().Count; i++)
+            {
+                var supItemUI = Instantiate(supItemsUI, supItemsViewPort.transform);
+                supItemUI.transform.GetChild(0).GetComponent<Image>().sprite = ItemsManager.Instance.GetItemsSupsFromDB()[i].prefabImage;
+                supItemUI.GetComponent<ButtonUI>().SetItemSupSO(ItemsManager.Instance.GetItemsSupsFromDB()[i]);
+                supItemUI.GetComponent<ButtonUI>().SetPriceTextForItem();
+                supItemUI.SetActive(true);
+                holder.Add(supItemUI);
+            }
+            timeSpawnSupButton--;
         }
        
     } 

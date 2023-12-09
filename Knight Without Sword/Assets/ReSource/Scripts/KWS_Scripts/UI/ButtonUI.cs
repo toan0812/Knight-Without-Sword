@@ -6,19 +6,20 @@ public class ButtonUI : MonoBehaviour
     [Header("Component")]
     [SerializeField] private HeaderUI headerUI;
     [SerializeField] private GetItems getItems;
+    [SerializeField] private ItemsSupUI itemsSupUI;
     [Header("Change Color")]
     [SerializeField] bool isChangingColor;
     [SerializeField] ShopUI shopUI;
     [Header("ItemSO")]
     [SerializeField] EquidmentsSO equidmentsSO;
     [SerializeField] WeaponItemsSO weaponItemsSO;
+    [SerializeField] ItemsSupSO itemsSupSO;
     [Header("Text")]
     [SerializeField] private Text buyGoldText;
     [SerializeField] private Text buyGemText;   
     [Header("Buttons")]
     [SerializeField] private Button buyGoldButton;
     [SerializeField] private Button buyGemButton;
-
     void Start()
     {
         shopUI = GameObject.FindAnyObjectByType<ShopUI>();
@@ -59,7 +60,7 @@ public class ButtonUI : MonoBehaviour
     }
     public void BuyItemByGem(int price)
     {
-        if(DataManager.Instance.PlayerData.gem >=price)
+        if(DataManager.Instance.PlayerData.gem >=price )
         {
             DataManager.Instance.PlayerData.gem -= price;
             UpdateDB();
@@ -80,8 +81,18 @@ public class ButtonUI : MonoBehaviour
         {
             var weapon = Instantiate(weaponItemsSO.prefab);
             Vector2 randomPoint = UnityEngine.Random.insideUnitCircle * 2f;
-            Vector3 randomPosition = new Vector3(randomPoint.x, 0, randomPoint.y);
+            Vector3 randomPosition = new Vector3(randomPoint.x,randomPoint.y);
             weapon.position = Player.Instance.transform.position + randomPosition;
+        }
+        if (itemsSupSO != null)
+        {
+            itemsSupUI.SpawnIcon(itemsSupSO);
+            if(itemsSupUI.CheckItemInList(itemsSupSO))
+            {
+                buyGoldButton.enabled = false;
+                buyGemButton.enabled = false;
+                Debug.Log("You Can not buy 2 items have same property");
+            }
         }
     }
     public void SetPriceTextForItem()
@@ -95,6 +106,11 @@ public class ButtonUI : MonoBehaviour
         {
             buyGoldText.text = weaponItemsSO.goldPrice.ToString();
             buyGemText.text = weaponItemsSO.gemPrice.ToString();
+        } 
+        if(itemsSupSO != null)
+        {
+            buyGoldText.text = itemsSupSO.goldPrice.ToString();
+            buyGemText.text = itemsSupSO.gemPrice.ToString();
         }
     }
     public void SetEquidmentsSO(EquidmentsSO equidmentsSO)
@@ -104,6 +120,10 @@ public class ButtonUI : MonoBehaviour
     public void SetWeaponSO(WeaponItemsSO weaponItemsSO)
     {
         this.weaponItemsSO = weaponItemsSO;
+    } 
+    public void SetItemSupSO(ItemsSupSO itemsSupSO)
+    {
+        this.itemsSupSO = itemsSupSO;
     }
     public ItemSO GetItemSO()
     {
@@ -114,6 +134,10 @@ public class ButtonUI : MonoBehaviour
         if (weaponItemsSO != null)
         {
             return weaponItemsSO;
+        }
+        if (itemsSupSO != null)
+        {
+            return itemsSupSO;
         }
         return null;
     }

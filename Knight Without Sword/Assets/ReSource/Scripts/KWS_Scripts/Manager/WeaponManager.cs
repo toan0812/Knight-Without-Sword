@@ -55,10 +55,6 @@ public class WeaponManager : Singleton<WeaponManager>
     } 
     public List<WeaponItemsSO> GetWeaponItemsFromDB()
     {
-       foreach(WeaponItemsSO weaponItemsSO in weaponItems)
-        {
-            return weaponItems;
-        }
-        return null;
+        return weaponItems;
     }
 }
