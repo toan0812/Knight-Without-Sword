@@ -91,7 +91,6 @@ public class ButtonUI : MonoBehaviour
             {
                 buyGoldButton.enabled = false;
                 buyGemButton.enabled = false;
-                Debug.Log("You Can not buy 2 items have same property");
             }
         }
     }

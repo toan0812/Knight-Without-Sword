@@ -21,3 +21,6 @@ MonoBehaviour:
   description: "\rincrease Speed"
   goldPrice: 50
   gemPrice: 5
+  supType: 1
+  upgradeType: 1
+  OnceTimeType: 0

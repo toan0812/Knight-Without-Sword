@@ -17,7 +17,10 @@ MonoBehaviour:
   type: 4
   count: 0
   prefabName: 
-  buffValue: 0
+  buffValue: 1
   description: reduce time dash
   goldPrice: 50
   gemPrice: 5
+  supType: 1
+  upgradeType: 3
+  OnceTimeType: 0

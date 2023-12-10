@@ -21,3 +21,6 @@ MonoBehaviour:
   description: revival
   goldPrice: 50
   gemPrice: 5
+  supType: 2
+  upgradeType: 4
+  OnceTimeType: 0

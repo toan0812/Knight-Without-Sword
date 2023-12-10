@@ -43,10 +43,13 @@ public class Player : Singleton<Player>, IPickUpable
 
     [Header("Reloading")]
     [SerializeField] private Transform reloadingObject;
+    private void Awake()
+    {
+        characterSpeed = DataManager.Instance.PlayerData.speed;
+    }
     protected void Start()
     {
         canDash = true;
-        characterSpeed = DataManager.Instance.PlayerData.speed;
         rig = GetComponent<Rigidbody2D>(); 
         trailRenderer = GetComponent<TrailRenderer>();
         reloadingObject.gameObject.SetActive(false);
@@ -175,6 +178,20 @@ public class Player : Singleton<Player>, IPickUpable
             reloadingObject.gameObject.SetActive(false);
         }
 
+    }
+
+    /// <summary>
+    ///==================================== UPGRADE PORPERTY ==================================
+    /// </summary>
+    public void UpGradeSpeed(int value)
+    {
+        Debug.Log("Speed +" +value);
+        characterSpeed += value;
+    }
+    public void ReduceTimeDash(int value)
+    {
+        Debug.Log("ReduceTimeDash -" + value);
+        dashCooldown -= value;
     }
 
 }
