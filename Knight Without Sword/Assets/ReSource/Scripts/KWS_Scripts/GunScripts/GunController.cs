@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-public class GunController : MonoBehaviour
+public class GunController : Controllers
 {
     [Header("WeaponItemSO")]
     [SerializeField] private WeaponItemsSO weaponItemsSO;

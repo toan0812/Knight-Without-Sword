@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201172200346901393}
   - component: {fileID: 1201172200346901422}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201172200794249426}
   - component: {fileID: 1201172200794249427}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Selected
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 1201172202136266452}
   - component: {fileID: 1201172202136266457}
   - component: {fileID: 5242033555158877559}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201172202136266461}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.94, y: 24.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -265,7 +265,7 @@ EdgeCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201172202136266461}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -333,6 +333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6fcdbe5672c8d4fb0832cef1fe5042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemsType: 0
   selected: {fileID: 1201172200794249429}
   playerLayer:
     serializedVersion: 2

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 259113926897927303}
   - component: {fileID: 5398096178586847978}
   - component: {fileID: 6101976144370999273}
+  - component: {fileID: 1575515704}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -94,11 +95,11 @@ MonoBehaviour:
   gunLayerMask:
     serializedVersion: 2
     m_Bits: 256
-  weaponCurrent: {fileID: 3819091862842993916, guid: c6a3617fce77cbd4585be969db92f530, type: 3}
-  dashSpeed: 0
-  dashDuation: 0
-  dashCooldown: 0
-  reloadingObject: {fileID: 0}
+  weaponCurrent: {fileID: 0}
+  dashSpeed: 15
+  dashDuation: 0.25
+  dashCooldown: 1.25
+  reloadingObject: {fileID: 3884929217310855947}
 --- !u!114 &3714600233483139409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,13 +125,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea13dc902ff864a8c8b8b84bf97ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  maxHealth: 10
   currentHealth: 0
   commandDamageUI: {fileID: 1922020514168834544, guid: 082e775749f8eb142b03505b0d5477ad, type: 3}
   transformParent: {fileID: 8225609034549535142}
   spawnTransform: {fileID: 3884929217310855947}
-  bloodEffect: {fileID: 0}
+  bloodEffect: {fileID: 3451907287039999177, guid: 052a0fe9e2f25e446a016a89ed43f7a6, type: 3}
   healthBar: {fileID: 0}
+  timeDead: 0
 --- !u!96 &5398096178586847978
 TrailRenderer:
   serializedVersion: 2
@@ -173,7 +175,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.5
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -251,9 +253,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc08eff5929e7ae4db36fce7a6ac2525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commandText: {fileID: 0}
-  spawnTransform: {fileID: 0}
+  playerDamageReciver: {fileID: 259113926897927303}
+  commandText: {fileID: 2531296288844300969, guid: 4fb3d4f6da417c84faa2ad58e37e7621, type: 3}
+  spawnTransform: {fileID: 3884929217310855947}
   transformParent: {fileID: 0}
+--- !u!114 &1575515704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3714600233483139407}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ed49f32a8516642bcf4184649761e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charactersAbility: {fileID: 11400000, guid: a2bb5b9500140d1479da6cd087262a90, type: 2}
+  key: 32
 --- !u!1 &7550018713097964278
 GameObject:
   m_ObjectHideFlags: 0

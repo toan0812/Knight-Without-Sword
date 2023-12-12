@@ -86,14 +86,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 15
-  bulletSO: {fileID: 11400000, guid: 36497c740f27dc14bb4135b17e060b9c, type: 2}
   bulletEffect: {fileID: 4121366080260424042, guid: d43427cd2e9e7794fb3f6f61c9df0be4, type: 3}
   activeEffect:
     serializedVersion: 2
     m_Bits: 4608
   layerAffect:
     serializedVersion: 2
-    m_Bits: 4608
+    m_Bits: 12800
   radiusEffect: 0.5
 --- !u!114 &1263286777815681534
 MonoBehaviour:

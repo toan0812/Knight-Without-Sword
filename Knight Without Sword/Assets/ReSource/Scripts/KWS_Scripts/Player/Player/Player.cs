@@ -2,9 +2,10 @@ using UnityEngine;
 using System;
 using System.Collections.Generic;
 using System.Collections;
+using Unity.VisualScripting;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class Player : Singleton<Player>, IPickUpable
+public class Player : Singleton<Player>, IPickUpable,Iinteractable
 {
     public class OnSelectedGunArg : EventArgs
     {
@@ -24,8 +25,9 @@ public class Player : Singleton<Player>, IPickUpable
     private bool isRunning;
     private bool isIdle;
     private bool facingRight = true;
-    [Header("Gun layermask")]
-    [SerializeField] private LayerMask gunLayerMask;
+    [Header("layermask Of Controller Can Interact layermask")]
+    [SerializeField] private LayerMask LayerMaskInteraction;
+    [SerializeField] private LayerMask gunLayer;
 
     // Start Gun
     [Header("Gun Current")]
@@ -118,18 +120,27 @@ public class Player : Singleton<Player>, IPickUpable
     }
     protected virtual void DetivedGunController()
     {
+
         float interactDistance = 1.5f;
-        Collider2D collider2D = Physics2D.OverlapCircle(transform.position, interactDistance, gunLayerMask);
-        isCloseWeapon = collider2D;
-        if (collider2D)
+        Collider2D interactCollider = Physics2D.OverlapCircle(transform.position, interactDistance, gunLayer);
+        isCloseWeapon = interactCollider;
+        if (interactCollider)
         {
-            OnSelectedGun?.Invoke(this,new OnSelectedGunArg { gunController = collider2D.GetComponentInParent<GunController>()});
-            if (collider2D.GetComponentInParent<GunController>())
+            OnSelectedGun?.Invoke(this, new OnSelectedGunArg { gunController = GetComponent<Collider2D>().GetComponentInParent<GunController>() });
+            if (GetComponent<Collider2D>().GetComponentInParent<GunController>())
             {
-                weaponDetectived = collider2D.GetComponentInParent<GunController>().gameObject;
+                weaponDetectived = GetComponent<Collider2D>().GetComponentInParent<GunController>().gameObject;
             }
         }
-       
+
+    }
+
+    public bool ActiveInteract()
+    {
+        float interactDistance = 1.5f;
+        Collider2D interactCollider = Physics2D.OverlapCircle(transform.position, interactDistance, LayerMaskInteraction);
+
+        return interactCollider;
     }
     public WeaponItemsSO Weapon()
     {

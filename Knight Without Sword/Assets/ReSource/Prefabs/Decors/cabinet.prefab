@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3874395875552243143}
   - component: {fileID: 235945501811340601}
-  m_Layer: 0
+  - component: {fileID: 1541863360920358573}
+  - component: {fileID: 2342255187991020165}
+  m_Layer: 9
   m_Name: cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,3 +86,48 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1541863360920358573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021226720384332332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a575ace7a12189b4da1c9c148a9ca79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  currentHealth: 0
+  commandDamageUI: {fileID: 1922020514168834544, guid: 082e775749f8eb142b03505b0d5477ad, type: 3}
+  transformParent: {fileID: 3874395875552243143}
+  spawnTransform: {fileID: 3874395875552243143}
+  bloodEffect: {fileID: 1873027245982913076, guid: f2d89ccd36660cb429082367db39815b, type: 3}
+  listItems: []
+--- !u!61 &2342255187991020165
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021226720384332332}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.015672445, y: -0.18493596}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 0.25, y: 0.5625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.56743765, y: 0.6301281}
+  m_EdgeRadius: 0

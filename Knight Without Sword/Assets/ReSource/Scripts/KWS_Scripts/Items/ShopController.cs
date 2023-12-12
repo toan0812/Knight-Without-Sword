@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShopController : MonoBehaviour
+public class ShopController : Controllers
 {
 
     [Header("Selected")]
@@ -11,7 +11,7 @@ public class ShopController : MonoBehaviour
     [SerializeField] private LayerMask playerLayer;
     [SerializeField] private ShopUI shopUI;
     private SpriteRenderer spriteRenderer;
-    private bool nearPlayer;
+    //public TypeInteract tpyeInteract;
     void Start()
     {
         selected.SetActive(false);
@@ -21,9 +21,8 @@ public class ShopController : MonoBehaviour
 
     private void Instance_OnInteract(object sender, System.EventArgs e)
     {
-        if(nearPlayer)
+        if (Player.Instance.ActiveInteract())
         {
-
             shopUI.ActiveHolder();
         }
     }
@@ -34,10 +33,7 @@ public class ShopController : MonoBehaviour
 
     protected virtual void DetivedPlayer()
     {
-        float interactDistance = 2.5f;
-        Collider2D collider2D = Physics2D.OverlapCircle(transform.position, interactDistance, playerLayer);
-        nearPlayer = collider2D;
-        if (collider2D)
+        if (Player.Instance.ActiveInteract())
         {
             selected.SetActive(true);
         }
@@ -61,4 +57,5 @@ public class ShopController : MonoBehaviour
             spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
         }
     }
+
 }
