@@ -15,4 +15,4 @@ MonoBehaviour:
   prefab: {fileID: 6493978611344646729, guid: 6708ed56e56e18e4eaee57f2d23ae10d, type: 3}
   prefabImage: {fileID: 21300000, guid: 006ca2e081a9d8941b7ccb6c1dabdad9, type: 3}
   type: 1
-  description: A Wizzal
+  description: A Wizzard
