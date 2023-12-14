@@ -11,6 +11,7 @@ public class PlayerSO : ScriptableObject
     public Sprite prefabImage;// sprite of prefab
     public PlayerType type;// type of prefab
     public GameObject Prefab;
+    public float price;
     [TextArea(0, 10)]
     public string description;
 
