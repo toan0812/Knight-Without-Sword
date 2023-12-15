@@ -8,9 +8,11 @@ using DG.Tweening;
 
 public class PlayerFieldUI : MonoBehaviour
 {
-    //[Header("UI")]
-    //[SerializeField] private Button btn_Next;
-    //[SerializeField] private Button btn_before;
+    [Header("UI")]
+    [SerializeField] private ButtonScrollView btn_Next;
+    [SerializeField] private ButtonScrollView btn_before;
+    [SerializeField] private ScrollRect scrollRect;
+    [SerializeField] private float scrollRectSpeed = 1f;
     [Header("Properties")]
     [SerializeField] private UnityEditor.Animations.AnimatorController baseChacterAnimator;
     [SerializeField] private Sprite baseChacterSprite;
@@ -23,9 +25,36 @@ public class PlayerFieldUI : MonoBehaviour
     private List<GameObject> characterObjects = new List<GameObject>();
     private void Awake()
     {
-        characterPrefab.SetActive(false);
-        
         charactersProperties[0] = new CharactersProperties(baseChacterAnimator, baseChacterSprite);
+    }
+    private void Update()
+    {
+        if(btn_Next!= null)
+        {
+            if(btn_Next.isDown)
+            {
+                if (scrollRect != null)
+                {
+                    if (scrollRect.horizontalNormalizedPosition <= 1f)
+                    {
+                        scrollRect.horizontalNormalizedPosition += scrollRectSpeed;
+                    }
+                }
+            }
+        }  
+        if(btn_before != null)
+        {
+            if(btn_before.isDown)
+            {
+                if (scrollRect != null)
+                {
+                    if (scrollRect.horizontalNormalizedPosition >= 0f)
+                    {
+                        scrollRect.horizontalNormalizedPosition -= scrollRectSpeed;
+                    }
+                }
+            }
+        }
     }
     void Start()
     {
