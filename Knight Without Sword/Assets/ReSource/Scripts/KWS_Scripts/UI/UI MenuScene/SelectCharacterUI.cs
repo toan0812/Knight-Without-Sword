@@ -15,5 +15,10 @@ public class SelectCharacterUI : MonoBehaviour
         OnCharacterUsing?.Invoke(this, new OnChangeCharacterUsing { PlayerSO = playerSO });
     }
 
+    public PlayerSO GetPlayerSO()
+    {
+        return this.characterIsUsing;
+    }
 
+  
 }

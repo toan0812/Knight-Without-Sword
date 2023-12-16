@@ -16,6 +16,8 @@ public class CharacterUI : MonoBehaviour
     private Text btnText;
     private BtnState state;
     private bool IsBuyed;
+
+    private int selectedOption = 0;
     private void Awake()
     {
         selectCharacterUI = GetComponentInParent<SelectCharacterUI>();
@@ -23,6 +25,14 @@ public class CharacterUI : MonoBehaviour
     }
     private void Start()
     {
+       if (!PlayerPrefs.HasKey("PlayerID"))
+       {
+           selectedOption = 0;
+       }
+       else
+       {
+            Load();
+       }
         state = BtnState.Buying;
         IsBuyed = false;
         selectCharacterUI.OnCharacterUsing += SelectCharacterUI_OnCharacterUsing;
@@ -37,11 +47,13 @@ public class CharacterUI : MonoBehaviour
         if(e.PlayerSO == characterSO && IsBuyed)
         {
             Debug.Log("using");
+            selectedOption++;
             state = BtnState.Using;
         }
         if(e.PlayerSO != characterSO && IsBuyed)
         {
             Debug.Log("Buyed");
+            selectedOption = 0;
             state = BtnState.Buyed;
         }
         if(e.PlayerSO != characterSO && !IsBuyed)
@@ -56,12 +68,15 @@ public class CharacterUI : MonoBehaviour
         switch (state)
         {
             case BtnState.Buying:
+                if (characterSO.price == 0)
+                {
+                    btnText.text = "FREE";
+                }
                 btnText.text = characterSO.price.ToString();
                 
                 btnUse.onClick.AddListener(() =>
                 {
                     state = BtnState.Buyed;
-
                 });
                 break; 
             case BtnState.Buyed:
@@ -73,6 +88,7 @@ public class CharacterUI : MonoBehaviour
                     btnUse.onClick.AddListener(() => {
                             state = BtnState.Using;
                         selectCharacterUI.SelectedCharacter(characterSO);
+                        Save();
                     });
                 }
                 break; 
@@ -81,9 +97,18 @@ public class CharacterUI : MonoBehaviour
                     btnUse.enabled = false;
                     btnText.text = "USING";
                     btnUse.onClick.RemoveAllListeners();
-                    //selectCharacterUI.SelectedCharacter(characterSO);
                 }
                 break;
         }
+    }
+
+
+    public void Load()
+    {
+        selectedOption = PlayerPrefs.GetInt("PlayerID");
+    }
+    public void Save()
+    {
+        PlayerPrefs.SetInt("PlayerID", selectCharacterUI.GetPlayerSO().PlayerID);
     }
 }

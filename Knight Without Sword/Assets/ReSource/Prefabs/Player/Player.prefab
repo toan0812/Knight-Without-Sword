@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5398096178586847978}
   - component: {fileID: 6101976144370999273}
   - component: {fileID: 1575515704}
+  - component: {fileID: 842527274665785175}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -92,7 +93,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterSpeed: 0
-  gunLayerMask:
+  LayerMaskInteraction:
+    serializedVersion: 2
+    m_Bits: 8192
+  gunLayer:
     serializedVersion: 2
     m_Bits: 256
   weaponCurrent: {fileID: 0}
@@ -271,6 +275,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charactersAbility: {fileID: 11400000, guid: a2bb5b9500140d1479da6cd087262a90, type: 2}
   key: 32
+--- !u!114 &842527274665785175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3714600233483139407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e5f1585e849ed4a9424940d699625b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7550018713097964278
 GameObject:
   m_ObjectHideFlags: 0

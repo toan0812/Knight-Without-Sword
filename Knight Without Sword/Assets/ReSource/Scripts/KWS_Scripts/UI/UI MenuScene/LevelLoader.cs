@@ -1,15 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
+    [SerializeField] private SelectCharacterUI selectCharacterUI;
     [SerializeField] private Animator transition;
     [SerializeField] private float transitionTime =1f;
     public void LoadNextLevel()
     {
+        if (selectCharacterUI != null && selectCharacterUI.GetPlayerSO().prefab.gameObject)
+        {
+            
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        }
+        else
+        {
+            Debug.Log("You do not select your character");
+        }
 
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex +1));
     }
 
     IEnumerator LoadLevel(int LevelIndex)
