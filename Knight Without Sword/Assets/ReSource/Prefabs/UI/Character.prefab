@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 669289079934179568}
   - component: {fileID: 1872561041038694071}
   - component: {fileID: 3459034655573306009}
+  - component: {fileID: 7073208530239044078}
   m_Layer: 0
   m_Name: Buy
   m_TagString: Untagged
@@ -37,7 +38,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.16713578}
-  m_AnchoredPosition: {x: 4.89, y: -0.07244873}
+  m_AnchoredPosition: {x: 4.8900146, y: -0.07244873}
   m_SizeDelta: {x: 10.81, y: 4.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &669289079934179568
@@ -122,6 +123,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7073208530239044078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273225330936750102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f9ca29a9455fbb499ab3ee81dbbdade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2364549537663646840
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 093e424785dfd604db7f8a792da3c39f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerFieldUI: {fileID: 0}
+  selectCharacterUI: {fileID: 0}
   characterSO: {fileID: 0}
   btnUse: {fileID: 3459034655573306009}
 --- !u!1 &4311229397421528296

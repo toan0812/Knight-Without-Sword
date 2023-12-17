@@ -69,6 +69,7 @@ public class PlayerFieldUI : MonoBehaviour
             characterUI.GetComponentInChildren<Image>().sprite = characterSOs[i].prefabImage;
             characterUI.GetComponentInChildren<Animator>().runtimeAnimatorController = charactersProperties[i].animator;
             characterUI.GetComponent<CharacterUI>().characterSO = characterSOs[i];
+            characterUI.GetComponentInChildren<ButtonBuyCharacterUI>().SetPlayerSO(characterUI.GetComponent<CharacterUI>().GetPlayerSO());
             characterUI.SetActive(true);
             characterObjects.Add(characterUI);
         }

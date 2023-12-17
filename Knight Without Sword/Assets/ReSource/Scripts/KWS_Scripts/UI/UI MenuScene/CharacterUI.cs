@@ -9,6 +9,7 @@ public class CharacterUI : MonoBehaviour
 {
     private enum BtnState { Buying, Buyed,Using}
     [SerializeField] private SelectCharacterUI selectCharacterUI;
+    [SerializeField] private ButtonBuyCharacterUI buttonBuyCharacterUI;
     [Header("SO")]
     [SerializeField] public PlayerSO characterSO;
     [Header("UI")]
@@ -21,6 +22,7 @@ public class CharacterUI : MonoBehaviour
     private void Awake()
     {
         selectCharacterUI = GetComponentInParent<SelectCharacterUI>();
+        buttonBuyCharacterUI = GetComponentInChildren<ButtonBuyCharacterUI>();
         btnText = btnUse.GetComponentInChildren<Text>();
     }
     private void Start()
@@ -81,15 +83,20 @@ public class CharacterUI : MonoBehaviour
                 break; 
             case BtnState.Buyed:
                 {
-                    IsBuyed = true;
-                    btnUse.enabled = true;
-                    btnText.text = "USE";
-                    btnUse.onClick.RemoveAllListeners();
-                    btnUse.onClick.AddListener(() => {
+                    if (buttonBuyCharacterUI.CanBuyItem())
+                    {
+                        IsBuyed = true;
+                        btnUse.enabled = true;
+                        btnText.text = "USE";
+                        btnUse.onClick.RemoveAllListeners();
+                        btnUse.onClick.AddListener(() =>
+                        {
                             state = BtnState.Using;
-                        selectCharacterUI.SelectedCharacter(characterSO);
-                        Save();
-                    });
+                            selectCharacterUI.SelectedCharacter(characterSO);
+                            Save();
+
+                        });
+                    }
                 }
                 break; 
             case BtnState.Using:
@@ -111,4 +118,8 @@ public class CharacterUI : MonoBehaviour
     {
         PlayerPrefs.SetInt("PlayerID", selectCharacterUI.GetPlayerSO().PlayerID);
     }
+    public PlayerSO GetPlayerSO() {
+        return characterSO;
+    }
+
 }

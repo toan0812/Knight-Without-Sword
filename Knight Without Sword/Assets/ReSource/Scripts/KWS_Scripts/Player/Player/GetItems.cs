@@ -14,9 +14,27 @@ public class GetItems : MonoBehaviour
     [SerializeField] private Transform transformParent;
     private List<GameObject> commandTextList = new List<GameObject>();
     private int count = 10;
+    private int gold = 0;
+    private int gem = 0;
 
+    //private void OnEnable()
+    //{
+    //    gold = DataManager.Instance.PlayerData.gold;
+    //    gem = DataManager.Instance.PlayerData.gem;
+    //    DataManager.Instance.SaveData(gold, gem);
+    //}
     private void Start()
     {
+        if (!PlayerPrefs.HasKey("PlayerGold") && !PlayerPrefs.HasKey("PlayerGem"))
+        {
+            gold = 0;
+            gem = 0;
+        }
+        else
+        {
+            Debug.Log("Saved");
+           DataManager.Instance.LoadData(gold,gem);
+        }
         PoolingObject.Instance.addPool(commandText, commandTextList, count, transformParent);
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -43,7 +61,9 @@ public class GetItems : MonoBehaviour
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.trading && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Gold")
         {
             DataManager.Instance.PlayerData.gold += itemSO.count;
-            UIManager.Instance.HeaderUI.UpdateGoldText(DataManager.Instance.PlayerData.gold);
+            gold = DataManager.Instance.PlayerData.gold;
+            UIManager.Instance.HeaderUI.UpdateGoldText(gold);
+            DataManager.Instance.SaveData(gold,gem);
         } 
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Buff && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Medical")
         {
@@ -52,7 +72,9 @@ public class GetItems : MonoBehaviour
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.trading && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Gem")
         {
             DataManager.Instance.PlayerData.gem += itemSO.count;
-            UIManager.Instance.HeaderUI.UpdateGemText(DataManager.Instance.PlayerData.gem);
+            gem = DataManager.Instance.PlayerData.gem;
+            UIManager.Instance.HeaderUI.UpdateGemText(gem);
+            DataManager.Instance.SaveData(gold, gem);
         }  
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Equipment && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == DataManager.Instance.PlayerData.rocketAmmo.name)
         {
