@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5409628667663657743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5409628667663657742}
+  - component: {fileID: 5409628667663657777}
+  m_Layer: 0
+  m_Name: CollectableSpawmManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5409628667663657742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5409628667663657743}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5409628667663657777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5409628667663657743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fbed2fe0b215a4894351727e757d15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListItems:
+  - Rate: 10
+    prefab: {fileID: 11400000, guid: 87e66397fd9cdb94390bfaf1a41bb867, type: 2}
+  - Rate: 10
+    prefab: {fileID: 11400000, guid: 36497c740f27dc14bb4135b17e060b9c, type: 2}
+  - Rate: 10
+    prefab: {fileID: 11400000, guid: 7b2a511618ab92d4c86679d3a7965561, type: 2}
+  - Rate: 10
+    prefab: {fileID: 11400000, guid: b20d0a6f870b2ea448967210ee1b12ae, type: 2}
+  - Rate: 5
+    prefab: {fileID: 11400000, guid: 76365ade25e6367459f3989f9b5d3e5f, type: 2}
+  - Rate: 75
+    prefab: {fileID: 11400000, guid: 3e0a0736b0844b24c8d6a2c5811dd62f, type: 2}
+  - Rate: 2
+    prefab: {fileID: 11400000, guid: ac7e352caf5a79047b88f2ba0ba3a7d3, type: 2}

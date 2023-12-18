@@ -5,18 +5,21 @@ using UnityEngine.UI;
 using DG.Tweening;
 public class UIGift : MonoBehaviour
 {
+    [Header("Component")]
+    [SerializeField] private GiftBoxUI giftBoxUI;
     [Header("UI")]
     [SerializeField] private Button giftButton;
     [SerializeField] private GameObject gitfClamp;
     [SerializeField] private Text timeText;
-    private float timeRemaining = 60f;
+    private float timeRemaining = 10f;
     public bool timerIsRunning;
     void Start()
     {
         timerIsRunning = true;
+        giftButton.enabled = false;
         giftButton.onClick.AddListener(() =>
         {
-            ReciveGift();
+            giftBoxUI.gameObject.SetActive(true);
         });
     }
     void Update()
@@ -30,7 +33,7 @@ public class UIGift : MonoBehaviour
             }
             else
             {
-                Debug.Log("Time has run out!");
+                giftButton.enabled = true;
                 timerIsRunning = false;
             }
         }
@@ -47,15 +50,13 @@ public class UIGift : MonoBehaviour
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         
     }
-
-    private void ReciveGift()
+    public void ResetTime()
     {
-        if(timerIsRunning == false)
+        if (timerIsRunning == false)
         {
-            timeRemaining = 60;
+            timeRemaining = 10;
             timerIsRunning = true;
             gitfClamp.SetActive(false);
         }
-
-    }
+    }    
 }
