@@ -11,11 +11,19 @@ public class HeaderUI : MonoBehaviour
     [SerializeField] TextMeshProUGUI plasmaText;
     [SerializeField] TextMeshProUGUI rocketText;
     [SerializeField] TextMeshProUGUI shotgunText;
-
     private void Start()
     {
-        UpdateGemText(DataManager.Instance.PlayerData.gem);
-        UpdateGoldText(DataManager.Instance.PlayerData.gold);
+        if (!PlayerPrefs.HasKey("PlayerGold") && !PlayerPrefs.HasKey("PlayerGem"))
+        {
+            DataManager.Instance.PlayerData.gold = 0;
+            DataManager.Instance.PlayerData.gem = 0;
+        }
+        else
+        {
+            DataManager.Instance.LoadData();
+            UIManager.Instance.HeaderUI.UpdateGoldText(DataManager.Instance.PlayerData.gold);
+            UIManager.Instance.HeaderUI.UpdateGemText(DataManager.Instance.PlayerData.gem);
+        }
     }
     public void UpdateGoldText(int count)
     {

@@ -37,7 +37,7 @@ public class GiftBoxUI : MonoBehaviour
         });
         claimBtn.onClick.AddListener(() => {
 
-            ClaimItems(DataManager.Instance.PlayerData.gold, DataManager.Instance.PlayerData.gem);
+            ClaimItems();
             DataField.Instance.LoadData();
             UIGift.ResetTime();
             gameObject.SetActive(false);
@@ -56,21 +56,19 @@ public class GiftBoxUI : MonoBehaviour
         }
         claimBtn.gameObject.SetActive(true);
     }
-    public void ClaimItems(int gold ,int gem)
+    public void ClaimItems()
     {
         foreach(var item in itemSOs)
         {
             if (item.GetItemSO().type == ItemsType.trading && item.GetItemSO().prefabName == "Gold")
             {
                 DataManager.Instance.PlayerData.gold += item.GetItemSO().count;
-                gold = DataManager.Instance.PlayerData.gold;
-                DataManager.Instance.SaveData(gold, gem);
+                DataManager.Instance.SaveData();
             }
             if (item.GetItemSO().type == ItemsType.trading && item.GetItemSO().prefabName == "Gem")
             {
                 DataManager.Instance.PlayerData.gem += item.GetItemSO().count;
-                gem = DataManager.Instance.PlayerData.gem;
-                DataManager.Instance.SaveData(gold, gem);
+                DataManager.Instance.SaveData();
             }
         }
     }

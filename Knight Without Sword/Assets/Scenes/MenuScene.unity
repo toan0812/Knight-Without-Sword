@@ -948,7 +948,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543522070}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0000076293945}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2225,6 +2225,7 @@ GameObject:
   - component: {fileID: 1292908976}
   - component: {fileID: 1292908975}
   - component: {fileID: 1292908974}
+  - component: {fileID: 1292908977}
   m_Layer: 0
   m_Name: Canvas_Middle
   m_TagString: Untagged
@@ -2314,6 +2315,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!225 &1292908977
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292908972}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1293754971
 GameObject:
   m_ObjectHideFlags: 0
@@ -2499,6 +2512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7137eff34a497b946916605b15760528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 1292908977}
   btn_Next: {fileID: 599713269}
   btn_before: {fileID: 1029732902}
   scrollRect: {fileID: 552601225}
@@ -2515,6 +2529,7 @@ MonoBehaviour:
   characterSOs:
   - {fileID: 11400000, guid: c7ca9783b4c1e454f8b529643fcbb798, type: 2}
   - {fileID: 11400000, guid: 9c3f0ce26a5bf2f42af71d53901b15a2, type: 2}
+  ListCharacterIsBuyed: []
 --- !u!1 &1352670181
 GameObject:
   m_ObjectHideFlags: 0
@@ -3041,7 +3056,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557979867}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -3424,15 +3439,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1008760926683581751, guid: f9200c46c5118134ea375d1087778a51, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1008760926683581751, guid: f9200c46c5118134ea375d1087778a51, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1008760926683581751, guid: f9200c46c5118134ea375d1087778a51, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1008760926683581751, guid: f9200c46c5118134ea375d1087778a51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3474,7 +3489,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923579893}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -4221,7 +4236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4682717240452521161, guid: 28fed95e601e93846873856fcc9fcd85, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28fed95e601e93846873856fcc9fcd85, type: 3}

@@ -15,4 +15,5 @@ public class PlayerSO : ScriptableObject
     [TextArea(0, 10)]
     public string description;
 
+    
 }

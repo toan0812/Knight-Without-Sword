@@ -1,25 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class DataManager : Singleton<DataManager>
 {
     public PlayerData PlayerData = new PlayerData();
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     private void Start()
     {
-        SaveData(PlayerData.gold, PlayerData.gem);
+        SaveData();
+        LoadData();
     }
-    public void LoadData(int gold, int gem)
+    public void LoadData()
     {
-        gold = PlayerPrefs.GetInt("PlayerGold");
-        gem = PlayerPrefs.GetInt("PlayerGem");
-        Debug.Log(gold + "" + gem);
+        PlayerData.gold = PlayerPrefs.GetInt("PlayerGold");
+        PlayerData.gem = PlayerPrefs.GetInt("PlayerGem");
+        Debug.Log("Gold:" + PlayerData.gold + "Gem: " + PlayerData.gem);
     }
-    public void SaveData(int gold, int gem)
+    public void SaveData()
     {
-        PlayerPrefs.SetInt("PlayerGold", gold);
-        Debug.Log("Save" + PlayerData.gold);
-        PlayerPrefs.SetInt("PlayerGem", gem);
+        PlayerPrefs.SetInt("PlayerGold", PlayerData.gold);
+        Debug.Log("Save Gold: " + PlayerData.gold);
+        PlayerPrefs.SetInt("PlayerGem", PlayerData.gem);
+        Debug.Log("Save Gem: " + PlayerData.gem);
+
     }
+
+
 }

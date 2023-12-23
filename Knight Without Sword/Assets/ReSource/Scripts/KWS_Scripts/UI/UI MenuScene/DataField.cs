@@ -26,14 +26,14 @@ public class DataField : Singleton<DataField>
     }
     private void LoadDataOnField()
     {
-        goldText.text = goldIndex.ToString();
-        gemText.text = gemIndex.ToString();
+        goldText.text = DataManager.Instance.PlayerData.gold.ToString();
+        gemText.text = DataManager.Instance.PlayerData.gem.ToString();
     }
 
     public void LoadData()
     {
-        goldIndex = PlayerPrefs.GetInt("PlayerGold");
-        gemIndex = PlayerPrefs.GetInt("PlayerGem");
+        DataManager.Instance.PlayerData.gold = PlayerPrefs.GetInt("PlayerGold");
+        DataManager.Instance.PlayerData.gem = PlayerPrefs.GetInt("PlayerGem");
         LoadDataOnField();
     }
 }

@@ -23,10 +23,12 @@ public class PlayerFieldUI : MonoBehaviour
     [Header("SO")]
     [SerializeField] private List<PlayerSO> characterSOs = new List<PlayerSO>();
     private List<GameObject> characterObjects = new List<GameObject>();
+
     private void Awake()
     {
         charactersProperties[0] = new CharactersProperties(baseChacterAnimator, baseChacterSprite);
     }
+    
     private void Update()
     {
         if(btn_Next!= null)
@@ -69,12 +71,10 @@ public class PlayerFieldUI : MonoBehaviour
             characterUI.GetComponentInChildren<Image>().sprite = characterSOs[i].prefabImage;
             characterUI.GetComponentInChildren<Animator>().runtimeAnimatorController = charactersProperties[i].animator;
             characterUI.GetComponent<CharacterUI>().characterSO = characterSOs[i];
-            characterUI.GetComponentInChildren<ButtonBuyCharacterUI>().SetPlayerSO(characterUI.GetComponent<CharacterUI>().GetPlayerSO());
             characterUI.SetActive(true);
             characterObjects.Add(characterUI);
         }
     }
-   
     [System.Serializable]
     public class CharactersProperties 
     {
