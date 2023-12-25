@@ -87,6 +87,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2d013b7a22d1819468210c621d5d708f, type: 2}
+    - target: {fileID: 7424457968310571150, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: attackRange
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424457968310571150, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: rangeFollowing
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424457968310571150, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
 --- !u!1 &681672795689874947 stripped

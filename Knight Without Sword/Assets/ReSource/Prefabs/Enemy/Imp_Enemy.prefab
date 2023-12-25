@@ -83,6 +83,10 @@ PrefabInstance:
       propertyPath: holder
       value: 
       objectReference: {fileID: 3409483785309786864}
+    - target: {fileID: 8064556300964440539, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     - target: {fileID: 9097493485665737086, guid: a6afd1261df49d94189e7f3f66358a52, type: 3}
       propertyPath: m_BaseOffset
       value: 0.73

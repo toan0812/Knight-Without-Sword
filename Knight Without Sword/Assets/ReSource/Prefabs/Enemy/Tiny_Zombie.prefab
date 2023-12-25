@@ -95,6 +95,14 @@ PrefabInstance:
       propertyPath: radiusZone
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 7067416581361285422, guid: 0263d343f7baa4d4cbbc2d31e0d9b837, type: 3}
+      propertyPath: rangeFollowing
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7067416581361285422, guid: 0263d343f7baa4d4cbbc2d31e0d9b837, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6160449822469591831, guid: 0263d343f7baa4d4cbbc2d31e0d9b837, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0263d343f7baa4d4cbbc2d31e0d9b837, type: 3}
