@@ -2512,7 +2512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7137eff34a497b946916605b15760528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasGroup: {fileID: 1292908977}
   btn_Next: {fileID: 599713269}
   btn_before: {fileID: 1029732902}
   scrollRect: {fileID: 552601225}
@@ -2529,7 +2528,6 @@ MonoBehaviour:
   characterSOs:
   - {fileID: 11400000, guid: c7ca9783b4c1e454f8b529643fcbb798, type: 2}
   - {fileID: 11400000, guid: 9c3f0ce26a5bf2f42af71d53901b15a2, type: 2}
-  ListCharacterIsBuyed: []
 --- !u!1 &1352670181
 GameObject:
   m_ObjectHideFlags: 0

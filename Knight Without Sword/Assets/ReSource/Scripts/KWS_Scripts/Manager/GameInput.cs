@@ -8,14 +8,21 @@ public class GameInput : Singleton<GameInput>
     public event EventHandler OnInteract;
     public event EventHandler OnDashing;
     public event EventHandler OnReloading;
+    public event EventHandler OnPause;
     private void Awake()
     {
         inputActions = new PlayerActions();
         inputActions.PlayerAction.Enable();
-
         inputActions.PlayerAction.interact.performed += Interact_performed;
         inputActions.PlayerAction.Dash.performed += Dash_performed;
         inputActions.PlayerAction.Reload.performed += Reload_performed;
+        inputActions.PlayerAction.Pause.performed += Pause_performed;
+    }
+
+    private void Pause_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        Debug.Log("Pause");
+        OnPause?.Invoke(this, EventArgs.Empty);
     }
 
     private void Reload_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)

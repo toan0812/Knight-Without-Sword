@@ -23,13 +23,6 @@ public class GetItems : MonoBehaviour
        
     }
 
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space)) {
-            SceneManager.LoadScene("MenuScene");
-        }
-    }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.TryGetComponent(out ItemsPickUp items))
@@ -56,6 +49,11 @@ public class GetItems : MonoBehaviour
             DataManager.Instance.PlayerData.gold += itemSO.count;
             UIManager.Instance.HeaderUI.UpdateGoldText(DataManager.Instance.PlayerData.gold);
             DataManager.Instance.SaveData();
+        }
+        if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.special && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Skull")
+        {
+            //DataManager.Instance.SaveData();
+            Debug.Log("Complete Game");
         } 
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Buff && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Medical")
         {

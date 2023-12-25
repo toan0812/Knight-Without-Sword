@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dfcc9e7338a14943bcd7f5e7c3b0fa1, type: 3}
+  m_Name: SkullItem
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7909544765817920717, guid: 24242c822d3c3b54dbc12aa61fdc8514, type: 3}
+  prefabImage: {fileID: -1093964140, guid: 07ae1c97d39870e4ea4b502b39436020, type: 3}
+  type: 5
+  count: 1
+  prefabName: Skull
+  buffValue: 0
+  description: Item for request
