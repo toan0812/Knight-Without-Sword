@@ -5,7 +5,7 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
     [Header("Range Attack")]
-    [SerializeField] protected float rangeAttack;
+    [SerializeField] protected float rangeFollowing;
     [Header("Target")]
     [SerializeField] protected Transform target;
     [SerializeField] protected LayerMask targetLayer;
@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
     }
     public Vector3 GetTargetTransform()
     {
-        Collider2D colliders = Physics2D.OverlapCircle(transform.position, rangeAttack, targetLayer);
+        Collider2D colliders = Physics2D.OverlapCircle(transform.position, rangeFollowing, targetLayer);
         if (colliders.TryGetComponent(out Player player))
         {
             Vector3 direction = new Vector3(-transform.position.x + player.transform.position.x, -transform.position.y + player.transform.position.y);

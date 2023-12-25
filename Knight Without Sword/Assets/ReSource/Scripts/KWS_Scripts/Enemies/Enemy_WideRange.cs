@@ -35,14 +35,14 @@ public class Enemy_WideRange : Enemy
         switch (state)
         {
             case State.idle:
-                if (TargetOnAttackZone(target, rangeAttack))
+                if (TargetOnAttackZone(target, rangeFollowing))
                 {
                     state = State.attacking;
                 }
                 break;
             case State.attacking:
                 EnemyAttack();  
-                if (!TargetOnAttackZone(target, rangeAttack))
+                if (!TargetOnAttackZone(target, rangeFollowing))
                 {
                     canMove = true;
                     state = State.run;
@@ -57,7 +57,7 @@ public class Enemy_WideRange : Enemy
                     Vector3 vector2 = target.position - transform.position.normalized;
                     agent.SetDestination(target.position - transform.position.normalized);
                 }
-                if (TargetOnAttackZone(target, rangeAttack))
+                if (TargetOnAttackZone(target, rangeFollowing))
                 {
                     agent.isStopped = true;
                     canMove = false;
