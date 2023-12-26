@@ -21,7 +21,14 @@ public class UIGift : MonoBehaviour
         {
             giftBoxUI.gameObject.SetActive(true);
         });
+        giftBoxUI.OnClickBtn += GiftBoxUI_OnClickBtn;
     }
+
+    private void GiftBoxUI_OnClickBtn(object sender, System.EventArgs e)
+    {
+        ResetTime();
+    }
+
     void Update()
     {
         if (timerIsRunning)

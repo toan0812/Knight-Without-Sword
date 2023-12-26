@@ -53,7 +53,7 @@ public class GetItems : MonoBehaviour
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.special && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Skull")
         {
             //DataManager.Instance.SaveData();
-            Debug.Log("Complete Game");
+            GetSpecialItemSO(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO());
         } 
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Buff && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Medical")
         {
@@ -103,4 +103,9 @@ public class GetItems : MonoBehaviour
         plusCommand.SetActive(true);
         plusCommand.GetComponent<AddItemsUI>().ChangeImageItem(itemsSO);
     }
+    public ItemSO GetSpecialItemSO(ItemSO itemSO)
+    {
+        return itemSO;
+    }
+
 }
