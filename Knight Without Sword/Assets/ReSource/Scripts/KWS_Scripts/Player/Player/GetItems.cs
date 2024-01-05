@@ -8,6 +8,7 @@ public class GetItems : MonoBehaviour
 {
     [Header("Component")]
     [SerializeField] PlayerDamageReciver playerDamageReciver;
+    [SerializeField] FinishUI finishUI;
     private Dictionary<ItemSO, int> ItemsList = new Dictionary<ItemSO, int>();
     [Header("UI Prefab")]
     [SerializeField] private GameObject commandText;
@@ -53,7 +54,8 @@ public class GetItems : MonoBehaviour
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.special && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Skull")
         {
             //DataManager.Instance.SaveData();
-            GetSpecialItemSO(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO());
+            //GetSpecialItemSO(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO());
+            finishUI.gameObject.SetActive(true);
         } 
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Buff && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Medical")
         {

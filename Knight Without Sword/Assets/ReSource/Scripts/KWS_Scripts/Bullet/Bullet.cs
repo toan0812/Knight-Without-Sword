@@ -17,7 +17,7 @@ public abstract class Bullet : MonoBehaviour
     private List<GameObject> effectList = new List<GameObject>();
     protected virtual void Start()
     {
-        PoolingObject.Instance.addPool(bulletEffect.gameObject, effectList, 3, transform.parent);
+        PoolingObject.Instance.addPool(bulletEffect.gameObject, effectList, 15, transform.parent);
     }
     public int GetDamage()
     {

@@ -111,4 +111,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkOpeningConditions: 1
-  state: 0
+  state: 1

@@ -8,10 +8,10 @@ public class PlayerData
     // player speed
     public float speed = 5;
     // player ammo
-    public AmmoInformation shotgunAmmo = new AmmoInformation("shotgunAmmo",10);
-    public AmmoInformation plasmaAmmo = new AmmoInformation("plasmaAmmo", 20);
-    public AmmoInformation rocketAmmo = new AmmoInformation("rocketAmmo", 30);
-    public AmmoInformation pistolAmmo = new AmmoInformation("pistolAmmo", 4);
+    public AmmoInformation shotgunAmmo = new AmmoInformation("shotgunAmmo",50);
+    public AmmoInformation plasmaAmmo = new AmmoInformation("plasmaAmmo", 50);
+    public AmmoInformation rocketAmmo = new AmmoInformation("rocketAmmo", 50);
+    public AmmoInformation pistolAmmo = new AmmoInformation("pistolAmmo", 50);
     // player currency
     public int gold = 100;
     public int gem = 100;

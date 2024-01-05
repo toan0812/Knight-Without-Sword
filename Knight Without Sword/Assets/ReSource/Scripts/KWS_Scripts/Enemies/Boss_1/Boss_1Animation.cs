@@ -53,10 +53,15 @@ public class Boss_1Animation : MonoBehaviour
     //}
     private void Update()
     {
+        if (CheckPlayerClose() == false)
+        {
+            return;
+        }
         if (number == 4)
         {
             StartCoroutine(ShootForAttack3());
         }
+        
         GetRandomStateInts();
         var state = GetState();
         if (state == currentState)
@@ -69,11 +74,15 @@ public class Boss_1Animation : MonoBehaviour
 
       
     }
-    private void FixedUpdate()
-    {
-       
-    }
 
+    private bool CheckPlayerClose()
+    {
+        if(Vector2.Distance(Player.Instance.transform.position, transform.position) <= 15)
+        {
+            return true;
+        }
+        return false;
+    }
     private int GetState()
     {
         if (Time.time < lockedTill) return currentState;
@@ -113,10 +122,6 @@ public class Boss_1Animation : MonoBehaviour
             timeDelay = timeDelayMax;
         }
     }
-
-
-
-
 
     /// <summary>
     /// This func only uses for reference func shooting at shootAction func, Besides nothing :))

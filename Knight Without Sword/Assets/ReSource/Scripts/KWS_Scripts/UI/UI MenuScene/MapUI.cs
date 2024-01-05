@@ -19,31 +19,31 @@ public class MapUI : MonoBehaviour
     }
     private void Start()
     {
-        if (PlayerPrefs.GetInt("IsBuyed") == IdMap)
-        {
-            state = btnState.Completed;
-        }
+        //if (PlayerPrefs.GetInt("IsBuyed") == IdMap)
+        //{
+        //    state = btnState.Completed;
+        //}
         startBtn.onClick.AddListener(() => { LoadNextLevel();});
-        
+
     }
 
     private void Update()
     {
-        switch (state)
-        {
-            case btnState.Playing:
-                {
-                    startBtn.enabled = true;
-                    startBtn.GetComponentInChildren<Text>().text = "START";
-                }
-                break;
-            case btnState.Completed:
-                {
-                    startBtn.GetComponentInChildren<Text>().text = "COMPLETED";
-                    startBtn.enabled = false;
-                }
-                break;
-        }
+        //switch (state)
+        //{
+        //    case btnState.Playing:
+        //        {
+        //            startBtn.enabled = true;
+        //            startBtn.GetComponentInChildren<Text>().text = "START";
+        //        }
+        //        break;
+        //    case btnState.Completed:
+        //        {
+        //            startBtn.GetComponentInChildren<Text>().text = "COMPLETED";
+        //            startBtn.enabled = false;
+        //        }
+        //        break;
+        //}
 
     }
     public void LoadNextLevel()

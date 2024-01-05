@@ -17,6 +17,7 @@ MonoBehaviour:
   type: 3
   count: 1
   prefabName: Pistol_gun
+  buffValue: 0
   description: 'Damage: 12
 
     Range: 10
@@ -29,3 +30,4 @@ MonoBehaviour:
   ammoEquipment: {fileID: 11400000, guid: 36497c740f27dc14bb4135b17e060b9c, type: 2}
   goldPrice: 500
   gemPrice: 50
+  shootSoundEffect: {fileID: 8300000, guid: 71d623ca1199efc429d66921b7070dda, type: 3}

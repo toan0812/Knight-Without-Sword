@@ -11,7 +11,7 @@ public class UIGift : MonoBehaviour
     [SerializeField] private Button giftButton;
     [SerializeField] private GameObject gitfClamp;
     [SerializeField] private Text timeText;
-    private float timeRemaining = 10f;
+    private float timeRemaining = 60f;
     public bool timerIsRunning;
     void Start()
     {
@@ -61,7 +61,7 @@ public class UIGift : MonoBehaviour
     {
         if (timerIsRunning == false)
         {
-            timeRemaining = 10;
+            timeRemaining = 60;
             timerIsRunning = true;
             gitfClamp.SetActive(false);
         }

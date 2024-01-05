@@ -122,14 +122,14 @@ public class Player : Singleton<Player>, IPickUpable,Iinteractable
     {
 
         float interactDistance = 1.5f;
-        Collider2D interactCollider = Physics2D.OverlapCircle(transform.position, interactDistance, gunLayer);
-        isCloseWeapon = interactCollider;
-        if (interactCollider)
+        Collider2D collider2D = Physics2D.OverlapCircle(transform.position, interactDistance, gunLayer);
+        isCloseWeapon = collider2D;
+        if (collider2D)
         {
-            OnSelectedGun?.Invoke(this, new OnSelectedGunArg { gunController = GetComponent<Collider2D>().GetComponentInParent<GunController>() });
-            if (GetComponent<Collider2D>().GetComponentInParent<GunController>())
+            OnSelectedGun?.Invoke(this, new OnSelectedGunArg { gunController = collider2D.GetComponentInParent<GunController>() });
+            if (collider2D.GetComponentInParent<GunController>())
             {
-                weaponDetectived = GetComponent<Collider2D>().GetComponentInParent<GunController>().gameObject;
+                weaponDetectived = collider2D.GetComponentInParent<GunController>().gameObject;
             }
         }
 

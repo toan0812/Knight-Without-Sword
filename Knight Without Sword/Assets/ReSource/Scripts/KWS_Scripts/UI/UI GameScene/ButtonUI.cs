@@ -20,11 +20,13 @@ public class ButtonUI : MonoBehaviour
     [Header("Buttons")]
     [SerializeField] private Button buyGoldButton;
     [SerializeField] private Button buyGemButton;
+    [SerializeField] private Transform spawnPos;
     void Start()
     {
         shopUI = GameObject.FindAnyObjectByType<ShopUI>();
         headerUI = GameObject.FindAnyObjectByType<HeaderUI>();
         getItems = GameObject.FindAnyObjectByType<GetItems>();
+        spawnPos = GameObject.Find("pos").transform;
         if (isChangingColor)
         {
             GetComponent<Button>().Select();
@@ -80,9 +82,7 @@ public class ButtonUI : MonoBehaviour
         if (weaponItemsSO != null)
         {
             var weapon = Instantiate(weaponItemsSO.prefab);
-            Vector2 randomPoint = UnityEngine.Random.insideUnitCircle * 2f;
-            Vector3 randomPosition = new Vector3(randomPoint.x,randomPoint.y);
-            weapon.position = Player.Instance.transform.position + randomPosition;
+            weapon.position = spawnPos.position;
         }
         if (itemsSupSO != null)
         {

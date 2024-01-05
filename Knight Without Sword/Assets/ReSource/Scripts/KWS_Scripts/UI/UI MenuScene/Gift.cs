@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Gift : MonoBehaviour
 {
-    private GetItems getItems;
+    //private GetItems getItems;
     [SerializeField] ItemSO itemSO;
     [SerializeField] private Ease ease;
     [Header("UI")]
@@ -16,15 +16,15 @@ public class Gift : MonoBehaviour
 
     private void OnEnable()
     {
-        getItems = GameObject.FindAnyObjectByType<GetItems>();
-        if (getItems == null)
-        {
-            SetItemSOForGift(CollectableSpawmManager.Instance.Spawn().GetComponent<ItemsPickUp>().GetItemSO());
-        }
-        if (getItems != null)
-        {
-            SetItemSOForGift(getItems.GetSpecialItemSO(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO()));
-        }
+        //getItems = GameObject.FindAnyObjectByType<GetItems>();
+        //if (getItems == null)
+        //{
+        //    SetItemSOForGift(CollectableSpawmManager.Instance.Spawn().GetComponent<ItemsPickUp>().GetItemSO());
+        //}
+        //if (getItems != null)
+        //{
+        //    SetItemSOForGift(getItems.GetSpecialItemSO(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO()));
+        //}
         image.sprite = itemSO.prefabImage;
     }
     void Start()

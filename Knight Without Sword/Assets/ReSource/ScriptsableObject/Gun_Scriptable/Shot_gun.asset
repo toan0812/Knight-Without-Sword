@@ -17,6 +17,7 @@ MonoBehaviour:
   type: 3
   count: 1
   prefabName: Shot_gun
+  buffValue: 0
   description: 'Damage: 30
 
     Range: 15
@@ -29,3 +30,4 @@ MonoBehaviour:
   ammoEquipment: {fileID: 11400000, guid: 36497c740f27dc14bb4135b17e060b9c, type: 2}
   goldPrice: 1500
   gemPrice: 150
+  shootSoundEffect: {fileID: 8300000, guid: 87cb7c4792ca3624fbf3c9d9ef50cf79, type: 3}

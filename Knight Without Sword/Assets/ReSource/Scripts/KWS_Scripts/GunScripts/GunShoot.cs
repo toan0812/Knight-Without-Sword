@@ -60,6 +60,7 @@ public class GunShoot : MonoBehaviour
         {
             float angleStep = (endAngle - startAngle) / numberBullet;
             float angle = startAngle;
+            GetComponent<AudioSource>().PlayOneShot(GetComponentInParent<GunController>().GetWeaponItemsSO().shootSoundEffect);
             for (int i = 0; i < numberBullet; i++)
             {
                 float bulDirX = transform.position.x + Mathf.Sin((angle * Mathf.PI) / 180f);

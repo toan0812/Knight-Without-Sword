@@ -1,10 +1,6 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
-using DG.Tweening;
 
 public class PlayerFieldUI : MonoBehaviour
 {
@@ -14,7 +10,7 @@ public class PlayerFieldUI : MonoBehaviour
     [SerializeField] private ScrollRect scrollRect;
     [SerializeField] private float scrollRectSpeed = 1f;
     [Header("Properties")]
-    [SerializeField] private UnityEditor.Animations.AnimatorController baseChacterAnimator;
+    [SerializeField] private RuntimeAnimatorController baseChacterAnimator;
     [SerializeField] private Sprite baseChacterSprite;
     [SerializeField] private List<CharactersProperties> charactersProperties = new List<CharactersProperties>();
     [Header("prefabs")]
@@ -78,10 +74,10 @@ public class PlayerFieldUI : MonoBehaviour
     [System.Serializable]
     public class CharactersProperties 
     {
-        public UnityEditor.Animations.AnimatorController animator;
+        public RuntimeAnimatorController animator;
         public Sprite sprite;
 
-        public CharactersProperties(UnityEditor.Animations.AnimatorController animator, Sprite sprite)
+        public CharactersProperties(RuntimeAnimatorController animator, Sprite sprite)
         {
             this.animator = animator;
             this.sprite = sprite;

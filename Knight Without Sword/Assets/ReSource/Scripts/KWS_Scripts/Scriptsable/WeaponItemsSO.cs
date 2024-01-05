@@ -12,6 +12,7 @@ public class WeaponItemsSO : ItemSO
     public EquidmentsSO ammoEquipment;
     public int goldPrice;
     public int gemPrice;
+    public AudioClip shootSoundEffect;
     private void Awake()
     {
         type = ItemsType.Weapon;

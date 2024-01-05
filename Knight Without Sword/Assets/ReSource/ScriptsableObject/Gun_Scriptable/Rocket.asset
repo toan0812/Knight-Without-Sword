@@ -17,6 +17,7 @@ MonoBehaviour:
   type: 3
   count: 1
   prefabName: Rocket
+  buffValue: 0
   description: 'Damage: 35
 
     Range: 20
@@ -29,3 +30,4 @@ MonoBehaviour:
   ammoEquipment: {fileID: 11400000, guid: 7b2a511618ab92d4c86679d3a7965561, type: 2}
   goldPrice: 5000
   gemPrice: 500
+  shootSoundEffect: {fileID: 8300000, guid: 274e5c4738cc8fa4989c5ccc3a8206fe, type: 3}
