@@ -88,10 +88,13 @@ public class GunShoot : MonoBehaviour
             timeReload -= Time.deltaTime;
             if (WeaponManager.Instance.GetDataFormDictionary(gunController.GetWeaponItemsSO(), bulletsRemain) > 0 && timeReload < 0)
             {
+                
                 if (WeaponManager.Instance.GetDataFormDictionary(gunController.GetWeaponItemsSO(), bulletsRemain) > gunController.GetWeaponItemsSO().ammoQuatity)
                 {
                     bulletsRemain = gunController.GetWeaponItemsSO().ammoQuatity;
                     WeaponManager.Instance.ReducedAmmoInInventory(gunController.GetWeaponItemsSO(), gunController.GetWeaponItemsSO().ammoQuatity);
+                    WeaponManager.Instance.ReducedAmmoData(gunController.GetWeaponItemsSO().ammoEquipment, bulletsRemain);
+                    UIManager.Instance.HeaderUI.ReloadHeaderUI(gunController.GetWeaponItemsSO().ammoEquipment);
                     UIManager.Instance.GunHoderUI.AmmoConsumptionUI(bulletsRemain);
                     timeReload = timeReloadMax;
                 }
@@ -99,6 +102,8 @@ public class GunShoot : MonoBehaviour
                 {
                     bulletsRemain = WeaponManager.Instance.GetDataFormDictionary(gunController.GetWeaponItemsSO(), bulletsRemain);
                     WeaponManager.Instance.ReducedAmmoInInventory(gunController.GetWeaponItemsSO(), bulletsRemain);
+                    WeaponManager.Instance.ReducedAmmoData(gunController.GetWeaponItemsSO().ammoEquipment, bulletsRemain);
+                    UIManager.Instance.HeaderUI.ReloadHeaderUI(gunController.GetWeaponItemsSO().ammoEquipment);
                     UIManager.Instance.GunHoderUI.AmmoConsumptionUI(bulletsRemain);
                     timeReload = timeReloadMax;
                 }

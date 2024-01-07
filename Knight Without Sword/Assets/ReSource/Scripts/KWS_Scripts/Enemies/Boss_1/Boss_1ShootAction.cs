@@ -72,100 +72,100 @@ public class Boss_1ShootAction : MonoBehaviour
     /// <summary>
     /// SHOOT ATTACK2
     /// </summary>
-    public void Attack_2Shooting()
-    {
-        GameObject Bullet = PoolingObject.Instance.GetPoolingobj(bullet2Tapes);
-        Bullet.transform.position = bulletPrefab2Pos.position;
-        Bullet.SetActive(true);
-    }
+    //public void Attack_2Shooting()
+    //{
+    //    GameObject Bullet = PoolingObject.Instance.GetPoolingobj(bullet2Tapes);
+    //    Bullet.transform.position = bulletPrefab2Pos.position;
+    //    Bullet.SetActive(true);
+    //}
 
     /// <summary>
     /// SHOOT ATTACK3
     /// </summary>
-    public void Attack_3Shooting()
-    {
-        SetActiveLazer();
-        lineRendererStart.enabled = false;
-        //shootPosAttack3.gameObject.SetActive(false);
-        lineRendererCanAffect.SetPosition(0, lazerOrigin.position);
-        startVFX.transform.position = lazerOrigin.position;
-        RaycastHit2D raycastHit2D = Physics2D.Raycast(shootPosAttack3.position, new Vector3(boss_1Controller.GetTargetTransform().x, boss_1Controller.GetTargetTransform().y - 1f).normalized.normalized, attackRange, LayerMask);
-        if (raycastHit2D.collider != null)
-        {
-            lineRendererCanAffect.SetPosition(1, raycastHit2D.point);
-            if (raycastHit2D.collider.TryGetComponent(out IDamageable iDamageable))
-            {
-                iDamageable = raycastHit2D.collider.GetComponent<IDamageable>();
-                if (iDamageable != null && timer <= 0)
-                {
-                    timer = .5f;
-                    iDamageable.TakeDamage(_enemyDamageSender.GetDamage());
-
-                }
-            }
-        }
-        else
-        {
-            if (timer <= 0)
-            {
-                timer = .25f;
-            }
-            lineRendererCanAffect.SetPosition(1, shootPosAttack3.position + (new Vector3(boss_1Controller.GetTargetTransform().x, boss_1Controller.GetTargetTransform().y - 1f) * attackRange));
-        }
-        endVFX.transform.position = lineRendererCanAffect.GetPosition(1);
-    }
-
-
-    void SetActiveLazer()
-    {
-        lineRendererCanAffect.enabled = true;
-        for (int i = 0; i < particles.Count; i++)
-        {
-            particles[i].Play();
-        }
-    }
-
-    //void FillList()
+    //public void Attack_3Shooting()
     //{
-    //    for (int i = 0; i < startVFX.transform.childCount; i++)
+    //    SetActiveLazer();
+    //    lineRendererStart.enabled = false;
+    //    //shootPosAttack3.gameObject.SetActive(false);
+    //    lineRendererCanAffect.SetPosition(0, lazerOrigin.position);
+    //    startVFX.transform.position = lazerOrigin.position;
+    //    RaycastHit2D raycastHit2D = Physics2D.Raycast(shootPosAttack3.position, new Vector3(boss_1Controller.GetTargetTransform().x, boss_1Controller.GetTargetTransform().y - 1f).normalized.normalized, attackRange, LayerMask);
+    //    if (raycastHit2D.collider != null)
     //    {
-    //        var ps = startVFX.transform.GetChild(i).GetComponent<ParticleSystem>();
-    //        if (ps != null)
+    //        lineRendererCanAffect.SetPosition(1, raycastHit2D.point);
+    //        if (raycastHit2D.collider.TryGetComponent(out IDamageable iDamageable))
     //        {
-    //            particles.Add(ps);
+    //            iDamageable = raycastHit2D.collider.GetComponent<IDamageable>();
+    //            if (iDamageable != null && timer <= 0)
+    //            {
+    //                timer = .5f;
+    //                iDamageable.TakeDamage(_enemyDamageSender.GetDamage());
+
+    //            }
     //        }
     //    }
-
-    //    for (int i = 0; i < endVFX.transform.childCount; i++)
+    //    else
     //    {
-    //        var ps = endVFX.transform.GetChild(i).GetComponent<ParticleSystem>();
-    //        if (ps != null)
+    //        if (timer <= 0)
     //        {
-    //            particles.Add(ps);
+    //            timer = .25f;
     //        }
+    //        lineRendererCanAffect.SetPosition(1, shootPosAttack3.position + (new Vector3(boss_1Controller.GetTargetTransform().x, boss_1Controller.GetTargetTransform().y - 1f) * attackRange));
+    //    }
+    //    endVFX.transform.position = lineRendererCanAffect.GetPosition(1);
+    //}
+
+
+    //void SetActiveLazer()
+    //{
+    //    lineRendererCanAffect.enabled = true;
+    //    for (int i = 0; i < particles.Count; i++)
+    //    {
+    //        particles[i].Play();
     //    }
     //}
-    public void EndActiveLazer()
-    {
-        lineRendererCanAffect.enabled = false;
-        for (int i = 0; i < particles.Count; i++)
-        {
-            particles[i].Stop();
-        }
-    }
 
-    public void SetActiveSpawnPos()
-    {
-        shootPosAttack3.gameObject.SetActive(true);
-        lineRendererStart.enabled = true;
-        lineRendererStart.SetPosition(0, lazerOrigin.position);
-        RaycastHit2D raycastHit2D = Physics2D.Raycast(shootPosAttack3.position, new Vector3(boss_1Controller.GetTargetTransform().x, boss_1Controller.GetTargetTransform().y - 1f).normalized, attackRange, LayerMask);
-        if (raycastHit2D.collider != null)
-        {
-            lineRendererStart.SetPosition(1, raycastHit2D.point);
-        }
-        else
-            lineRendererStart.SetPosition(1, shootPosAttack3.position + (boss_1Controller.GetTargetTransform() * attackRange));
+    ////void FillList()
+    ////{
+    ////    for (int i = 0; i < startVFX.transform.childCount; i++)
+    ////    {
+    ////        var ps = startVFX.transform.GetChild(i).GetComponent<ParticleSystem>();
+    ////        if (ps != null)
+    ////        {
+    ////            particles.Add(ps);
+    ////        }
+    ////    }
 
-    }
+    ////    for (int i = 0; i < endVFX.transform.childCount; i++)
+    ////    {
+    ////        var ps = endVFX.transform.GetChild(i).GetComponent<ParticleSystem>();
+    ////        if (ps != null)
+    ////        {
+    ////            particles.Add(ps);
+    ////        }
+    ////    }
+    ////}
+    //public void EndActiveLazer()
+    //{
+    //    lineRendererCanAffect.enabled = false;
+    //    for (int i = 0; i < particles.Count; i++)
+    //    {
+    //        particles[i].Stop();
+    //    }
+    //}
+
+    //public void SetActiveSpawnPos()
+    //{
+    //    shootPosAttack3.gameObject.SetActive(true);
+    //    lineRendererStart.enabled = true;
+    //    lineRendererStart.SetPosition(0, lazerOrigin.position);
+    //    RaycastHit2D raycastHit2D = Physics2D.Raycast(shootPosAttack3.position, new Vector3(boss_1Controller.GetTargetTransform().x, boss_1Controller.GetTargetTransform().y - 1f).normalized, attackRange, LayerMask);
+    //    if (raycastHit2D.collider != null)
+    //    {
+    //        lineRendererStart.SetPosition(1, raycastHit2D.point);
+    //    }
+    //    else
+    //        lineRendererStart.SetPosition(1, shootPosAttack3.position + (boss_1Controller.GetTargetTransform() * attackRange));
+
+    //}
 }

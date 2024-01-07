@@ -13,7 +13,7 @@ public class EnemyBasicBullet : Bullet
     private void OnEnable()
     {
         BulletMoving();
-        transform.eulerAngles = new Vector3(0, 0, GetAngleFromVectorFloat(GameObject.FindObjectOfType<Enemy>().transform.position.normalized));
+        transform.eulerAngles = new Vector3(0, 0, GetAngleFromVectorFloat(GameObject.FindObjectOfType<Player>().transform.position.normalized));
         
     }
     protected override void BulletMoving()

@@ -33,8 +33,8 @@ public class Boss_1Animation : MonoBehaviour
         stateInts.Add(Idle);
         stateInts.Add(Run);  
         stateInts.Add(Attack1);
-        stateInts.Add(Attack_2);
-        stateInts.Add(Attack_3);
+        //stateInts.Add(Attack_2);
+        //stateInts.Add(Attack_3);
         animator = GetComponent<Animator>();
         timeDelay = timeDelayMax;
     }
@@ -53,26 +53,23 @@ public class Boss_1Animation : MonoBehaviour
     //}
     private void Update()
     {
-        if (CheckPlayerClose() == false)
+        if (CheckPlayerClose())
         {
-            return;
-        }
-        if (number == 4)
-        {
-            StartCoroutine(ShootForAttack3());
-        }
-        
-        GetRandomStateInts();
-        var state = GetState();
-        if (state == currentState)
-        {
-            return;
-        }
+            //if (number == 4)
+            //{
+            //    StartCoroutine(ShootForAttack3());
+            //}
 
-        animator.CrossFade(state, 0, 0);
-        currentState = state;
+            GetRandomStateInts();
+            var state = GetState();
+            if (state == currentState)
+            {
+                return;
+            }
 
-      
+            animator.CrossFade(state, 0, 0);
+            currentState = state; ;
+        }
     }
 
     private bool CheckPlayerClose()
@@ -97,10 +94,10 @@ public class Boss_1Animation : MonoBehaviour
                 return LockState(stateInts[1],0.25f);
             case 2:
                 return LockState(stateInts[2], 0.25f);
-            case 3:
-                return LockState(stateInts[3], 0.25f);
-            case 4:
-                return LockState(stateInts[4], 0.25f);
+            //case 3:
+            //    return LockState(stateInts[3], 0.25f);
+            //case 4:
+            //    return LockState(stateInts[4], 0.25f);
         
         }
         
@@ -130,25 +127,25 @@ public class Boss_1Animation : MonoBehaviour
     {
         shootAction.Attack_1Shooting();
     } 
-    public void ShootForAttack2()
-    {
-        shootAction.Attack_2Shooting();
-    } 
-    IEnumerator ShootForAttack3()
-    {
-        yield return new WaitForSeconds(.5f);
-        StartAttack3Pos();
-        yield return new WaitForSeconds(2f);
-        shootAction.Attack_3Shooting();
-        yield return new WaitForSeconds(.5f);
-        shootAction.EndActiveLazer();
+    //public void ShootForAttack2()
+    //{
+    //    shootAction.Attack_2Shooting();
+    //} 
+    //IEnumerator ShootForAttack3()
+    //{
+    //    yield return new WaitForSeconds(.5f);
+    //    StartAttack3Pos();
+    //    yield return new WaitForSeconds(2f);
+    //    shootAction.Attack_3Shooting();
+    //    yield return new WaitForSeconds(.5f);
+    //    shootAction.EndActiveLazer();
         
    
-    } 
+    //} 
 
 
-    public void StartAttack3Pos()
-    {
-        shootAction.SetActiveSpawnPos();
-    }
+    //public void StartAttack3Pos()
+    //{
+    //    shootAction.SetActiveSpawnPos();
+    //}
 }

@@ -53,6 +53,45 @@ public class WeaponManager : Singleton<WeaponManager>
             }
         }
     } 
+
+    public void ReducedAmmoData(EquidmentsSO equidmentsSO, int count)
+    {
+        if (equidmentsSO.prefabName == "plasmaAmmo")
+        {
+            DataManager.Instance.PlayerData.plasmaAmmo.quatity -= count;
+        }
+        if (equidmentsSO.prefabName == "pistolAmmo")
+        {
+            DataManager.Instance.PlayerData.pistolAmmo.quatity -= count;
+        }
+        if (equidmentsSO.prefabName == "rocketAmmo")
+        {
+            DataManager.Instance.PlayerData.rocketAmmo.quatity -= count;
+        }
+        if (equidmentsSO.prefabName == "shotgunAmmo")
+        {
+            DataManager.Instance.PlayerData.shotgunAmmo.quatity -= count;
+        }
+    }
+    public void IncreaseAmmoData(EquidmentsSO equidmentsSO, int count)
+    {
+        if (equidmentsSO.prefabName == "plasmaAmmo")
+        {
+            DataManager.Instance.PlayerData.plasmaAmmo.quatity += count;
+        }
+        if (equidmentsSO.prefabName == "pistolAmmo")
+        {
+            DataManager.Instance.PlayerData.pistolAmmo.quatity += count;
+        }
+        if (equidmentsSO.prefabName == "rocketAmmo")
+        {
+            DataManager.Instance.PlayerData.rocketAmmo.quatity += count;
+        }
+        if (equidmentsSO.prefabName == "shotgunAmmo")
+        {
+            DataManager.Instance.PlayerData.shotgunAmmo.quatity += count;
+        }
+    }
     public List<WeaponItemsSO> GetWeaponItemsFromDB()
     {
         return weaponItems;

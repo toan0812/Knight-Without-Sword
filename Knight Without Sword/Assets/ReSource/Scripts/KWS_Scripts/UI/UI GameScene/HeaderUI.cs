@@ -50,4 +50,24 @@ public class HeaderUI : MonoBehaviour
         shotgunText.text = count.ToString();
     }
 
+    public void ReloadHeaderUI(EquidmentsSO equidmentsSO)
+    {
+        if(equidmentsSO.prefabName == "plasmaAmmo")
+        {
+            UpdateplasmaText(DataManager.Instance.PlayerData.plasmaAmmo.quatity);
+        } 
+        if(equidmentsSO.prefabName == "pistolAmmo")
+        {
+            UpdatePistolammoText(DataManager.Instance.PlayerData.pistolAmmo.quatity);
+        } 
+        if(equidmentsSO.prefabName == "rocketAmmo")
+        {
+            UpdaterocketText(DataManager.Instance.PlayerData.rocketAmmo.quatity);
+        } 
+        if(equidmentsSO.prefabName == "shotgunAmmo")
+        {
+            UpdateshotgunText(DataManager.Instance.PlayerData.shotgunAmmo.quatity);
+        }
+    }
+
 }

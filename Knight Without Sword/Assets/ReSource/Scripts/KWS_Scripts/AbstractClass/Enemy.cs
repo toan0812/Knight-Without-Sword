@@ -31,9 +31,10 @@ public class Enemy : MonoBehaviour
     public Vector3 GetTargetTransform()
     {
         Collider2D colliders = Physics2D.OverlapCircle(transform.position, rangeFollowing, targetLayer);
-        if (colliders.TryGetComponent(out Player player))
+        if (colliders)
         {
-            Vector3 direction = new Vector3(-transform.position.x + player.transform.position.x, -transform.position.y + player.transform.position.y);
+            Player player = colliders.gameObject.GetComponent<Player>();
+            Vector3 direction = new Vector3(transform.position.x - player.transform.position.x, transform.position.y - player.transform.position.y);
             return direction;
         }
         return Vector3.zero;

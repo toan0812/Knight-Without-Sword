@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerDamageReciver : DamageReciver
 {
-    [SerializeField] private PauseUI pauseUI;
+    [SerializeField] private ReStartUI pauseUI;
     [SerializeField] private SliderUI healthBar;
     [SerializeField] private int timeDead = 0;
     private void Awake()
@@ -19,15 +19,17 @@ public class PlayerDamageReciver : DamageReciver
     private void Update()
     {
         healthBar.SetSliderValue((int)currentHealth);
-        if (currentHealth <= 0 && timeDead<0)
+        if (currentHealth <= 0 && timeDead<=0)
         {
             //dead
-            StartCoroutine(Playerdead());
             Debug.Log("dead");
+            StartCoroutine(Playerdead());
+            
         }
         if (currentHealth <= 0 && timeDead > 0)
         {
             // revise
+            timeDead--;
             currentHealth = maxHealth;
         }
         if (currentHealth >= maxHealth)
@@ -50,7 +52,7 @@ public class PlayerDamageReciver : DamageReciver
     IEnumerator Playerdead()
     {
         Player.Instance.gameObject.SetActive(false);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         pauseUI.gameObject.SetActive(true);
     }
 

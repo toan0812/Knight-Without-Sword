@@ -79,6 +79,18 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.03746268
       objectReference: {fileID: 0}
+    - target: {fileID: 4740581341286566418, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: m_Height
+      value: 0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740581341286566418, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: m_Radius
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740581341286566418, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: m_BaseOffset
+      value: 0.41
+      objectReference: {fileID: 0}
     - target: {fileID: 4951396623391303528, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
       propertyPath: m_Controller
       value: 
