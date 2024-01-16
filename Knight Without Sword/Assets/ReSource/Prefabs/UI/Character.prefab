@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9811321, g: 0.9537288, b: 0.5683161, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -281,7 +281,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectCharacterUI: {fileID: 0}
-  buttonBuyCharacterUI: {fileID: 0}
   characterSO: {fileID: 0}
   btnUse: {fileID: 3459034655573306009}
 --- !u!1 &4311229397421528296
