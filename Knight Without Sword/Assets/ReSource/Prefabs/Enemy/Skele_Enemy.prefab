@@ -12,6 +12,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1169742639871514428, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169742639871514428, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169742639871514428, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169742639871514428, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -50,6 +62,10 @@ PrefabInstance:
     - target: {fileID: 1169742639871514428, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169742639871514428, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2038655607862370758, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
       propertyPath: m_Sprite
@@ -101,7 +117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7424457968310571150, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
       propertyPath: rangeFollowing
-      value: 8
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7424457968310571150, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
       propertyPath: targetLayer.m_Bits

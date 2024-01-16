@@ -229,7 +229,7 @@ MonoBehaviour:
   maxHealth: 3
   currentHealth: 0
   commandDamageUI: {fileID: 1922020514168834544, guid: 082e775749f8eb142b03505b0d5477ad, type: 3}
-  transformParent: {fileID: 0}
-  spawnTransform: {fileID: 0}
+  transformParent: {fileID: 7126974888569913945}
+  spawnTransform: {fileID: 7126974888569913945}
   bloodEffect: {fileID: 1873027245982913076, guid: f2d89ccd36660cb429082367db39815b, type: 3}
   listItems: []

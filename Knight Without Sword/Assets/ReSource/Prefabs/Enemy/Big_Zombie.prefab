@@ -89,7 +89,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4740581341286566418, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
       propertyPath: m_Speed
-      value: 0.75
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4740581341286566418, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
       propertyPath: m_Height
@@ -110,6 +110,10 @@ PrefabInstance:
     - target: {fileID: 7424457968310571150, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
       propertyPath: radiusZone
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424457968310571150, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
+      propertyPath: rangeFollowing
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ccf603ebabb97459498921cfca17b3, type: 3}
