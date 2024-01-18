@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a04578aa46fb9143a6fe2b0477de39e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemSO: {fileID: 11400000, guid: 3e0a0736b0844b24c8d6a2c5811dd62f, type: 2}
+  itemSO: {fileID: 11400000, guid: daf3912bb22cb044686240c2aab26be0, type: 2}
   animationCurve:
     serializedVersion: 2
     m_Curve:

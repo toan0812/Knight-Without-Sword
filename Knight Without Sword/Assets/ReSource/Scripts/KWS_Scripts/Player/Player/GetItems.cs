@@ -55,7 +55,7 @@ public class GetItems : MonoBehaviour
         {
             //DataManager.Instance.SaveData();
             //GetSpecialItemSO(itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO());
-            finishUI.gameObject.SetActive(true);
+            StartCoroutine(FinishGame());
         } 
         if (itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().type == ItemsType.Buff && itemSO.prefab.GetComponent<ItemsPickUp>().GetItemSO().prefabName == "Medical")
         {
@@ -97,6 +97,11 @@ public class GetItems : MonoBehaviour
             UIManager.Instance.GunHoderUI.UpdateAmmoHolder(itemSO, DataManager.Instance.PlayerData.shotgunAmmo.quatity);
         }
        
+    }
+    IEnumerator FinishGame()
+    {
+        yield return new WaitForSeconds(1f);
+        finishUI.gameObject.SetActive(true);
     }
     private void SpawnComandText(ItemSO itemsSO)
     {

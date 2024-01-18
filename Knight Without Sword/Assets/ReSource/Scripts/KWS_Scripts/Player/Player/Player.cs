@@ -177,6 +177,7 @@ public class Player : Singleton<Player>, IPickUpable,Iinteractable
         yield return new WaitForSeconds(dashDuation);
         isDashing = false;
         trailRenderer.emitting = false;
+        gameObject.layer = 10;
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }

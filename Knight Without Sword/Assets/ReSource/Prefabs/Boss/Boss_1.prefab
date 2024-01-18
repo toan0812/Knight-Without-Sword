@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b893a5c0816b7489b9ae058960a225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 10
 --- !u!120 &5883400713192794435
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -398,13 +398,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a575ace7a12189b4da1c9c148a9ca79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  maxHealth: 250
   currentHealth: 0
-  commandDamageUI: {fileID: 0}
+  commandDamageUI: {fileID: 1922020514168834544, guid: 082e775749f8eb142b03505b0d5477ad, type: 3}
   transformParent: {fileID: 0}
   spawnTransform: {fileID: 0}
-  bloodEffect: {fileID: 0}
-  listItems: []
+  bloodEffect: {fileID: 3451907287039999177, guid: 052a0fe9e2f25e446a016a89ed43f7a6, type: 3}
+  listItems:
+  - {fileID: 7909544765817920714, guid: 24242c822d3c3b54dbc12aa61fdc8514, type: 3}
+  - {fileID: 677851104494453634, guid: db9e40dfb4bccd14ba15000155dfb89e, type: 3}
+  - {fileID: 405293577728283185, guid: 3291e92eb9ecbb24383b4c5fdb97ee5a, type: 3}
 --- !u!1 &5486184501304773186
 GameObject:
   m_ObjectHideFlags: 0
